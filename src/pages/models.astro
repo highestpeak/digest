@@ -6,7 +6,7 @@ const modelsRaw = await import('../../data/models.json');
 const models = modelsRaw.default || modelsRaw;
 const base = import.meta.env.BASE_URL;
 
-const categories = ['全部', ...models.categories];
+const categories = ['All', ...models.categories];
 const trend = models.trend_data;
 
 // Compute bar widths: normalize scores to percentage of max across all series
@@ -18,19 +18,19 @@ const range = maxScore - minScore;
 const seriesColors = ['#2563eb', '#ef4444', '#10b981'];
 ---
 
-<Base title="模型排行榜 · The Digest" current="Models">
+<Base title="Model Leaderboard · The Digest" current="Models">
   <main style="overflow-x: hidden;">
     <!-- Header -->
     <div class="max-w-[1120px] mx-auto px-12">
       <section class="py-12 pb-10 border-b border-[var(--border)]">
-        <h1 class="text-[36px] font-extrabold tracking-tight text-[var(--text)] mb-3">模型排行榜</h1>
+        <h1 class="text-[36px] font-extrabold tracking-tight text-[var(--text)] mb-3">Model Leaderboard</h1>
         <p class="text-[15px] text-[var(--text-2)] leading-relaxed max-w-[640px] mb-5">
-          跨类别、跨平台的 AI 模型综合排名。基于多个权威基准测试数据聚合，每周更新。
+          Cross-category, cross-platform AI model rankings. Aggregated from multiple authoritative benchmarks — updated weekly.
         </p>
         <div class="flex flex-wrap gap-2">
-          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">更新于 {models.last_updated}</span>
-          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{models.rankings.length} 个模型</span>
-          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{models.categories.length} 个类别</span>
+          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">Updated {models.last_updated}</span>
+          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{models.rankings.length} models</span>
+          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{models.categories.length} categories</span>
         </div>
       </section>
     </div>
@@ -59,7 +59,7 @@ const seriesColors = ['#2563eb', '#ef4444', '#10b981'];
     <!-- AI Analysis -->
     <div style="background: var(--bg-alt); margin: 0 -9999px; padding: 48px 9999px;">
       <div class="max-w-[1120px] mx-auto px-12">
-        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">AI 周度分析</div>
+        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">Weekly AI Analysis</div>
         <div class="bg-[var(--bg-card)] rounded-[18px] shadow-[var(--shadow)] p-8">
           <p class="text-[15px] text-[var(--text-2)] leading-[1.9] m-0 whitespace-pre-line">{models.weekly_analysis}</p>
         </div>
@@ -68,7 +68,7 @@ const seriesColors = ['#2563eb', '#ef4444', '#10b981'];
 
     <!-- Elo Trend Chart (CSS-only) -->
     <div class="max-w-[1120px] mx-auto px-12 py-12">
-      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">Elo 趋势</div>
+      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">Elo Trend</div>
       <div class="bg-[var(--bg-card)] rounded-[18px] shadow-[var(--shadow)] p-8">
         <!-- Legend -->
         <div class="flex gap-6 mb-6">
@@ -105,7 +105,7 @@ const seriesColors = ['#2563eb', '#ef4444', '#10b981'];
 
     <!-- Data Sources -->
     <div class="max-w-[1120px] mx-auto px-12 pb-12">
-      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-4 font-medium">数据来源</div>
+      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-4 font-medium">Data Sources</div>
       <div class="flex flex-wrap gap-2">
         {models.data_sources.map((src: string) => (
           <span class="text-xs px-3.5 py-1.5 rounded-full bg-[var(--bg-card)] shadow-[var(--shadow)] text-[var(--text-2)] font-medium">

@@ -1,41 +1,41 @@
 {
   "slug": "us-china-chips",
-  "title": "中美芯片出口管控",
+  "title": "US-China Chip Export Controls",
   "status": "active",
-  "description": "美国对华芯片出口管制政策的持续演进。从 2022 年首轮限制到 2026 年聚焦先进封装技术，追踪每一次政策变动、双方回应及对全球半导体产业链的影响。",
-  "tags": ["地缘政治", "半导体", "中美关系", "出口管制"],
+  "description": "The ongoing evolution of US chip export control policy toward China. From the first round of restrictions in 2022 to the 2026 pivot toward advanced packaging technology — tracking every policy shift, bilateral response, and impact on the global semiconductor supply chain.",
+  "tags": ["Geopolitics", "Semiconductor", "US-China Relations", "Export Controls"],
   "key_people": ["gina-raimondo", "ren-zhengfei", "jensen-huang", "peter-wennink"],
   "related_events": ["ai-regulation", "ai-agent-ecosystem"],
   "timeline": [
     {
       "date": "2025-10-15",
-      "title": "美国商务部扩大实体清单，新增 14 家中国半导体企业",
-      "summary": "新一轮实体清单更新聚焦 EDA 工具链和光刻胶供应商，首次将设计软件公司纳入管控范围。中国商务部当日发表声明表示强烈反对。",
-      "sources": ["Reuters", "Bloomberg", "商务部官网"]
+      "title": "US Commerce Dept Expands Entity List — 14 Chinese Semiconductor Firms Added",
+      "summary": "The latest entity list update targets EDA toolchains and photoresist suppliers, marking the first time design software companies have been included. China's Commerce Ministry issued a statement of strong opposition the same day.",
+      "sources": ["Reuters", "Bloomberg", "MOFCOM official site"]
     },
     {
       "date": "2025-12-20",
-      "title": "荷兰、日本同步收紧对华光刻设备出口许可",
-      "summary": "ASML 和东京电子在各自政府压力下暂停向中国交付 DUV 设备维护服务。市场估计影响中国约 30% 的成熟制程产能扩张计划。",
-      "sources": ["Financial Times", "NHK", "ASML 投资者通告"]
+      "title": "Netherlands and Japan Simultaneously Tighten DUV Equipment Export Licenses to China",
+      "summary": "ASML and Tokyo Electron suspended delivery of DUV equipment maintenance services to China under pressure from their respective governments. Industry estimates suggest this affects roughly 30% of China's planned mature-node capacity expansion.",
+      "sources": ["Financial Times", "NHK", "ASML investor notice"]
     },
     {
       "date": "2026-02-08",
-      "title": "华为发布昇腾 910C，性能接近 A100 但封装依赖外部代工",
-      "summary": "华为通过 chiplet 架构绕过算力限制，但先进封装仍依赖特定代工厂。分析师指出这恰好暴露了下一阶段管控的突破口。",
-      "sources": ["南华早报", "SemiAnalysis", "华为官网"]
+      "title": "Huawei Launches Ascend 910C — Performance Approaches A100, But Packaging Still Relies on External Foundries",
+      "summary": "Huawei used a chiplet architecture to work around compute restrictions, but advanced packaging still depends on specific foundry partners. Analysts noted this exposed the exact lever for the next phase of controls.",
+      "sources": ["South China Morning Post", "SemiAnalysis", "Huawei official site"]
     },
     {
       "date": "2026-04-10",
-      "title": "BIS 内部草案泄露：管控重心从算力阈值转向封装技术",
-      "summary": "The Information 获取的草案显示，美国正在重新定义出口管控框架，以 CoWoS 和 InFO 等先进封装技术为新管控锚点，取代此前的 FLOPS 阈值。",
+      "title": "BIS Internal Draft Leaked: Controls Shift from Compute Thresholds to Packaging Technology",
+      "summary": "A draft obtained by The Information shows the US is redefining its export control framework — anchoring new restrictions on advanced packaging techniques such as CoWoS and InFO rather than FLOPS thresholds.",
       "sources": ["The Information", "Tom's Hardware", "SemiAnalysis"]
     },
     {
       "date": "2026-05-02",
-      "title": "美国商务部正式公布修订版出口管控框架",
-      "summary": "新框架聚焦先进封装技术而非原始算力。路透社评价为 \"范围收窄\"，但南华早报和多位行业分析师认为这是 \"精准升级\"。中国商务部 24 小时内发表对等反制声明。",
-      "sources": ["Federal Register", "Reuters", "南华早报", "Bloomberg"]
+      "title": "US Commerce Dept Formally Publishes Revised Export Control Framework",
+      "summary": "The new framework targets advanced packaging rather than raw compute. Reuters described it as 'narrowed in scope'; South China Morning Post and multiple industry analysts called it a 'precision upgrade'. China's Commerce Ministry issued a reciprocal countermeasure statement within 24 hours.",
+      "sources": ["Federal Register", "Reuters", "South China Morning Post", "Bloomberg"]
     }
   ]
 }

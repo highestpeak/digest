@@ -1,34 +1,34 @@
 {
   "slug": "ai-regulation",
-  "title": "全球 AI 监管立法进程",
+  "title": "Global AI Regulation & Legislation",
   "status": "active",
-  "description": "从 EU AI Act 到美国行政令、中国生成式 AI 管理办法，追踪全球主要经济体的 AI 监管立法进展及其对产业的实际影响。",
-  "tags": ["监管", "AI 安全", "合规", "欧盟", "立法"],
+  "description": "From the EU AI Act to US executive orders and China's Generative AI regulations — tracking legislative progress across major economies and the real-world impact on the industry.",
+  "tags": ["Regulation", "AI Safety", "Compliance", "EU", "Legislation"],
   "key_people": ["thierry-breton", "margrethe-vestager", "bruce-reed"],
   "related_events": ["us-china-chips", "ai-agent-ecosystem"],
   "timeline": [
     {
       "date": "2025-11-01",
-      "title": "EU AI Act 最终文本在欧盟官方公报正式发布",
-      "summary": "经过三方谈判（trilogue）的最终文本确认了高风险 AI 系统的分级监管框架，通用 AI 模型（GPAI）需满足透明度和安全评估义务。",
+      "title": "EU AI Act Final Text Published in Official Journal",
+      "summary": "The final trilogue text confirms a tiered regulatory framework for high-risk AI systems. General-purpose AI models (GPAI) must meet transparency and safety assessment obligations.",
       "sources": ["European Commission", "Euractiv", "TechCrunch"]
     },
     {
       "date": "2026-01-15",
-      "title": "美国发布更新版 AI 行政令，要求联邦机构 180 天内完成 AI 审计",
-      "summary": "新行政令在 2023 年版本基础上增加了对 Agent 类系统的专门条款，要求任何自主决策 AI 必须保留完整决策日志。",
+      "title": "US Releases Updated AI Executive Order — Federal Agencies Must Complete AI Audits Within 180 Days",
+      "summary": "The updated order adds dedicated provisions for agent-type systems to the 2023 baseline, requiring any autonomous decision-making AI to maintain complete decision logs.",
       "sources": ["White House", "Axios", "Wired"]
     },
     {
       "date": "2026-03-22",
-      "title": "中国网信办发布《生成式人工智能服务管理办法》修订征求意见稿",
-      "summary": "修订版首次将 AI Agent 纳入监管范围，要求提供 Agent 服务的企业进行备案并接受算法审计。",
-      "sources": ["中国网信办", "新华社", "South China Morning Post"]
+      "title": "China's CAC Releases Draft Revision of Generative AI Service Management Measures",
+      "summary": "The revision brings AI agents into regulatory scope for the first time, requiring companies providing agent services to register and submit to algorithm audits.",
+      "sources": ["China CAC", "Xinhua", "South China Morning Post"]
     },
     {
       "date": "2026-05-03",
-      "title": "EU AI Act 执行时间确认为 2026 Q3，合规窗口仅剩约 90 天",
-      "summary": "欧盟委员会确认执行日期，企业需在 Q3 前完成高风险系统登记和合规自评。多家美国 AI 公司表示可能推迟欧洲市场的 Agent 产品发布。",
+      "title": "EU AI Act Enforcement Confirmed for Q3 2026 — Compliance Window Now ~90 Days",
+      "summary": "The European Commission confirmed the enforcement date. Companies must complete high-risk system registration and compliance self-assessment before Q3. Several US AI companies said they may delay agent product launches in the European market.",
       "sources": ["European Commission", "Reuters", "Financial Times"]
     }
   ]

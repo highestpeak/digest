@@ -22,18 +22,18 @@ const updatedToday = events.filter((e: any) => {
   return last >= '2026-05-05';
 }).length;
 
-const statuses = ['全部', '追踪中', '观察中', '已结案'];
-const statusMap: Record<string, string> = { '追踪中': 'active', '观察中': 'watching', '已结案': 'resolved' };
+const statuses = ['All', 'Tracking', 'Watching', 'Resolved'];
+const statusMap: Record<string, string> = { 'Tracking': 'active', 'Watching': 'watching', 'Resolved': 'resolved' };
 ---
 
-<Base title="事件追踪 · The Digest" current="Events">
+<Base title="Event Tracker · The Digest" current="Events">
   <main style="overflow-x: hidden;">
     <!-- Header -->
     <div class="max-w-[1120px] mx-auto px-12">
       <section class="py-12 pb-10 border-b border-[var(--border)]">
-        <h1 class="text-[36px] font-extrabold tracking-tight text-[var(--text)] mb-3">事件追踪</h1>
+        <h1 class="text-[36px] font-extrabold tracking-tight text-[var(--text)] mb-3">Event Tracker</h1>
         <p class="text-[15px] text-[var(--text-2)] leading-relaxed max-w-[640px]">
-          持续追踪重大科技、地缘政治与产业事件的演进脉络。每个事件包含完整时间线和多源验证。
+          Active tracking of major tech, geopolitical, and industry events. Each event includes a full timeline with multi-source verification.
         </p>
       </section>
     </div>
@@ -43,19 +43,19 @@ const statusMap: Record<string, string> = { '追踪中': 'active', '观察中': 
       <div class="grid grid-cols-4 gap-4">
         <div class="bg-[var(--bg-card)] rounded-[14px] shadow-[var(--shadow)] p-5 text-center">
           <div class="text-2xl font-bold text-[var(--accent)]">{events.length}</div>
-          <div class="text-xs text-[var(--text-3)] mt-1">追踪事件</div>
+          <div class="text-xs text-[var(--text-3)] mt-1">Events tracking</div>
         </div>
         <div class="bg-[var(--bg-card)] rounded-[14px] shadow-[var(--shadow)] p-5 text-center">
           <div class="text-2xl font-bold text-[var(--accent)]">{updatedToday}</div>
-          <div class="text-xs text-[var(--text-3)] mt-1">今日更新</div>
+          <div class="text-xs text-[var(--text-3)] mt-1">Updated today</div>
         </div>
         <div class="bg-[var(--bg-card)] rounded-[14px] shadow-[var(--shadow)] p-5 text-center">
           <div class="text-2xl font-bold text-[var(--accent)]">{totalNodes}</div>
-          <div class="text-xs text-[var(--text-3)] mt-1">时间线节点</div>
+          <div class="text-xs text-[var(--text-3)] mt-1">Total timeline nodes</div>
         </div>
         <div class="bg-[var(--bg-card)] rounded-[14px] shadow-[var(--shadow)] p-5 text-center">
           <div class="text-2xl font-bold text-[var(--accent)]">{resolvedCount}</div>
-          <div class="text-xs text-[var(--text-3)] mt-1">已结案</div>
+          <div class="text-xs text-[var(--text-3)] mt-1">Resolved</div>
         </div>
       </div>
     </div>
@@ -66,7 +66,7 @@ const statusMap: Record<string, string> = { '追踪中': 'active', '观察中': 
         <div class="flex flex-wrap gap-2 mb-8">
           {statuses.map((s: string, i: number) => (
             <button
-              data-filter-tab={s === '全部' ? '全部' : statusMap[s]}
+              data-filter-tab={s === 'All' ? 'All' : statusMap[s]}
               class:list={[
                 'text-xs font-medium px-4 py-1.5 rounded-full transition-colors',
                 i === 0 ? 'filter-active' : 'filter-inactive',

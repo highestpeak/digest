@@ -28,14 +28,14 @@ const prevWeek = idx > 0 ? allWeeks[idx - 1] : null;
 const nextWeek = idx < allWeeks.length - 1 ? allWeeks[idx + 1] : null;
 ---
 
-<Base title={`W${weekNum} 周报 · The Digest`} current="Archive">
+<Base title={`W${weekNum} Weekly · The Digest`} current="Archive">
   <main style="overflow-x: hidden;">
     <!-- Breadcrumb -->
     <div class="max-w-[1120px] mx-auto px-12 pt-6">
       <div class="flex items-center gap-2 text-xs text-[var(--text-3)]">
-        <a href={`${base}archive`} class="no-underline text-[var(--text-3)] hover:text-[var(--accent)] transition-colors">归档</a>
+        <a href={`${base}archive`} class="no-underline text-[var(--text-3)] hover:text-[var(--accent)] transition-colors">Archive</a>
         <span>/</span>
-        <span class="text-[var(--text)]">W{weekNum} 周报</span>
+        <span class="text-[var(--text)]">W{weekNum} Weekly</span>
       </div>
     </div>
 
@@ -53,10 +53,10 @@ const nextWeek = idx < allWeeks.length - 1 ? allWeeks[idx + 1] : null;
         </p>
         <div class="flex flex-wrap gap-2">
           <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.date_range}</span>
-          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.meta.daily_count} 日报</span>
-          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.meta.article_count} 篇文章</span>
-          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.meta.source_count} 个源</span>
-          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.meta.reading_minutes} 分钟</span>
+          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.meta.daily_count} daily digests</span>
+          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.meta.article_count} articles</span>
+          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.meta.source_count} sources</span>
+          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.meta.reading_minutes} min read</span>
         </div>
       </section>
     </div>
@@ -64,7 +64,7 @@ const nextWeek = idx < allWeeks.length - 1 ? allWeeks[idx + 1] : null;
     <!-- SCQA Executive Summary -->
     <div style="background: var(--bg-alt); margin: 0 -9999px; padding: 48px 9999px;">
       <div class="max-w-[1120px] mx-auto px-12">
-        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">执行摘要 · SCQA</div>
+        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">Executive Summary · SCQA</div>
         <div class="bg-[var(--bg-card)] rounded-[18px] shadow-[var(--shadow)] p-8">
           <SCQASection type="situation" content={data.scqa.situation} />
           <SCQASection type="complication" content={data.scqa.complication} />
@@ -76,7 +76,7 @@ const nextWeek = idx < allWeeks.length - 1 ? allWeeks[idx + 1] : null;
 
     <!-- Logic Diagram (Mermaid) -->
     <div class="max-w-[1120px] mx-auto px-12 py-12">
-      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">逻辑关系图</div>
+      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">Logic Diagram</div>
       <div class="bg-[var(--bg-card)] rounded-[18px] shadow-[var(--shadow)] p-8 flex justify-center">
         <pre class="mermaid">{data.diagram_mermaid}</pre>
       </div>
@@ -85,7 +85,7 @@ const nextWeek = idx < allWeeks.length - 1 ? allWeeks[idx + 1] : null;
     <!-- Deep Insights -->
     <div style="background: var(--bg-alt); margin: 0 -9999px; padding: 48px 9999px;">
       <div class="max-w-[1120px] mx-auto px-12">
-        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">深度洞察</div>
+        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">Deep Insights</div>
         {data.insights.map((ins: any) => (
           <InsightCard
             title={ins.title}
@@ -101,7 +101,7 @@ const nextWeek = idx < allWeeks.length - 1 ? allWeeks[idx + 1] : null;
 
     <!-- Blind Spots -->
     <div class="max-w-[1120px] mx-auto px-12 py-12">
-      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">盲点警告</div>
+      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">Blind Spots</div>
       <div class="flex flex-col gap-4">
         {data.blind_spots.map((bs: string) => (
           <div class="border-l-[3px] border-amber-500 bg-[var(--bg-card)] rounded-r-[14px] shadow-[var(--shadow)] p-5 pl-5">
@@ -114,15 +114,15 @@ const nextWeek = idx < allWeeks.length - 1 ? allWeeks[idx + 1] : null;
     <!-- Source Traceability -->
     <div style="background: var(--bg-alt); margin: 0 -9999px; padding: 48px 9999px;">
       <div class="max-w-[1120px] mx-auto px-12">
-        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">来源溯源</div>
+        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">Source Traceability</div>
         <div class="bg-[var(--bg-card)] rounded-[18px] shadow-[var(--shadow)] overflow-hidden">
           <table class="w-full">
             <thead>
               <tr class="border-b border-[var(--border)]">
-                <th class="text-left text-[12px] uppercase tracking-[1px] text-[var(--text-3)] font-medium px-6 py-3">洞察</th>
-                <th class="text-left text-[12px] uppercase tracking-[1px] text-[var(--text-3)] font-medium px-6 py-3">主要来源</th>
-                <th class="text-left text-[12px] uppercase tracking-[1px] text-[var(--text-3)] font-medium px-6 py-3">支撑来源</th>
-                <th class="text-left text-[12px] uppercase tracking-[1px] text-[var(--text-3)] font-medium px-6 py-3">可信度</th>
+                <th class="text-left text-[12px] uppercase tracking-[1px] text-[var(--text-3)] font-medium px-6 py-3">Insight</th>
+                <th class="text-left text-[12px] uppercase tracking-[1px] text-[var(--text-3)] font-medium px-6 py-3">Primary Source</th>
+                <th class="text-left text-[12px] uppercase tracking-[1px] text-[var(--text-3)] font-medium px-6 py-3">Supporting Sources</th>
+                <th class="text-left text-[12px] uppercase tracking-[1px] text-[var(--text-3)] font-medium px-6 py-3">Credibility</th>
               </tr>
             </thead>
             <tbody>
@@ -145,12 +145,12 @@ const nextWeek = idx < allWeeks.length - 1 ? allWeeks[idx + 1] : null;
       <div class="flex justify-between items-center">
         {prevWeek ? (
           <a href={`${base}weekly/${prevWeek}`} class="text-xs px-5 py-2 rounded-full bg-[var(--accent-bg)] text-[var(--accent)] no-underline font-medium hover:opacity-80 transition-opacity">
-            ← 上一周
+            ← Previous week
           </a>
         ) : <span />}
         {nextWeek ? (
           <a href={`${base}weekly/${nextWeek}`} class="text-xs px-5 py-2 rounded-full bg-[var(--accent-bg)] text-[var(--accent)] no-underline font-medium hover:opacity-80 transition-opacity">
-            下一周 →
+            Next week →
           </a>
         ) : <span />}
       </div>

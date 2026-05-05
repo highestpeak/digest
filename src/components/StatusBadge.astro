@@ -7,9 +7,9 @@ interface Props {
 const { status, label } = Astro.props;
 
 const defaults: Record<string, string> = {
-  active: '持续追踪',
-  watching: '观察中',
-  resolved: '已结案',
+  active: 'Active tracking',
+  watching: 'Watching',
+  resolved: 'Resolved',
 };
 
 const displayLabel = label || defaults[status];

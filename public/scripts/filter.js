@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const category = tab.getAttribute('data-filter-tab');
       items.forEach(item => {
-        if (category === '全部' || item.getAttribute('data-category') === category) {
+        if (category === 'All' || item.getAttribute('data-category') === category) {
           item.style.display = '';
         } else {
           item.style.display = 'none';

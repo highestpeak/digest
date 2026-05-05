@@ -36,7 +36,7 @@ const keyPeople = data.key_people || [];
     <!-- Breadcrumb -->
     <div class="max-w-[1120px] mx-auto px-12 pt-6">
       <div class="flex items-center gap-2 text-xs text-[var(--text-3)]">
-        <a href={`${base}events`} class="no-underline text-[var(--text-3)] hover:text-[var(--accent)] transition-colors">事件追踪</a>
+        <a href={`${base}events`} class="no-underline text-[var(--text-3)] hover:text-[var(--accent)] transition-colors">Event Tracker</a>
         <span>/</span>
         <span class="text-[var(--text)]">{data.title}</span>
       </div>
@@ -65,7 +65,7 @@ const keyPeople = data.key_people || [];
     <!-- Timeline -->
     <div style="background: var(--bg-alt); margin: 0 -9999px; padding: 48px 9999px;">
       <div class="max-w-[1120px] mx-auto px-12">
-        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-8 font-medium">时间线</div>
+        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-8 font-medium">Event Timeline</div>
         <div class="timeline-container">
           {timeline.map((node: any, i: number) => (
             <TimelineNode
@@ -83,7 +83,7 @@ const keyPeople = data.key_people || [];
     <!-- Key Players -->
     {keyPeople.length > 0 && (
       <div class="max-w-[1120px] mx-auto px-12 py-12">
-        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">关键人物</div>
+        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">Key Players</div>
         <div class="grid grid-cols-4 gap-4">
           {keyPeople.map((slug: string) => {
             const name = slug.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
@@ -95,7 +95,7 @@ const keyPeople = data.key_people || [];
                 </span>
                 <div>
                   <div class="text-sm font-semibold text-[var(--text)]">{name}</div>
-                  <div class="text-xs text-[var(--text-3)]">关键角色</div>
+                  <div class="text-xs text-[var(--text-3)]">Key role</div>
                 </div>
               </div>
             );
@@ -107,7 +107,7 @@ const keyPeople = data.key_people || [];
     <!-- Related Events -->
     {relatedEvents.length > 0 && (
       <div class="max-w-[1120px] mx-auto px-12 pb-12">
-        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">关联事件</div>
+        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">Related Events</div>
         <div class="grid grid-cols-2 gap-4">
           {relatedEvents.map((evt: any) => (
             <a href={`${base}events/${evt.slug}`} class="bg-[var(--bg-card)] rounded-[14px] shadow-[var(--shadow)] p-5 no-underline hover:opacity-85 transition-opacity block">

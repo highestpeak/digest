@@ -30,14 +30,14 @@ const hotspotsWithColors = data.map_hotspots.map((spot: any) => ({
 }));
 ---
 
-<Base title={`The Digest · 第 ${data.issue} 期`} current="home">
+<Base title={`The Digest · Issue ${data.issue}`} current="home">
   <main style="overflow-x: hidden;">
     <!-- Section 1: Hero -->
     <div class="max-w-[1120px] mx-auto px-12">
       <section class="py-14 pb-12">
         <span class="inline-flex items-center gap-2 text-xs font-semibold text-red-500 bg-red-50 dark:bg-red-950/30 px-3.5 py-1 rounded-full mb-6">
           <span style="width:7px;height:7px;border-radius:50%;background:#ef4444;box-shadow:0 0 0 0 rgba(239,68,68,1);animation:pulse-red 2s infinite;"></span>
-          第 {data.issue} 期
+          Issue {data.issue}
         </span>
         <h1 class="text-[40px] font-extrabold tracking-tight leading-[1.28] max-w-[860px] text-[var(--text)]">
           {data.headline}
@@ -47,20 +47,20 @@ const hotspotsWithColors = data.map_hotspots.map((spot: any) => ({
         </p>
         <div class="flex flex-wrap gap-2 mb-8">
           <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.date}</span>
-          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.meta.article_count} 条资讯</span>
-          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.meta.source_count} 个源</span>
-          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.meta.reading_minutes} 分钟</span>
+          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.meta.article_count} articles</span>
+          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.meta.source_count} sources</span>
+          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.meta.reading_minutes} min read</span>
         </div>
         <a href="#digest" class="inline-block bg-[var(--accent)] text-white px-7 py-3 rounded-full font-semibold shadow hover:opacity-90 transition-opacity no-underline">
-          阅读本期 →
+          Read this issue →
         </a>
       </section>
     </div>
 
-    <!-- Section 2: 今日速览 + 更多故事 -->
+    <!-- Section 2: Today's Brief + More Stories -->
     <div style="background: var(--bg-alt); margin: 0 -9999px; padding: 48px 9999px;">
       <div class="max-w-[1120px] mx-auto px-12" id="digest">
-        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">今日速览</div>
+        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">Today's Brief</div>
         <div class="grid grid-cols-3 gap-[18px] mb-6">
           {data.highlights.map((h: any) => (
             <DigestCard
@@ -72,7 +72,7 @@ const hotspotsWithColors = data.map_hotspots.map((spot: any) => ({
           ))}
         </div>
         <div class="h-px bg-[var(--border)] my-4"></div>
-        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-4 font-medium">更多故事</div>
+        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-4 font-medium">More Stories</div>
         <div class="flex flex-col gap-0.5">
           {data.stories.map((s: any) => (
             <StoryRow
@@ -86,9 +86,9 @@ const hotspotsWithColors = data.map_hotspots.map((spot: any) => ({
       </div>
     </div>
 
-    <!-- Section 3: 地缘热点地图 -->
+    <!-- Section 3: Geopolitical Hotspots -->
     <div class="max-w-[1120px] mx-auto px-12 py-12">
-      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">地缘热点地图</div>
+      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">Geopolitical Hotspots</div>
       <div class="mb-8">
         <MapView hotspots={data.map_hotspots} />
       </div>
@@ -105,10 +105,10 @@ const hotspotsWithColors = data.map_hotspots.map((spot: any) => ({
       </div>
     </div>
 
-    <!-- Section 4: 多源视角 -->
+    <!-- Section 4: Cross-Source Perspectives -->
     <div style="background: var(--bg-alt); margin: 0 -9999px; padding: 48px 9999px;">
       <div class="max-w-[1120px] mx-auto px-12">
-        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">多源视角</div>
+        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">Cross-Source Perspectives</div>
         <div class="flex flex-col gap-12">
           {data.perspectives.map((p: any) => (
             <PerspectiveBlock
@@ -122,9 +122,9 @@ const hotspotsWithColors = data.map_hotspots.map((spot: any) => ({
       </div>
     </div>
 
-    <!-- Section 5: 今日引言 -->
+    <!-- Section 5: Notable Quotes -->
     <div class="max-w-[1120px] mx-auto px-12 py-12">
-      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">今日引言</div>
+      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">Notable Quotes</div>
       <div class="grid grid-cols-2 gap-5">
         {data.quotes.map((q: any) => (
           <QuoteCard
@@ -138,10 +138,10 @@ const hotspotsWithColors = data.map_hotspots.map((spot: any) => ({
       </div>
     </div>
 
-    <!-- Section 6: 事件动态 -->
+    <!-- Section 6: Event Updates -->
     <div style="background: var(--bg-alt); margin: 0 -9999px; padding: 48px 9999px;">
       <div class="max-w-[1120px] mx-auto px-12">
-        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">事件动态</div>
+        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">Event Updates</div>
         <div class="flex flex-col gap-3">
           {data.event_updates.map((evt: any) => (
             <a href={`${base}events/${evt.event_slug}`} class="flex items-center gap-4 p-4 rounded-[14px] bg-[var(--bg-card)] shadow-sm no-underline hover:opacity-90 transition-opacity">
@@ -154,9 +154,9 @@ const hotspotsWithColors = data.map_hotspots.map((spot: any) => ({
       </div>
     </div>
 
-    <!-- Section 7: 模型排行榜快报 -->
+    <!-- Section 7: Model Leaderboard Flash -->
     <div class="max-w-[1120px] mx-auto px-12 py-12">
-      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">模型排行榜快报</div>
+      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">Model Leaderboard Flash</div>
       <ModelFlashTable data={modelFlashData} baseUrl={base} />
     </div>
 
@@ -165,8 +165,8 @@ const hotspotsWithColors = data.map_hotspots.map((spot: any) => ({
       <footer class="border-t border-[var(--border)] py-6 flex justify-between items-center">
         <span class="text-xs text-[var(--text-3)]">Generated at 07:00 NZST · Powered by Cowork</span>
         <div class="flex gap-2">
-          <a class="text-xs text-[var(--text-3)] no-underline px-3.5 py-1.5 rounded-full bg-[var(--accent-bg)]">← 5月4日</a>
-          <a href={`${base}archive`} class="text-xs text-[var(--text-3)] no-underline px-3.5 py-1.5 rounded-full bg-[var(--accent-bg)]">归档 →</a>
+          <a class="text-xs text-[var(--text-3)] no-underline px-3.5 py-1.5 rounded-full bg-[var(--accent-bg)]">← May 4</a>
+          <a href={`${base}archive`} class="text-xs text-[var(--text-3)] no-underline px-3.5 py-1.5 rounded-full bg-[var(--accent-bg)]">Archive →</a>
         </div>
       </footer>
     </div>

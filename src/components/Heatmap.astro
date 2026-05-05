@@ -25,7 +25,7 @@ function getColor(val: number): string {
   return intensityMap[val] || intensityMap[0];
 }
 
-const dayLabels = ['一', '二', '三', '四', '五', '六', '日'];
+const dayLabels = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
 ---
 
 <div class="heatmap-wrapper">
@@ -39,11 +39,11 @@ const dayLabels = ['一', '二', '三', '四', '五', '六', '日'];
     ))}
   </div>
   <div class="heatmap-legend">
-    <span class="legend-label">少</span>
+    <span class="legend-label">Less</span>
     {[0, 1, 2, 3, 4].map(v => (
       <div class="legend-cell" style={`background: ${getColor(v)};`} />
     ))}
-    <span class="legend-label">多</span>
+    <span class="legend-label">More</span>
   </div>
 </div>
 

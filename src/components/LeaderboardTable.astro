@@ -36,11 +36,11 @@ for (const r of rankings) {
     <thead>
       <tr class="border-b border-[var(--border)]">
         <th class="th-cell" data-sort="rank">#</th>
-        <th class="th-cell" data-sort="model">模型</th>
-        <th class="th-cell" data-sort="type">类型</th>
-        <th class="th-cell" data-sort="category">类别</th>
-        <th class="th-cell" data-sort="score">得分</th>
-        <th class="th-cell">变化</th>
+        <th class="th-cell" data-sort="model">Model</th>
+        <th class="th-cell" data-sort="type">Type</th>
+        <th class="th-cell" data-sort="category">Category</th>
+        <th class="th-cell" data-sort="score">Score</th>
+        <th class="th-cell">Change</th>
       </tr>
     </thead>
     <tbody>
@@ -54,7 +54,7 @@ for (const r of rankings) {
             data-rank={r.rank}
             data-score={r.score}
             data-model={r.model}
-            data-type={r.type === 'closed' ? '闭源' : '开源'}
+            data-type={r.type === 'closed' ? 'Closed' : 'Open'}
           >
             <td class="td-cell">
               <span
@@ -77,7 +77,7 @@ for (const r of rankings) {
                   ? 'bg-[var(--accent-bg)] text-[var(--accent)]'
                   : 'bg-emerald-500/10 text-emerald-500',
               ]}>
-                {r.type === 'closed' ? '闭源' : '开源'}
+                {r.type === 'closed' ? 'Closed' : 'Open'}
               </span>
             </td>
             <td class="td-cell text-[13px] text-[var(--text-2)]">{r.category}</td>

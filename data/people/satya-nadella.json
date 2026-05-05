@@ -2,11 +2,11 @@
   "slug": "satya-nadella",
   "name": "Satya Nadella",
   "role": "Chairman & CEO, Microsoft",
-  "bio": "印度裔美国企业高管，2014 年起任微软 CEO。在他的领导下微软完成云转型并成为 AI 时代最大的基础设施投资者。主导了对 OpenAI 的战略投资和 Azure AI 平台建设。",
+  "bio": "Indian-American tech executive who became Microsoft's CEO in 2014. Under his leadership, Microsoft completed its cloud transformation and became the largest infrastructure investor in the AI era. Led the strategic investment in OpenAI and the buildout of the Azure AI platform.",
   "related_events": [
-    { "slug": "ai-agent-ecosystem", "title": "AI Agent 生态演进", "mentions": 5, "status": "active" },
-    { "slug": "ai-regulation", "title": "全球 AI 监管立法", "mentions": 3, "status": "active" },
-    { "slug": "us-china-chips", "title": "中美芯片出口管控", "mentions": 2, "status": "active" }
+    { "slug": "ai-agent-ecosystem", "title": "AI Agent Ecosystem Evolution", "mentions": 5, "status": "active" },
+    { "slug": "ai-regulation", "title": "Global AI Regulation & Legislation", "mentions": 3, "status": "active" },
+    { "slug": "us-china-chips", "title": "US-China Chip Export Controls", "mentions": 2, "status": "active" }
   ],
   "activity": {
     "weeks": 12,
@@ -27,16 +27,16 @@
   },
   "quotes": [
     {
-      "text": "AI 不是成本中心，它是收入乘数。每一美元 AI 支出正在产生三倍云收入增长。",
+      "text": "AI is not a cost center — it's a revenue multiplier. Every dollar of AI spend is generating three times the cloud revenue growth.",
       "source": "MSFT Earnings Call",
       "date": "2026-05-05",
-      "topic": "AI 投资回报"
+      "topic": "AI return on investment"
     },
     {
-      "text": "我们不是在做 AI 产品，我们是在让每一个微软产品都成为 AI 产品。这是平台转变，不是功能叠加。",
+      "text": "We're not building AI products — we're making every Microsoft product an AI product. This is a platform shift, not a feature addition.",
       "source": "Build 2026 Keynote",
       "date": "2026-04-22",
-      "topic": "微软 AI 战略"
+      "topic": "Microsoft AI strategy"
     }
   ]
 }

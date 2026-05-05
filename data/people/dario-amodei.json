@@ -2,10 +2,10 @@
   "slug": "dario-amodei",
   "name": "Dario Amodei",
   "role": "CEO & Co-founder, Anthropic",
-  "bio": "意大利裔美国 AI 研究者，曾任 OpenAI VP of Research。2021 年与妹妹 Daniela 创立 Anthropic，专注 AI 安全研究。Claude 系列模型的幕后推手。",
+  "bio": "Italian-American AI researcher, formerly VP of Research at OpenAI. Co-founded Anthropic with his sister Daniela in 2021, focused on AI safety research. The architect behind the Claude model series.",
   "related_events": [
-    { "slug": "ai-agent-ecosystem", "title": "AI Agent 生态演进", "mentions": 6, "status": "active" },
-    { "slug": "ai-regulation", "title": "全球 AI 监管立法", "mentions": 4, "status": "active" }
+    { "slug": "ai-agent-ecosystem", "title": "AI Agent Ecosystem Evolution", "mentions": 6, "status": "active" },
+    { "slug": "ai-regulation", "title": "Global AI Regulation & Legislation", "mentions": 4, "status": "active" }
   ],
   "activity": {
     "weeks": 12,
@@ -26,28 +26,28 @@
   },
   "quotes": [
     {
-      "text": "我们正在看到一些没有刻意训练出来的能力涌现。这不是 bug，这是通往 AGI 的信号。",
+      "text": "We're seeing capabilities emerge that we didn't deliberately train for. This isn't a bug — it's a signal on the path to AGI.",
       "source": "Lex Fridman Podcast",
       "date": "2026-05-04",
-      "topic": "Claude 4 能力涌现"
+      "topic": "Claude 4 emergent capabilities"
     },
     {
-      "text": "安全不是速度的对立面。我们证明了你可以同时做到最安全和最强大。",
+      "text": "Safety is not the opposite of speed. We've proven you can be the safest and the most powerful at the same time.",
       "source": "Anthropic Blog",
       "date": "2026-05-03",
-      "topic": "Claude 4 发布"
+      "topic": "Claude 4 launch"
     },
     {
-      "text": "Agent 的可靠性问题本质上是推理能力问题。当模型足够聪明，它自然知道什么时候该停下来问人类。",
+      "text": "The reliability problem in agents is fundamentally a reasoning problem. When the model is smart enough, it naturally knows when to stop and ask a human.",
       "source": "AI Summit SF",
       "date": "2026-04-18",
-      "topic": "Agent 可靠性"
+      "topic": "Agent reliability"
     },
     {
-      "text": "我预计在 18 个月内，AI 系统将能独立完成大多数软件工程任务。这不是预测，这是我们内部已经观察到的趋势的外推。",
+      "text": "I expect that within 18 months, AI systems will be able to independently complete most software engineering tasks. This isn't a prediction — it's an extrapolation of trends we're already observing internally.",
       "source": "Senate AI Hearing",
       "date": "2026-03-12",
-      "topic": "AI 能力预测"
+      "topic": "AI capability forecast"
     }
   ]
 }

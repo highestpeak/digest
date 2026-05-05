@@ -47,7 +47,7 @@ const dotColors: Record<string, string> = {
 
     <!-- Heatmap -->
     <div class="max-w-[1120px] mx-auto px-12 py-10">
-      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">活跃度（近 {data.activity.weeks} 周）</div>
+      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">Activity (last {data.activity.weeks} weeks)</div>
       <Heatmap data={data.activity.data} />
     </div>
 
@@ -55,7 +55,7 @@ const dotColors: Record<string, string> = {
     {data.related_events && data.related_events.length > 0 && (
       <div style="background: var(--bg-alt); margin: 0 -9999px; padding: 48px 9999px;">
         <div class="max-w-[1120px] mx-auto px-12">
-          <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">关联事件</div>
+          <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">Related Events</div>
           <div class="flex flex-col gap-2">
             {data.related_events.map((evt: any) => (
               <a href={`${base}events/${evt.slug}`} class="flex items-center gap-4 py-3 px-4 rounded-[10px] bg-[var(--bg-card)] shadow-[var(--shadow)] no-underline hover:opacity-85 transition-opacity">
@@ -64,7 +64,7 @@ const dotColors: Record<string, string> = {
                   style={`background: ${dotColors[evt.status] || '#6b7280'};`}
                 />
                 <span class="text-sm font-medium text-[var(--text)] flex-1">{evt.title}</span>
-                <span class="text-xs text-[var(--text-3)]">{evt.mentions} 次提及</span>
+                <span class="text-xs text-[var(--text-3)]">{evt.mentions} mentions</span>
               </a>
             ))}
           </div>
@@ -74,7 +74,7 @@ const dotColors: Record<string, string> = {
 
     <!-- Quotes -->
     <div class="max-w-[1120px] mx-auto px-12 py-12">
-      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">引言记录</div>
+      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">Quotes</div>
       <div class="flex flex-col gap-6">
         {data.quotes.map((q: any) => (
           <div class="bg-[var(--bg-card)] rounded-[18px] shadow-[var(--shadow)] p-6">

@@ -1,34 +1,34 @@
 {
   "slug": "ai-agent-ecosystem",
-  "title": "AI Agent 生态演进",
+  "title": "AI Agent Ecosystem Evolution",
   "status": "active",
-  "description": "从单一聊天机器人到自主 Agent 系统，追踪 AI Agent 平台的竞争格局、开发者生态建设及企业部署进展。",
-  "tags": ["AI Agent", "平台竞争", "开发者生态", "企业部署"],
+  "description": "From single chatbots to autonomous agent systems — tracking the competitive landscape of AI agent platforms, developer ecosystem building, and enterprise deployment progress.",
+  "tags": ["AI Agent", "Platform Competition", "Developer Ecosystem", "Enterprise Deployment"],
   "key_people": ["dario-amodei", "sam-altman", "satya-nadella", "sundar-pichai"],
   "related_events": ["ai-regulation", "us-china-chips"],
   "timeline": [
     {
       "date": "2025-12-10",
-      "title": "OpenAI 发布 Operator 平台，首个商用 Agent 编排服务",
-      "summary": "Operator 允许开发者定义多步骤任务流并由 GPT 自主执行。首批合作伙伴包括 Salesforce、ServiceNow 和 Zapier。",
+      "title": "OpenAI Launches Operator Platform — First Commercial Agent Orchestration Service",
+      "summary": "Operator lets developers define multi-step task flows for GPT to execute autonomously. Launch partners include Salesforce, ServiceNow, and Zapier.",
       "sources": ["OpenAI Blog", "The Verge", "TechCrunch"]
     },
     {
       "date": "2026-02-18",
-      "title": "Google 发布 Gemini Agents SDK，强调多模态 Agent 能力",
-      "summary": "Gemini Agents SDK 支持视觉、语音和代码执行的多模态 Agent 构建。Google Cloud 同步推出 Agent 托管服务。",
+      "title": "Google Releases Gemini Agents SDK, Emphasizing Multimodal Agent Capabilities",
+      "summary": "The Gemini Agents SDK supports building multimodal agents with vision, voice, and code execution. Google Cloud simultaneously launched an agent hosting service.",
       "sources": ["Google Blog", "The Information", "Ars Technica"]
     },
     {
       "date": "2026-04-05",
-      "title": "企业 Agent 部署调研：POC 到生产转化率仅 23%",
-      "summary": "Gartner 季度调研显示，虽然 78% 的企业已启动 AI Agent POC 项目，但实际投入生产的仅占 23%。主要障碍为安全审计、可解释性和系统集成复杂度。",
+      "title": "Enterprise Agent Deployment Survey: POC-to-Production Conversion Rate Only 23%",
+      "summary": "A Gartner quarterly survey found that while 78% of enterprises have launched AI Agent POC projects, only 23% have moved to production. Top barriers are security audits, explainability, and system integration complexity.",
       "sources": ["Gartner", "McKinsey", "Harvard Business Review"]
     },
     {
       "date": "2026-05-03",
-      "title": "Anthropic 发布 Managed Agents 公测，三端点即可构建自主 Agent",
-      "summary": "Managed Agents 平台大幅降低 Agent 开发门槛，开发者仅需实现 tools、memory 和 goals 三个端点。首日注册开发者超 2000。Claude 4 的推理能力为 Agent 可靠性提供底层支撑。",
+      "title": "Anthropic Launches Managed Agents Public Beta — Build Autonomous Agents with Three Endpoints",
+      "summary": "The Managed Agents platform dramatically lowers the barrier to agent development: developers only need to implement three endpoints — tools, memory, and goals. Over 2,000 developers registered on day one. Claude 4's reasoning capabilities provide the underlying reliability for agents.",
       "sources": ["Anthropic Blog", "Reuters", "The Verge"]
     }
   ]
