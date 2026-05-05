@@ -1,0 +1,97 @@
+---
+interface Props {
+  date: string;
+  title: string;
+  summary: string;
+  sources: string[];
+  isLatest: boolean;
+}
+
+const { date, title, summary, sources, isLatest } = Astro.props;
+---
+
+<div class="tl-node">
+  <div class="tl-dot-col">
+    <span class:list={['tl-dot', { latest: isLatest }]}></span>
+  </div>
+  <div class="tl-content">
+    <span class="tl-date">{date}</span>
+    <h4 class="tl-title">{title}</h4>
+    <p class="tl-summary">{summary}</p>
+    <div class="tl-sources">
+      {sources.map((s) => (
+        <span class="tl-source">{s}</span>
+      ))}
+    </div>
+  </div>
+</div>
+
+<style>
+  .tl-node {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 32px;
+    position: relative;
+  }
+  .tl-dot-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20px;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .tl-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--text-3);
+    border: 2px solid var(--bg);
+    z-index: 1;
+    flex-shrink: 0;
+  }
+  .tl-dot.latest {
+    background: #ef4444;
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+    animation: pulse-timeline 2s ease-in-out infinite;
+  }
+  .tl-content {
+    flex: 1;
+    min-width: 0;
+    padding-top: 0;
+  }
+  .tl-date {
+    font-size: 12px;
+    color: var(--text-3);
+    font-weight: 500;
+  }
+  .tl-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text);
+    margin: 4px 0 6px;
+  }
+  .tl-summary {
+    font-size: 13px;
+    color: var(--text-2);
+    line-height: 1.7;
+    margin: 0 0 8px;
+  }
+  .tl-sources {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .tl-source {
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 9999px;
+    background: var(--accent-bg);
+    color: var(--accent);
+  }
+
+  @keyframes pulse-timeline {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.5); }
+    50% { box-shadow: 0 0 0 6px rgba(239, 68, 68, 0); }
+  }
+</style>

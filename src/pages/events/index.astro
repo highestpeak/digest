@@ -1,0 +1,119 @@
+---
+import Base from '../../layouts/Base.astro';
+import EventCard from '../../components/EventCard.astro';
+
+const eventFiles = import.meta.glob('../../../data/events/*.json', { eager: true });
+const base = import.meta.env.BASE_URL;
+
+const events = Object.entries(eventFiles)
+  .map(([_, mod]: [string, any]) => mod.default || mod)
+  .sort((a: any, b: any) => {
+    const lastA = a.timeline[a.timeline.length - 1]?.date || '';
+    const lastB = b.timeline[b.timeline.length - 1]?.date || '';
+    return lastB.localeCompare(lastA);
+  });
+
+// Stats
+const totalNodes = events.reduce((sum: number, e: any) => sum + e.timeline.length, 0);
+const activeCount = events.filter((e: any) => e.status === 'active').length;
+const resolvedCount = events.filter((e: any) => e.status === 'resolved').length;
+const updatedToday = events.filter((e: any) => {
+  const last = e.timeline[e.timeline.length - 1]?.date || '';
+  return last >= '2026-05-05';
+}).length;
+
+const statuses = ['全部', '追踪中', '观察中', '已结案'];
+const statusMap: Record<string, string> = { '追踪中': 'active', '观察中': 'watching', '已结案': 'resolved' };
+---
+
+<Base title="事件追踪 · The Digest" current="Events">
+  <main style="overflow-x: hidden;">
+    <!-- Header -->
+    <div class="max-w-[1120px] mx-auto px-12">
+      <section class="py-12 pb-10 border-b border-[var(--border)]">
+        <h1 class="text-[36px] font-extrabold tracking-tight text-[var(--text)] mb-3">事件追踪</h1>
+        <p class="text-[15px] text-[var(--text-2)] leading-relaxed max-w-[640px]">
+          持续追踪重大科技、地缘政治与产业事件的演进脉络。每个事件包含完整时间线和多源验证。
+        </p>
+      </section>
+    </div>
+
+    <!-- Stats -->
+    <div class="max-w-[1120px] mx-auto px-12 py-8">
+      <div class="grid grid-cols-4 gap-4">
+        <div class="bg-[var(--bg-card)] rounded-[14px] shadow-[var(--shadow)] p-5 text-center">
+          <div class="text-2xl font-bold text-[var(--accent)]">{events.length}</div>
+          <div class="text-xs text-[var(--text-3)] mt-1">追踪事件</div>
+        </div>
+        <div class="bg-[var(--bg-card)] rounded-[14px] shadow-[var(--shadow)] p-5 text-center">
+          <div class="text-2xl font-bold text-[var(--accent)]">{updatedToday}</div>
+          <div class="text-xs text-[var(--text-3)] mt-1">今日更新</div>
+        </div>
+        <div class="bg-[var(--bg-card)] rounded-[14px] shadow-[var(--shadow)] p-5 text-center">
+          <div class="text-2xl font-bold text-[var(--accent)]">{totalNodes}</div>
+          <div class="text-xs text-[var(--text-3)] mt-1">时间线节点</div>
+        </div>
+        <div class="bg-[var(--bg-card)] rounded-[14px] shadow-[var(--shadow)] p-5 text-center">
+          <div class="text-2xl font-bold text-[var(--accent)]">{resolvedCount}</div>
+          <div class="text-xs text-[var(--text-3)] mt-1">已结案</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Filter Tabs + Event List -->
+    <div style="background: var(--bg-alt); margin: 0 -9999px; padding: 48px 9999px;">
+      <div class="max-w-[1120px] mx-auto px-12">
+        <div class="flex flex-wrap gap-2 mb-8">
+          {statuses.map((s: string, i: number) => (
+            <button
+              data-filter-tab={s === '全部' ? '全部' : statusMap[s]}
+              class:list={[
+                'text-xs font-medium px-4 py-1.5 rounded-full transition-colors',
+                i === 0 ? 'filter-active' : 'filter-inactive',
+              ]}
+            >
+              {s}
+            </button>
+          ))}
+        </div>
+
+        <div class="flex flex-col gap-4">
+          {events.map((evt: any) => {
+            const lastDate = evt.timeline[evt.timeline.length - 1]?.date || '';
+            return (
+              <div data-filter-item data-category={evt.status}>
+                <EventCard
+                  slug={evt.slug}
+                  title={evt.title}
+                  status={evt.status}
+                  description={evt.description}
+                  tags={evt.tags}
+                  nodeCount={evt.timeline.length}
+                  lastUpdate={lastDate}
+                />
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <style>
+    .filter-active {
+      background: var(--accent);
+      color: white;
+    }
+    .filter-inactive {
+      background: var(--accent-bg);
+      color: var(--text-3);
+    }
+    .filter-inactive:hover {
+      background: var(--accent);
+      color: white;
+      opacity: 0.7;
+    }
+  </style>
+
+  <script is:inline src={`${base}scripts/filter.js`}></script>
+</Base>
