@@ -1,0 +1,41 @@
+{
+  "slug": "us-china-chips",
+  "title": "中美芯片出口管控",
+  "status": "active",
+  "description": "美国对华芯片出口管制政策的持续演进。从 2022 年首轮限制到 2026 年聚焦先进封装技术，追踪每一次政策变动、双方回应及对全球半导体产业链的影响。",
+  "tags": ["地缘政治", "半导体", "中美关系", "出口管制"],
+  "key_people": ["gina-raimondo", "ren-zhengfei", "jensen-huang", "peter-wennink"],
+  "related_events": ["ai-regulation", "ai-agent-ecosystem"],
+  "timeline": [
+    {
+      "date": "2025-10-15",
+      "title": "美国商务部扩大实体清单，新增 14 家中国半导体企业",
+      "summary": "新一轮实体清单更新聚焦 EDA 工具链和光刻胶供应商，首次将设计软件公司纳入管控范围。中国商务部当日发表声明表示强烈反对。",
+      "sources": ["Reuters", "Bloomberg", "商务部官网"]
+    },
+    {
+      "date": "2025-12-20",
+      "title": "荷兰、日本同步收紧对华光刻设备出口许可",
+      "summary": "ASML 和东京电子在各自政府压力下暂停向中国交付 DUV 设备维护服务。市场估计影响中国约 30% 的成熟制程产能扩张计划。",
+      "sources": ["Financial Times", "NHK", "ASML 投资者通告"]
+    },
+    {
+      "date": "2026-02-08",
+      "title": "华为发布昇腾 910C，性能接近 A100 但封装依赖外部代工",
+      "summary": "华为通过 chiplet 架构绕过算力限制，但先进封装仍依赖特定代工厂。分析师指出这恰好暴露了下一阶段管控的突破口。",
+      "sources": ["南华早报", "SemiAnalysis", "华为官网"]
+    },
+    {
+      "date": "2026-04-10",
+      "title": "BIS 内部草案泄露：管控重心从算力阈值转向封装技术",
+      "summary": "The Information 获取的草案显示，美国正在重新定义出口管控框架，以 CoWoS 和 InFO 等先进封装技术为新管控锚点，取代此前的 FLOPS 阈值。",
+      "sources": ["The Information", "Tom's Hardware", "SemiAnalysis"]
+    },
+    {
+      "date": "2026-05-02",
+      "title": "美国商务部正式公布修订版出口管控框架",
+      "summary": "新框架聚焦先进封装技术而非原始算力。路透社评价为 \"范围收窄\"，但南华早报和多位行业分析师认为这是 \"精准升级\"。中国商务部 24 小时内发表对等反制声明。",
+      "sources": ["Federal Register", "Reuters", "南华早报", "Bloomberg"]
+    }
+  ]
+}

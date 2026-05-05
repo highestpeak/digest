@@ -1,0 +1,97 @@
+{
+  "date": "2026-05-05",
+  "issue": 42,
+  "headline": "Claude 4 推理能力突破人类基线，中美芯片出口规则再修订，科技超级财报周正式开幕",
+  "summary": "Anthropic 发布 Claude 4，ARC-AGI 与 GPQA 双双刷新记录。美国修订对华芯片出口管控，聚焦先进封装。微软、Meta、亚马逊 Q1 财报本周集中亮相，AI 支出转化率成焦点。Stripe Atlas 正式向新西兰创始人开放。",
+  "meta": {
+    "article_count": 28,
+    "source_count": 12,
+    "reading_minutes": 18
+  },
+  "highlights": [
+    {
+      "category": "ai",
+      "title": "Claude 4 推理基准突破人类基线，ARC-AGI 达 64.3%",
+      "summary": "Managed Agents 公测，开发者仅需三个端点即可构建自主 Agent。",
+      "sources": ["Anthropic", "Reuters", "The Verge"],
+      "novelty": "high"
+    },
+    {
+      "category": "geo",
+      "title": "Trump 取消巴基斯坦行程，伊朗10分钟内回传优化方案",
+      "summary": "停火博弈新拉锯，伊朗外长随即飞赴莫斯科斡旋。",
+      "sources": ["Washington Post", "CNN", "Bloomberg"],
+      "novelty": "high"
+    },
+    {
+      "category": "econ",
+      "title": "超级财报周：四大云厂商 AI 支出预期超 4700 亿",
+      "summary": "S&P 500 在历史高位迎接考验，Azure 增速成关键看点。",
+      "sources": ["CNBC", "TD Cowen", "The Information"],
+      "novelty": "medium"
+    }
+  ],
+  "stories": [
+    { "category": "ai", "title": "OpenAI 宣布 GPT-5 价格调整，API 成本下降 40%", "source_count": 2, "importance": "medium" },
+    { "category": "geo", "title": "EU AI Act 执行时间确认为 Q3，合规窗口仅剩 90 天", "source_count": 3, "importance": "high" },
+    { "category": "econ", "title": "NVIDIA 数据中心收入创历史新高，Q1 超分析师预期 12%", "source_count": 4, "importance": "high" },
+    { "category": "indie", "title": "Stripe Atlas 正式向新西兰创始人开放注册通道", "source_count": 1, "importance": "medium" }
+  ],
+  "perspectives": [
+    {
+      "title": "中美芯片出口管控",
+      "subtitle": "两家主流媒体的解读截然不同",
+      "event_slug": "us-china-chips",
+      "sources": [
+        { "name": "Reuters", "quote": "新框架聚焦先进封装技术而非原始算力，实际管控范围有所收窄。这是一种更精准的限制方式，避免了对民用芯片的误伤。" },
+        { "name": "南华早报", "quote": "北京将此举视为实质升级，尽管表面上限制范围缩小了。先进封装正是中国集成电路产业最薄弱的环节之一。" }
+      ]
+    },
+    {
+      "title": "AI 财报预期：乐观 vs 谨慎",
+      "subtitle": "华尔街对 AI 投资回报的分歧正在加大",
+      "event_slug": "ai-agent-ecosystem",
+      "sources": [
+        { "name": "TD Cowen", "quote": "云厂商 AI 资本支出的投资回报率拐点已经到来。每一美元 AI 支出正在产生三倍云收入增长。" },
+        { "name": "The Information", "quote": "企业端实际部署进度远落后于资本投入节奏，泡沫风险不可忽视。真正的采用率远低于媒体叙事。" }
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "person_slug": "dario-amodei",
+      "person_name": "Dario Amodei",
+      "text": "我们正在看到一些没有刻意训练出来的能力涌现。这不是 bug，这是通往 AGI 的信号。",
+      "source": "Lex Fridman Podcast",
+      "date": "2026-05-04"
+    },
+    {
+      "person_slug": "satya-nadella",
+      "person_name": "Satya Nadella",
+      "text": "AI 不是成本中心，它是收入乘数。每一美元 AI 支出正在产生三倍云收入增长。",
+      "source": "MSFT Earnings Call",
+      "date": "2026-05-05"
+    }
+  ],
+  "map_hotspots": [
+    { "lat": 38.9, "lng": -77.0, "color": "amber", "title": "中美芯片管控", "summary": "华盛顿，新规聚焦先进封装" },
+    { "lat": 50.85, "lng": 4.35, "color": "amber", "title": "EU AI Act", "summary": "布鲁塞尔，执行确认 Q3" },
+    { "lat": 39.9, "lng": 116.4, "color": "amber", "title": "北京回应芯片管控", "summary": "将此举视为实质升级" },
+    { "lat": 32.0, "lng": 53.7, "color": "red", "title": "伊巴和谈博弈", "summary": "Trump 取消行程后伊朗快速让步" },
+    { "lat": 37.77, "lng": -122.42, "color": "green", "title": "AI 模型发布", "summary": "旧金山，Claude 4 发布" },
+    { "lat": -41.29, "lng": 174.78, "color": "violet", "title": "Stripe Atlas 开放 NZ", "summary": "新西兰创始人可注册" }
+  ],
+  "model_flash": [
+    { "category": "文本对话", "best_closed": "Claude 4", "best_open": "Llama 4", "best_value": "Gemini 2.5 Flash", "change": "new" },
+    { "category": "代码生成", "best_closed": "Claude 4", "best_open": "DeepSeek V3", "best_value": "DeepSeek V3", "change": "new" },
+    { "category": "推理", "best_closed": "Claude 4", "best_open": "QwQ 32B", "best_value": "Gemini 2.5 Flash", "change": "new" },
+    { "category": "图片生成", "best_closed": "Midjourney v7", "best_open": "Flux 1.1", "best_value": "Flux 1.1", "change": "none" },
+    { "category": "视频生成", "best_closed": "Sora 2", "best_open": "Wan 2.1", "best_value": "Wan 2.1", "change": "none" },
+    { "category": "多模态理解", "best_closed": "GPT-5", "best_open": "Qwen 3", "best_value": "Gemini 2.5 Flash", "change": "none" }
+  ],
+  "event_updates": [
+    { "event_slug": "us-china-chips", "title": "中美芯片出口管控", "status": "active", "latest_summary": "美国商务部公布修订版出口管控框架，聚焦先进封装技术" },
+    { "event_slug": "ai-regulation", "title": "全球 AI 监管立法进程", "status": "active", "latest_summary": "EU AI Act 执行时间确认为 Q3" },
+    { "event_slug": "ai-agent-ecosystem", "title": "AI Agent 生态演进", "status": "active", "latest_summary": "Anthropic 发布 Managed Agents，Agent 平台竞争加剧" }
+  ]
+}

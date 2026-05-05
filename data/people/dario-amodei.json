@@ -1,0 +1,53 @@
+{
+  "slug": "dario-amodei",
+  "name": "Dario Amodei",
+  "role": "CEO & Co-founder, Anthropic",
+  "bio": "意大利裔美国 AI 研究者，曾任 OpenAI VP of Research。2021 年与妹妹 Daniela 创立 Anthropic，专注 AI 安全研究。Claude 系列模型的幕后推手。",
+  "related_events": [
+    { "slug": "ai-agent-ecosystem", "title": "AI Agent 生态演进", "mentions": 6, "status": "active" },
+    { "slug": "ai-regulation", "title": "全球 AI 监管立法", "mentions": 4, "status": "active" }
+  ],
+  "activity": {
+    "weeks": 12,
+    "data": [
+      0, 1, 0, 2, 1, 0, 3,
+      1, 0, 0, 1, 2, 1, 0,
+      0, 2, 1, 0, 0, 1, 0,
+      1, 0, 1, 2, 0, 0, 1,
+      0, 0, 1, 0, 2, 1, 0,
+      2, 1, 0, 0, 1, 0, 1,
+      0, 1, 2, 0, 1, 0, 0,
+      1, 0, 0, 2, 1, 0, 1,
+      0, 2, 1, 0, 0, 1, 2,
+      1, 0, 0, 1, 0, 2, 0,
+      3, 1, 0, 2, 1, 0, 4,
+      2, 3, 4, 3, 2, 4, 3
+    ]
+  },
+  "quotes": [
+    {
+      "text": "我们正在看到一些没有刻意训练出来的能力涌现。这不是 bug，这是通往 AGI 的信号。",
+      "source": "Lex Fridman Podcast",
+      "date": "2026-05-04",
+      "topic": "Claude 4 能力涌现"
+    },
+    {
+      "text": "安全不是速度的对立面。我们证明了你可以同时做到最安全和最强大。",
+      "source": "Anthropic Blog",
+      "date": "2026-05-03",
+      "topic": "Claude 4 发布"
+    },
+    {
+      "text": "Agent 的可靠性问题本质上是推理能力问题。当模型足够聪明，它自然知道什么时候该停下来问人类。",
+      "source": "AI Summit SF",
+      "date": "2026-04-18",
+      "topic": "Agent 可靠性"
+    },
+    {
+      "text": "我预计在 18 个月内，AI 系统将能独立完成大多数软件工程任务。这不是预测，这是我们内部已经观察到的趋势的外推。",
+      "source": "Senate AI Hearing",
+      "date": "2026-03-12",
+      "topic": "AI 能力预测"
+    }
+  ]
+}
