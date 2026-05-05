@@ -1,6 +1,181 @@
 ---
+import Base from '../layouts/Base.astro';
+import DigestCard from '../components/DigestCard.astro';
+import StoryRow from '../components/StoryRow.astro';
+import QuoteCard from '../components/QuoteCard.astro';
+import PerspectiveBlock from '../components/PerspectiveBlock.astro';
+import ModelFlashTable from '../components/ModelFlashTable.astro';
+import StatusBadge from '../components/StatusBadge.astro';
+
+const dailyFiles = import.meta.glob('../../data/daily/*.json', { eager: true });
+const entries = Object.entries(dailyFiles).sort((a, b) => b[0].localeCompare(a[0]));
+const data = (entries[0][1] as any).default || entries[0][1] as any;
+const base = import.meta.env.BASE_URL;
+
+// Map model_flash fields to component expected props
+const modelFlashData = data.model_flash.map((row: any) => ({
+  category: row.category,
+  closedSource: row.best_closed,
+  openSource: row.best_open,
+  bestValue: row.best_value,
+  change: row.change,
+}));
+
+// Hotspot color mapping
+const dotColors: Record<string, string> = { red: '#ef4444', amber: '#f59e0b', green: '#10b981', violet: '#8b5cf6' };
+const hotspotsWithColors = data.map_hotspots.map((spot: any) => ({
+  ...spot,
+  dotColor: dotColors[spot.color] || '#6b7280',
+}));
 ---
-<html lang="zh">
-<head><meta charset="UTF-8"><title>The Digest</title></head>
-<body><h1>The Digest</h1></body>
-</html>
+
+<Base title={`The Digest · 第 ${data.issue} 期`} current="home">
+  <main style="overflow-x: hidden;">
+    <!-- Section 1: Hero -->
+    <div class="max-w-[1120px] mx-auto px-12">
+      <section class="py-14 pb-12">
+        <span class="inline-flex items-center gap-2 text-xs font-semibold text-red-500 bg-red-50 dark:bg-red-950/30 px-3.5 py-1 rounded-full mb-6">
+          <span style="width:7px;height:7px;border-radius:50%;background:#ef4444;box-shadow:0 0 0 0 rgba(239,68,68,1);animation:pulse-red 2s infinite;"></span>
+          第 {data.issue} 期
+        </span>
+        <h1 class="text-[40px] font-extrabold tracking-tight leading-[1.28] max-w-[860px] text-[var(--text)]">
+          {data.headline}
+        </h1>
+        <p class="text-[16px] leading-[1.9] text-[var(--text-2)] max-w-[800px] mt-4 mb-6">
+          {data.summary}
+        </p>
+        <div class="flex flex-wrap gap-2 mb-8">
+          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.date}</span>
+          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.meta.article_count} 条资讯</span>
+          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.meta.source_count} 个源</span>
+          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.meta.reading_minutes} 分钟</span>
+        </div>
+        <a href="#digest" class="inline-block bg-[var(--accent)] text-white px-7 py-3 rounded-full font-semibold shadow hover:opacity-90 transition-opacity no-underline">
+          阅读本期 →
+        </a>
+      </section>
+    </div>
+
+    <!-- Section 2: 今日速览 + 更多故事 -->
+    <div style="background: var(--bg-alt); margin: 0 -9999px; padding: 48px 9999px;">
+      <div class="max-w-[1120px] mx-auto px-12" id="digest">
+        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">今日速览</div>
+        <div class="grid grid-cols-3 gap-[18px] mb-6">
+          {data.highlights.map((h: any) => (
+            <DigestCard
+              category={h.category}
+              title={h.title}
+              summary={h.summary}
+              sources={h.sources.join(' · ')}
+            />
+          ))}
+        </div>
+        <div class="h-px bg-[var(--border)] my-4"></div>
+        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-4 font-medium">更多故事</div>
+        <div class="flex flex-col gap-0.5">
+          {data.stories.map((s: any) => (
+            <StoryRow
+              category={s.category}
+              title={s.title}
+              sourceCount={s.source_count}
+              importance={s.importance}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 3: 地缘热点地图 -->
+    <div class="max-w-[1120px] mx-auto px-12 py-12">
+      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">地缘热点地图</div>
+      <div class="rounded-[18px] bg-[var(--bg-alt)] min-h-[300px] flex items-center justify-center text-[var(--text-3)] text-sm mb-8">
+        Map loading...
+      </div>
+      <div class="grid grid-cols-4 gap-4">
+        {hotspotsWithColors.map((spot: any) => (
+          <div class="rounded-[14px] bg-[var(--bg-card)] shadow-sm p-4">
+            <div class="flex items-center gap-2 mb-2">
+              <span style={`width:8px;height:8px;border-radius:50%;background:${spot.dotColor};box-shadow:0 0 6px ${spot.dotColor};flex-shrink:0;`}></span>
+              <span class="text-sm font-semibold text-[var(--text)]">{spot.title}</span>
+            </div>
+            <p class="text-xs text-[var(--text-2)] leading-relaxed m-0">{spot.summary}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <!-- Section 4: 多源视角 -->
+    <div style="background: var(--bg-alt); margin: 0 -9999px; padding: 48px 9999px;">
+      <div class="max-w-[1120px] mx-auto px-12">
+        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">多源视角</div>
+        <div class="flex flex-col gap-12">
+          {data.perspectives.map((p: any) => (
+            <PerspectiveBlock
+              title={p.title}
+              subtitle={p.subtitle}
+              eventSlug={p.event_slug}
+              sources={p.sources}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 5: 今日引言 -->
+    <div class="max-w-[1120px] mx-auto px-12 py-12">
+      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">今日引言</div>
+      <div class="grid grid-cols-2 gap-5">
+        {data.quotes.map((q: any) => (
+          <QuoteCard
+            personName={q.person_name}
+            personSlug={q.person_slug}
+            text={q.text}
+            source={q.source}
+            date={q.date}
+          />
+        ))}
+      </div>
+    </div>
+
+    <!-- Section 6: 事件动态 -->
+    <div style="background: var(--bg-alt); margin: 0 -9999px; padding: 48px 9999px;">
+      <div class="max-w-[1120px] mx-auto px-12">
+        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">事件动态</div>
+        <div class="flex flex-col gap-3">
+          {data.event_updates.map((evt: any) => (
+            <a href={`${base}events/${evt.event_slug}`} class="flex items-center gap-4 p-4 rounded-[14px] bg-[var(--bg-card)] shadow-sm no-underline hover:opacity-90 transition-opacity">
+              <StatusBadge status={evt.status} />
+              <span class="font-semibold text-sm text-[var(--text)]">{evt.title}</span>
+              <span class="flex-1 text-sm text-[var(--text-2)] truncate">{evt.latest_summary}</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 7: 模型排行榜快报 -->
+    <div class="max-w-[1120px] mx-auto px-12 py-12">
+      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">模型排行榜快报</div>
+      <ModelFlashTable data={modelFlashData} baseUrl={base} />
+    </div>
+
+    <!-- Section 8: Footer -->
+    <div class="max-w-[1120px] mx-auto px-12">
+      <footer class="border-t border-[var(--border)] py-6 flex justify-between items-center">
+        <span class="text-xs text-[var(--text-3)]">Generated at 07:00 NZST · Powered by Cowork</span>
+        <div class="flex gap-2">
+          <a class="text-xs text-[var(--text-3)] no-underline px-3.5 py-1.5 rounded-full bg-[var(--accent-bg)]">← 5月4日</a>
+          <a href={`${base}archive`} class="text-xs text-[var(--text-3)] no-underline px-3.5 py-1.5 rounded-full bg-[var(--accent-bg)]">归档 →</a>
+        </div>
+      </footer>
+    </div>
+  </main>
+
+  <style>
+    @keyframes pulse-red {
+      0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+      70% { box-shadow: 0 0 0 6px rgba(239, 68, 68, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+    }
+  </style>
+</Base>
