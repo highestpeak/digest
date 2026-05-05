@@ -1,0 +1,35 @@
+{
+  "slug": "russia-ukraine-ceasefire",
+  "title": "Russia-Ukraine Ceasefire Negotiations",
+  "status": "active",
+  "description": "Tracking the evolving ceasefire diplomacy in the Russia-Ukraine war — from Trump-Putin phone calls to competing unilateral truces, Victory Day dynamics, and the role of US mediation in pushing toward a durable peace or temporary pause.",
+  "tags": ["Ukraine", "Russia", "Ceasefire", "Trump", "Geopolitics", "Diplomacy"],
+  "key_people": ["volodymyr-zelenskyy", "vladimir-putin", "donald-trump"],
+  "related_events": ["us-china-chips"],
+  "timeline": [
+    {
+      "date": "2026-04-29",
+      "title": "Trump-Putin 90-Minute Phone Call — Ceasefire Floated",
+      "summary": "Trump told reporters he suggested 'a little bit of a ceasefire' to Putin, believing he might go along. Putin's adviser Yuri Ushakov confirmed the call lasted about 90 minutes. Putin indicated he was ready to declare a temporary ceasefire in honor of Victory Day (May 9).",
+      "sources": ["NPR", "Military Times", "Pravda USA"]
+    },
+    {
+      "date": "2026-05-01",
+      "title": "Zelenskyy Seeks Details of Putin's May 9 Ceasefire Proposal",
+      "summary": "Ukrainian President Zelenskyy said he instructed his team to contact the Trump administration to clarify details of Russia's Victory Day ceasefire proposal. Kyiv's position: a temporary holiday truce is insufficient; a durable peace requires full territorial terms.",
+      "sources": ["NPR", "Houston Public Media", "Kyiv Independent"]
+    },
+    {
+      "date": "2026-05-04",
+      "title": "Russia and Ukraine Declare Competing Ceasefires",
+      "summary": "Russia's Ministry of Defence declared a unilateral ceasefire from May 8–9 tied to Victory Day commemorations, simultaneously warning of a 'massive missile strike' if Ukraine violated it. Ukraine countered by declaring its own truce for May 5–6, calling Russia's proposal politically motivated and 'not serious.'",
+      "sources": ["Al Jazeera", "CBS News", "Euronews", "The Moscow Times"]
+    },
+    {
+      "date": "2026-05-05",
+      "title": "Russia's Victory Day Parade to Proceed Without Military Hardware",
+      "summary": "For the first time in nearly two decades, Russia's Victory Day parade in Moscow will include no tanks, missiles, or military equipment — a direct response to Ukraine's long-range drone capability. A strike killed two people deep inside Russia days before the parade.",
+      "sources": ["CNN", "zona-militar.com", "US News"]
+    }
+  ]
+}

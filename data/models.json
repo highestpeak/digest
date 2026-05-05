@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-05",
+  "last_updated": "2026-05-06",
   "categories": ["Text Chat", "Code Gen", "Reasoning", "Image Gen", "Video Gen", "Multimodal"],
   "data_sources": ["Chatbot Arena", "LiveBench", "ARC-AGI", "GPQA Diamond"],
   "rankings": [
-    { "rank": 1, "model": "Claude 4", "org": "Anthropic", "type": "closed", "category": "Text Chat", "score": 1387, "change": "new", "date_added": "2026-05-03" },
-    { "rank": 2, "model": "GPT-5", "org": "OpenAI", "type": "closed", "category": "Text Chat", "score": 1364, "change": "none", "date_added": "2026-03-15" },
+    { "rank": 1, "model": "Claude Opus 4.7", "org": "Anthropic", "type": "closed", "category": "Text Chat", "score": 1392, "change": "new", "date_added": "2026-05-05" },
+    { "rank": 2, "model": "GPT-5.5", "org": "OpenAI", "type": "closed", "category": "Text Chat", "score": 1371, "change": "new", "date_added": "2026-04-24" },
     { "rank": 3, "model": "Llama 4", "org": "Meta", "type": "open", "category": "Text Chat", "score": 1341, "change": "up", "date_added": "2026-04-10" },
-    { "rank": 1, "model": "Claude 4", "org": "Anthropic", "type": "closed", "category": "Code Gen", "score": 92.4, "change": "new", "date_added": "2026-05-03" },
+    { "rank": 1, "model": "Claude Opus 4.7", "org": "Anthropic", "type": "closed", "category": "Code Gen", "score": 94.1, "change": "new", "date_added": "2026-05-05" },
     { "rank": 2, "model": "DeepSeek V3", "org": "DeepSeek", "type": "open", "category": "Code Gen", "score": 89.7, "change": "none", "date_added": "2026-02-20" },
     { "rank": 3, "model": "GPT-5", "org": "OpenAI", "type": "closed", "category": "Code Gen", "score": 88.1, "change": "down", "date_added": "2026-03-15" },
     { "rank": 1, "model": "Claude 4", "org": "Anthropic", "type": "closed", "category": "Reasoning", "score": 64.3, "change": "new", "date_added": "2026-05-03" },

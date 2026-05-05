@@ -30,6 +30,12 @@
       "title": "Anthropic Launches Managed Agents Public Beta — Build Autonomous Agents with Three Endpoints",
       "summary": "The Managed Agents platform dramatically lowers the barrier to agent development: developers only need to implement three endpoints — tools, memory, and goals. Over 2,000 developers registered on day one. Claude 4's reasoning capabilities provide the underlying reliability for agents.",
       "sources": ["Anthropic Blog", "Reuters", "The Verge"]
+    },
+    {
+      "date": "2026-05-05",
+      "title": "Anthropic Launches 10 Financial Sector AI Agents + Microsoft 365 Integration",
+      "summary": "Anthropic unveiled a library of ten pre-built agents targeting finance workflows — pitchbooks, credit memos, KYC, AML investigation, underwriting, and insurance claims — powered by Claude Opus 4.7. Claude now integrates natively into Excel, PowerPoint, and Word. A Moody's data partnership and an FIS-built AML investigator are live at BMO. Goldman Sachs, Citi, Visa, and AIG are among disclosed early adopters. Claude Opus 4.7 leads the Vals AI Finance Agent benchmark at 64.4%.",
+      "sources": ["Fortune", "The Register", "The Next Web", "Anthropic", "Yahoo Finance"]
     }
   ]
 }

@@ -1,0 +1,235 @@
+{
+  "date": "2026-05-06",
+  "issue": 43,
+  "headline": "Anthropic Launches 10 Finance AI Agents, Russia-Ukraine Rival Ceasefires Declared, Mega Earnings Conclude with Record AI Capex",
+  "summary": "Anthropic unveiled ten pre-built financial sector agents powered by Claude Opus 4.7 — the company's most capable model yet — with full Microsoft 365 integration and a Moody's data partnership, marking a direct push into Wall Street workflows. Russia and Ukraine declared competing ceasefires ahead of Russia's May 9 Victory Day, while Trump confirmed a Beijing summit with Xi for May 14–15, where Taiwan tops China's agenda. Q1 2026 earnings beat expectations across the board — Meta +33%, Apple iPhone revenue +22%, Alphabet Cloud +63% — and combined annual AI capex plans from Microsoft and Amazon alone now exceed $390 billion.",
+  "meta": {
+    "article_count": 24,
+    "source_count": 14,
+    "reading_minutes": 16
+  },
+  "highlights": [
+    {
+      "category": "ai",
+      "title": "Anthropic Launches 10 Pre-Built Finance AI Agents with Claude Opus 4.7 + Microsoft 365",
+      "summary": "The library covers pitchbooks, credit memos, KYC, AML investigation, underwriting, and insurance claims. Claude now integrates directly into Excel, PowerPoint, and Word. Goldman Sachs, Citi, Visa, and AIG are among early adopters; BMO's AML agent is now live. Claude Opus 4.7 leads Vals AI's Finance Agent benchmark with 64.4%.",
+      "sources": ["Fortune", "The Register", "The Next Web", "Anthropic"],
+      "novelty": "high"
+    },
+    {
+      "category": "geo",
+      "title": "Russia and Ukraine Declare Competing Ceasefires — Trump-Xi Summit Confirmed for May 14–15",
+      "summary": "Russia declared a unilateral May 8–9 ceasefire for Victory Day; Ukraine countered with its own May 5–6 truce, calling Russia's proposal 'not serious.' Trump's Beijing visit — the first in eight years — looms large: Xi has made Taiwan the top agenda item, a significant escalation from their last summit.",
+      "sources": ["Al Jazeera", "Euronews", "NPR", "Taipei Times", "The Standard HK"],
+      "novelty": "high"
+    },
+    {
+      "category": "econ",
+      "title": "Q1 2026 Mega Earnings: Meta +33%, Apple +17%, Alphabet Cloud +63%, Microsoft Beats by $0.21 EPS",
+      "summary": "All four cloud giants surpassed estimates. Microsoft's annual AI capex guidance is ~$190B; Amazon's is ~$200B. AI ROI has now become the dominant earnings narrative, with Azure AI growing 47% YoY. The question is no longer whether AI spend is large — it's whether enterprise deployment can catch up.",
+      "sources": ["CNBC", "IndexBox", "Motley Fool", "UncoverAlpha", "S&P Global"],
+      "novelty": "medium"
+    }
+  ],
+  "stories": [
+    {
+      "category": "ai",
+      "title": "GPT-5.5 vs Claude Opus 4.7 — Models Win Different Races",
+      "source_count": 4,
+      "importance": "high"
+    },
+    {
+      "category": "ai",
+      "title": "Google, Microsoft, OpenAI, Anthropic Grant US Commerce Dept Pre-Release Model Reviews",
+      "source_count": 2,
+      "importance": "medium"
+    },
+    {
+      "category": "geo",
+      "title": "Trump-Xi Beijing Summit May 14–15: Record Taiwan Arms Deal Casts Shadow",
+      "source_count": 5,
+      "importance": "high"
+    },
+    {
+      "category": "econ",
+      "title": "US-China 90-Day Trade Truce Runs Through August; Sixth Round of Talks Called 'Constructive'",
+      "source_count": 3,
+      "importance": "medium"
+    },
+    {
+      "category": "geo",
+      "title": "Russia Victory Day Parade to Have No Military Hardware — Drone Strike Fears Change Tradition",
+      "source_count": 2,
+      "importance": "medium"
+    },
+    {
+      "category": "indie",
+      "title": "Micro-SaaS Market Growing 30% Annually — AI Coding Assistants Cutting Solo Dev Time by 50%",
+      "source_count": 3,
+      "importance": "low"
+    }
+  ],
+  "perspectives": [
+    {
+      "title": "Ukraine Ceasefire: Sincere Gesture or Political Theater?",
+      "subtitle": "Western and Russian outlets frame the rival truces very differently",
+      "event_slug": "russia-ukraine-ceasefire",
+      "sources": [
+        {
+          "name": "Euronews",
+          "quote": "Russia unilaterally declared a Victory Day ceasefire while simultaneously warning Ukraine of potential missile strikes on Kyiv — a combination that Kyiv and Western analysts called contradictory and unserious as a peace signal."
+        },
+        {
+          "name": "Pravda USA",
+          "quote": "Kremlin adviser Yuri Ushakov stated that Putin told Trump he was ready to declare a temporary ceasefire in honor of Victory Day — framing the move as a goodwill gesture toward the Trump-mediated peace process."
+        }
+      ]
+    },
+    {
+      "title": "Anthropic Finance Agents: Disruption or Integration?",
+      "subtitle": "The Street and tech press read Anthropic's Wall Street move differently",
+      "event_slug": "ai-agent-ecosystem",
+      "sources": [
+        {
+          "name": "Fortune",
+          "quote": "Anthropic's Wall Street push — combining pre-built agents, Microsoft 365 native integration, and a Moody's data partnership — amounts to the most complete enterprise AI workflow stack any foundation model lab has assembled so far."
+        },
+        {
+          "name": "The Register",
+          "quote": "Anthropic is betting that financial services workflows are sticky enough to lock in enterprise contracts before the model wars commoditize general-purpose capabilities — a play for recurring revenue, not just benchmark bragging rights."
+        }
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "person_slug": "volodymyr-zelenskyy",
+      "person_name": "Volodymyr Zelenskyy",
+      "text": "It is not serious to expect Ukraine to observe a ceasefire timed to a Russian military holiday while receiving no official notice from Moscow.",
+      "source": "NPR / Kyiv Independent",
+      "date": "2026-05-05"
+    },
+    {
+      "person_slug": "xi-jinping",
+      "person_name": "Xi Jinping",
+      "text": "Taiwan will sit at the top of Beijing's agenda when Trump visits — a stark departure from our South Korea meeting, where the issue was deliberately set aside.",
+      "source": "Taipei Times / The Standard HK",
+      "date": "2026-05-02"
+    }
+  ],
+  "map_hotspots": [
+    {
+      "lat": 50.45,
+      "lng": 30.52,
+      "color": "amber",
+      "title": "Ukraine Ceasefire Window",
+      "summary": "Kyiv — Ukraine declared its own May 5–6 truce; rejected Russia's Victory Day ceasefire as political"
+    },
+    {
+      "lat": 55.75,
+      "lng": 37.62,
+      "color": "amber",
+      "title": "Russia Victory Day Ceasefire",
+      "summary": "Moscow — unilateral May 8–9 ceasefire declared; parade held without military hardware for first time in 20 years"
+    },
+    {
+      "lat": 39.9,
+      "lng": 116.4,
+      "color": "red",
+      "title": "Trump-Xi Beijing Summit",
+      "summary": "May 14–15 summit — Taiwan tops Xi's agenda; record arms deal casts shadow over trade talks"
+    },
+    {
+      "lat": 25.05,
+      "lng": 121.53,
+      "color": "red",
+      "title": "Taiwan Arms Deal Shadow",
+      "summary": "Taipei — record US-Taiwan arms deal complicates Beijing summit as Xi makes Taiwan his top priority"
+    },
+    {
+      "lat": 37.77,
+      "lng": -122.42,
+      "color": "green",
+      "title": "Anthropic Finance Agents Launch",
+      "summary": "San Francisco — 10 pre-built financial agents, Microsoft 365 integration, Moody's partnership"
+    },
+    {
+      "lat": 40.71,
+      "lng": -74.0,
+      "color": "green",
+      "title": "Wall Street AI Adoption",
+      "summary": "New York — Goldman Sachs, Citi, Visa, AIG among Claude Opus 4.7 early adopters; BMO AML agent live"
+    },
+    {
+      "lat": 38.9,
+      "lng": -77.0,
+      "color": "amber",
+      "title": "US-China Trade Truce",
+      "summary": "Washington — 90-day extension runs through August; sixth round of talks called constructive"
+    }
+  ],
+  "model_flash": [
+    {
+      "category": "Text Chat",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "Llama 4",
+      "best_value": "Gemini 2.5 Flash",
+      "change": "new"
+    },
+    {
+      "category": "Code Gen",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "DeepSeek V3",
+      "best_value": "DeepSeek V3",
+      "change": "new"
+    },
+    {
+      "category": "Reasoning",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "QwQ 32B",
+      "best_value": "Gemini 2.5 Flash",
+      "change": "new"
+    },
+    {
+      "category": "Image Gen",
+      "best_closed": "Midjourney v7",
+      "best_open": "Flux 1.1",
+      "best_value": "Flux 1.1",
+      "change": "none"
+    },
+    {
+      "category": "Video Gen",
+      "best_closed": "Sora 2",
+      "best_open": "Wan 2.1",
+      "best_value": "Wan 2.1",
+      "change": "none"
+    },
+    {
+      "category": "Multimodal",
+      "best_closed": "GPT-5.5",
+      "best_open": "Qwen 3",
+      "best_value": "Gemini 2.5 Flash",
+      "change": "new"
+    }
+  ],
+  "event_updates": [
+    {
+      "event_slug": "ai-agent-ecosystem",
+      "title": "AI Agent Ecosystem Evolution",
+      "status": "active",
+      "latest_summary": "Anthropic launches 10 pre-built financial sector agents with Claude Opus 4.7, Microsoft 365 integration, and Moody's data partnership — deepening enterprise AI workflow lock-in"
+    },
+    {
+      "event_slug": "russia-ukraine-ceasefire",
+      "title": "Russia-Ukraine Ceasefire Negotiations",
+      "status": "active",
+      "latest_summary": "Russia declared a unilateral May 8–9 Victory Day ceasefire; Ukraine issued a rival May 5–6 truce and rejected Russia's proposal as insincere; Victory Day parade will have no military hardware for first time in 20 years"
+    },
+    {
+      "event_slug": "us-china-chips",
+      "title": "US-China Chip Export Controls",
+      "status": "watching",
+      "latest_summary": "Trump-Xi summit May 14–15 in Beijing; trade truce extended through August; Taiwan arms deal and chip controls remain major friction points"
+    }
+  ]
+}
