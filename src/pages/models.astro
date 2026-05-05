@@ -1,0 +1,137 @@
+---
+import Base from '../layouts/Base.astro';
+import LeaderboardTable from '../components/LeaderboardTable.astro';
+
+const modelsRaw = await import('../../data/models.json');
+const models = modelsRaw.default || modelsRaw;
+const base = import.meta.env.BASE_URL;
+
+const categories = ['全部', ...models.categories];
+const trend = models.trend_data;
+
+// Compute bar widths: normalize scores to percentage of max across all series
+const allScores = trend.series.flatMap((s: any) => s.scores);
+const maxScore = Math.max(...allScores);
+const minScore = Math.min(...allScores) - 20; // give some offset for visual clarity
+const range = maxScore - minScore;
+
+const seriesColors = ['#2563eb', '#ef4444', '#10b981'];
+---
+
+<Base title="模型排行榜 · The Digest" current="Models">
+  <main style="overflow-x: hidden;">
+    <!-- Header -->
+    <div class="max-w-[1120px] mx-auto px-12">
+      <section class="py-12 pb-10 border-b border-[var(--border)]">
+        <h1 class="text-[36px] font-extrabold tracking-tight text-[var(--text)] mb-3">模型排行榜</h1>
+        <p class="text-[15px] text-[var(--text-2)] leading-relaxed max-w-[640px] mb-5">
+          跨类别、跨平台的 AI 模型综合排名。基于多个权威基准测试数据聚合，每周更新。
+        </p>
+        <div class="flex flex-wrap gap-2">
+          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">更新于 {models.last_updated}</span>
+          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{models.rankings.length} 个模型</span>
+          <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{models.categories.length} 个类别</span>
+        </div>
+      </section>
+    </div>
+
+    <!-- Category Tabs + Table -->
+    <div class="max-w-[1120px] mx-auto px-12 py-10">
+      <div class="flex flex-wrap gap-2 mb-8">
+        {categories.map((cat: string, i: number) => (
+          <button
+            data-filter-tab={cat}
+            class:list={[
+              'text-xs font-medium px-4 py-1.5 rounded-full transition-colors',
+              i === 0 ? 'filter-active' : 'filter-inactive',
+            ]}
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
+
+      <div class="bg-[var(--bg-card)] rounded-[18px] shadow-[var(--shadow)] overflow-hidden">
+        <LeaderboardTable rankings={models.rankings} />
+      </div>
+    </div>
+
+    <!-- AI Analysis -->
+    <div style="background: var(--bg-alt); margin: 0 -9999px; padding: 48px 9999px;">
+      <div class="max-w-[1120px] mx-auto px-12">
+        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">AI 周度分析</div>
+        <div class="bg-[var(--bg-card)] rounded-[18px] shadow-[var(--shadow)] p-8">
+          <p class="text-[15px] text-[var(--text-2)] leading-[1.9] m-0 whitespace-pre-line">{models.weekly_analysis}</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Elo Trend Chart (CSS-only) -->
+    <div class="max-w-[1120px] mx-auto px-12 py-12">
+      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">Elo 趋势</div>
+      <div class="bg-[var(--bg-card)] rounded-[18px] shadow-[var(--shadow)] p-8">
+        <!-- Legend -->
+        <div class="flex gap-6 mb-6">
+          {trend.series.map((s: any, i: number) => (
+            <div class="flex items-center gap-2">
+              <span class="w-3 h-3 rounded-full" style={`background: ${seriesColors[i]};`} />
+              <span class="text-xs font-medium text-[var(--text-2)]">{s.model}</span>
+            </div>
+          ))}
+        </div>
+        <!-- Chart -->
+        <div class="flex items-end gap-3">
+          {trend.weeks.map((week: string, wi: number) => (
+            <div class="flex-1 flex flex-col items-center gap-1">
+              <div class="flex items-end gap-[2px] h-[140px]">
+                {trend.series.map((s: any, si: number) => {
+                  const score = s.scores[wi];
+                  const pct = Math.round(((score - minScore) / range) * 100);
+                  return (
+                    <div
+                      class="w-4 rounded-t-[3px] transition-all"
+                      style={`height: ${pct}%; background: ${seriesColors[si]}; min-height: 4px;`}
+                      title={`${s.model}: ${score}`}
+                    />
+                  );
+                })}
+              </div>
+              <span class="text-[10px] text-[var(--text-3)] mt-1">{week}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <!-- Data Sources -->
+    <div class="max-w-[1120px] mx-auto px-12 pb-12">
+      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-4 font-medium">数据来源</div>
+      <div class="flex flex-wrap gap-2">
+        {models.data_sources.map((src: string) => (
+          <span class="text-xs px-3.5 py-1.5 rounded-full bg-[var(--bg-card)] shadow-[var(--shadow)] text-[var(--text-2)] font-medium">
+            {src}
+          </span>
+        ))}
+      </div>
+    </div>
+  </main>
+
+  <style>
+    .filter-active {
+      background: var(--accent);
+      color: white;
+    }
+    .filter-inactive {
+      background: var(--accent-bg);
+      color: var(--text-3);
+    }
+    .filter-inactive:hover {
+      background: var(--accent);
+      color: white;
+      opacity: 0.7;
+    }
+  </style>
+
+  <script is:inline src={`${base}scripts/filter.js`}></script>
+  <script is:inline src={`${base}scripts/sort.js`}></script>
+</Base>

@@ -1,0 +1,131 @@
+---
+interface Ranking {
+  rank: number;
+  model: string;
+  org: string;
+  type: string;
+  category: string;
+  score: number;
+  change: string;
+  date_added: string;
+}
+
+interface Props {
+  rankings: Ranking[];
+}
+
+const { rankings } = Astro.props;
+
+const medalColors: Record<number, string> = {
+  1: '#eab308',
+  2: '#9ca3af',
+  3: '#cd7f32',
+};
+
+// Find max score per category for progress bars
+const maxByCategory: Record<string, number> = {};
+for (const r of rankings) {
+  if (!maxByCategory[r.category] || r.score > maxByCategory[r.category]) {
+    maxByCategory[r.category] = r.score;
+  }
+}
+---
+
+<div class="overflow-x-auto">
+  <table class="w-full" id="leaderboard-table">
+    <thead>
+      <tr class="border-b border-[var(--border)]">
+        <th class="th-cell" data-sort="rank">#</th>
+        <th class="th-cell" data-sort="model">模型</th>
+        <th class="th-cell" data-sort="type">类型</th>
+        <th class="th-cell" data-sort="category">类别</th>
+        <th class="th-cell" data-sort="score">得分</th>
+        <th class="th-cell">变化</th>
+      </tr>
+    </thead>
+    <tbody>
+      {rankings.map((r) => {
+        const pct = Math.round((r.score / maxByCategory[r.category]) * 100);
+        return (
+          <tr
+            class="border-b border-[var(--border)] last:border-0"
+            data-filter-item
+            data-category={r.category}
+            data-rank={r.rank}
+            data-score={r.score}
+            data-model={r.model}
+            data-type={r.type === 'closed' ? '闭源' : '开源'}
+          >
+            <td class="td-cell">
+              <span
+                class="inline-flex items-center justify-center w-7 h-7 rounded-full text-xs font-bold"
+                style={medalColors[r.rank]
+                  ? `color: ${medalColors[r.rank]}; background: ${medalColors[r.rank]}18;`
+                  : 'color: var(--text-3);'}
+              >
+                {r.rank}
+              </span>
+            </td>
+            <td class="td-cell">
+              <span class="font-semibold text-[var(--text)]">{r.model}</span>
+              <span class="text-xs text-[var(--text-3)] ml-1.5">{r.org}</span>
+            </td>
+            <td class="td-cell">
+              <span class:list={[
+                'text-xs font-medium px-2.5 py-0.5 rounded-full',
+                r.type === 'closed'
+                  ? 'bg-[var(--accent-bg)] text-[var(--accent)]'
+                  : 'bg-emerald-500/10 text-emerald-500',
+              ]}>
+                {r.type === 'closed' ? '闭源' : '开源'}
+              </span>
+            </td>
+            <td class="td-cell text-[13px] text-[var(--text-2)]">{r.category}</td>
+            <td class="td-cell">
+              <div class="flex items-center gap-3">
+                <span class="text-base font-bold text-[var(--text)] tabular-nums w-14">{r.score}</span>
+                <div class="w-20 h-1.5 rounded-full bg-[var(--border)] overflow-hidden">
+                  <div class="h-full rounded-full bg-[var(--accent)]" style={`width: ${pct}%;`} />
+                </div>
+              </div>
+            </td>
+            <td class="td-cell">
+              {r.change === 'new' ? (
+                <span class="text-xs font-bold text-red-500 bg-red-500/10 px-2.5 py-0.5 rounded-full">NEW</span>
+              ) : r.change === 'up' ? (
+                <span class="text-xs font-medium text-emerald-500">&uarr;</span>
+              ) : r.change === 'down' ? (
+                <span class="text-xs font-medium text-red-400">&darr;</span>
+              ) : (
+                <span class="text-xs text-[var(--text-3)]">&mdash;</span>
+              )}
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .th-cell {
+    text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-3);
+    font-weight: 600;
+    padding: 10px 16px;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+  .th-cell:hover {
+    color: var(--accent);
+  }
+  .td-cell {
+    padding: 12px 16px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+</style>
