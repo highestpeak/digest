@@ -6,6 +6,7 @@ import QuoteCard from '../components/QuoteCard.astro';
 import PerspectiveBlock from '../components/PerspectiveBlock.astro';
 import ModelFlashTable from '../components/ModelFlashTable.astro';
 import StatusBadge from '../components/StatusBadge.astro';
+import MapView from '../components/MapView.astro';
 
 const dailyFiles = import.meta.glob('../../data/daily/*.json', { eager: true });
 const entries = Object.entries(dailyFiles).sort((a, b) => b[0].localeCompare(a[0]));
@@ -88,8 +89,8 @@ const hotspotsWithColors = data.map_hotspots.map((spot: any) => ({
     <!-- Section 3: 地缘热点地图 -->
     <div class="max-w-[1120px] mx-auto px-12 py-12">
       <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">地缘热点地图</div>
-      <div class="rounded-[18px] bg-[var(--bg-alt)] min-h-[300px] flex items-center justify-center text-[var(--text-3)] text-sm mb-8">
-        Map loading...
+      <div class="mb-8">
+        <MapView hotspots={data.map_hotspots} />
       </div>
       <div class="grid grid-cols-4 gap-4">
         {hotspotsWithColors.map((spot: any) => (

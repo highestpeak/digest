@@ -1,0 +1,75 @@
+---
+interface Hotspot {
+  lat: number;
+  lng: number;
+  color: string;
+  title: string;
+  summary: string;
+}
+
+interface Props {
+  hotspots: Hotspot[];
+}
+
+const { hotspots } = Astro.props;
+---
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+<div id="digest-map" style="width: 100%; height: 380px; border-radius: 18px; overflow: hidden; background: var(--bg-alt);"></div>
+
+<script is:inline define:vars={{ hotspots }}>
+// Load Leaflet from CDN
+const script = document.createElement('script');
+script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+script.onload = () => initMap();
+document.head.appendChild(script);
+
+function initMap() {
+  const map = L.map('digest-map', {
+    center: [25, 20],
+    zoom: 2,
+    zoomControl: false,
+    attributionControl: false,
+    scrollWheelZoom: false,
+  });
+
+  // Tile layer — check theme
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  const lightTiles = 'https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png';
+  const darkTiles = 'https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png';
+  let tileLayer = L.tileLayer(isDark ? darkTiles : lightTiles).addTo(map);
+
+  // Color map
+  const colorMap = {
+    red: '#ef4444',
+    amber: '#f59e0b',
+    green: '#10b981',
+    violet: '#8b5cf6',
+  };
+
+  // Add hotspot markers
+  hotspots.forEach(h => {
+    const color = colorMap[h.color] || '#2563eb';
+    const marker = L.circleMarker([h.lat, h.lng], {
+      radius: 8,
+      fillColor: color,
+      fillOpacity: 0.8,
+      stroke: true,
+      color: color,
+      weight: 2,
+      opacity: 0.3,
+    }).addTo(map);
+
+    marker.bindPopup(`<strong>${h.title}</strong><br>${h.summary}`);
+  });
+
+  // Listen for theme changes to swap tiles
+  const observer = new MutationObserver(() => {
+    const dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    map.removeLayer(tileLayer);
+    tileLayer = L.tileLayer(dark ? darkTiles : lightTiles).addTo(map);
+  });
+  observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+}
+</script>
