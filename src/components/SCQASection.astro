@@ -1,0 +1,54 @@
+---
+interface Props {
+  type: 'situation' | 'complication' | 'question' | 'answer';
+  content: string;
+}
+
+const { type, content } = Astro.props;
+
+const labels: Record<string, string> = {
+  situation: 'Situation',
+  complication: 'Complication',
+  question: 'Question',
+  answer: 'Answer',
+};
+
+const colors: Record<string, string> = {
+  situation: '#3b82f6',
+  complication: '#f59e0b',
+  question: '#ef4444',
+  answer: '#10b981',
+};
+
+const color = colors[type];
+const label = labels[type];
+---
+
+<div class="scqa-section">
+  <span class="scqa-label" style={`background: ${color}15; color: ${color};`}>
+    {label}
+  </span>
+  <p class="scqa-text">{content}</p>
+</div>
+
+<style>
+  .scqa-section {
+    margin-bottom: 20px;
+  }
+  .scqa-label {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 4px 14px;
+    border-radius: 9999px;
+    margin-bottom: 10px;
+  }
+  .scqa-text {
+    font-size: 16px;
+    color: var(--text-2);
+    line-height: 1.9;
+    margin: 0;
+  }
+</style>

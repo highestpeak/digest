@@ -1,0 +1,125 @@
+---
+import Base from '../layouts/Base.astro';
+
+const dailyFiles = import.meta.glob('../../data/daily/*.json', { eager: true });
+const weeklyFiles = import.meta.glob('../../data/weekly/*.json', { eager: true });
+const base = import.meta.env.BASE_URL;
+
+// Process daily entries
+const dailyEntries = Object.entries(dailyFiles)
+  .map(([path, mod]: [string, any]) => {
+    const d = mod.default || mod;
+    return d;
+  })
+  .sort((a: any, b: any) => b.date.localeCompare(a.date));
+
+// Process weekly entries
+const weeklyEntries = Object.entries(weeklyFiles)
+  .map(([path, mod]: [string, any]) => {
+    const d = mod.default || mod;
+    return d;
+  })
+  .sort((a: any, b: any) => b.week.localeCompare(a.week));
+
+// Group daily entries by month
+const grouped: Record<string, any[]> = {};
+for (const entry of dailyEntries) {
+  const month = entry.date.slice(0, 7); // "2026-05"
+  if (!grouped[month]) grouped[month] = [];
+  grouped[month].push(entry);
+}
+
+const weekdays = ['日', '一', '二', '三', '四', '五', '六'];
+function getWeekday(dateStr: string) {
+  const d = new Date(dateStr + 'T00:00:00');
+  return '周' + weekdays[d.getDay()];
+}
+
+function formatMonth(ym: string) {
+  const [y, m] = ym.split('-');
+  return `${y} 年 ${parseInt(m)} 月`;
+}
+---
+
+<Base title="归档 · The Digest" current="Archive">
+  <main style="overflow-x: hidden;">
+    <!-- Header -->
+    <div class="max-w-[1120px] mx-auto px-12">
+      <section class="py-12 pb-10 border-b border-[var(--border)]">
+        <h1 class="text-[36px] font-extrabold tracking-tight text-[var(--text)] mb-3">归档</h1>
+        <p class="text-[15px] text-[var(--text-2)] leading-relaxed max-w-[640px]">
+          浏览所有每日简报和每周深度报告。按日期检索，回顾 AI、地缘政治与科技领域的每一天。
+        </p>
+      </section>
+    </div>
+
+    <!-- Search -->
+    <div class="max-w-[1120px] mx-auto px-12 py-8">
+      <input
+        type="text"
+        placeholder="搜索标题、关键词..."
+        class="w-full rounded-full border border-[var(--border)] bg-[var(--bg-card)] text-[var(--text)] px-5 py-3 text-sm outline-none focus:border-[var(--accent)] transition-colors"
+      />
+    </div>
+
+    <!-- Weekly Reports -->
+    <div style="background: var(--bg-alt); margin: 0 -9999px; padding: 48px 9999px;">
+      <div class="max-w-[1120px] mx-auto px-12">
+        <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">每周深度报告</div>
+        <div class="grid grid-cols-4 gap-4">
+          {weeklyEntries.map((w: any) => {
+            const weekNum = w.week.split('-W')[1];
+            return (
+              <a href={`${base}weekly/${w.week}`} class="bg-[var(--bg-card)] rounded-[18px] shadow-[var(--shadow)] p-6 no-underline hover:opacity-90 transition-opacity block">
+                <div class="text-[var(--accent)] font-bold text-lg mb-2">W{weekNum}</div>
+                <div class="text-sm font-semibold text-[var(--text)] leading-snug mb-2">{w.headline}</div>
+                <div class="text-xs text-[var(--text-3)]">{w.date_range}</div>
+              </a>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+
+    <!-- View Toggle + Daily List -->
+    <div class="max-w-[1120px] mx-auto px-12 py-10">
+      <div class="flex items-center gap-2 mb-8">
+        <button class="text-xs font-medium px-4 py-1.5 rounded-full bg-[var(--accent)] text-white">列表</button>
+        <button class="text-xs font-medium px-4 py-1.5 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">日历</button>
+      </div>
+
+      {Object.entries(grouped).map(([month, entries]) => (
+        <div class="mb-10">
+          <div class="font-bold text-sm text-[var(--text)] pb-2 mb-4" style="border-bottom: 2px solid var(--accent);">
+            {formatMonth(month)}
+          </div>
+          <div class="flex flex-col">
+            {(entries as any[]).map((entry: any) => (
+              <a href="#" class="daily-row flex items-center gap-6 py-3 px-4 rounded-[10px] no-underline transition-colors">
+                <div class="flex items-center gap-2 w-[120px] flex-shrink-0">
+                  <span class="text-sm font-medium text-[var(--text)]">{entry.date}</span>
+                  <span class="text-xs text-[var(--text-3)]">{getWeekday(entry.date)}</span>
+                </div>
+                <div class="flex-1 text-sm text-[var(--text-2)] truncate">{entry.headline}</div>
+                <div class="flex items-center gap-3 flex-shrink-0">
+                  <span class="text-xs text-[var(--text-3)]">{entry.meta.article_count} 篇</span>
+                  <span class="text-xs text-[var(--text-3)]">{entry.meta.source_count} 源</span>
+                  <span class="text-xs text-[var(--text-3)]">{entry.meta.reading_minutes} 分钟</span>
+                </div>
+                <span class="text-xs font-mono font-medium text-[var(--accent)] bg-[var(--accent-bg)] px-2.5 py-0.5 rounded-full flex-shrink-0">
+                  #{entry.issue}
+                </span>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </main>
+
+  <style>
+    .daily-row:hover {
+      background: var(--accent-bg);
+    }
+  </style>
+</Base>
