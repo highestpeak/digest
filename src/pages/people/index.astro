@@ -1,0 +1,39 @@
+---
+import Base from '../../layouts/Base.astro';
+import PersonCard from '../../components/PersonCard.astro';
+
+const peopleFiles = import.meta.glob('../../../data/people/*.json', { eager: true });
+const base = import.meta.env.BASE_URL;
+
+const people = Object.entries(peopleFiles)
+  .map(([_, mod]: [string, any]) => mod.default || mod)
+  .sort((a: any, b: any) => b.quotes.length - a.quotes.length);
+---
+
+<Base title="人物 · The Digest" current="People">
+  <main style="overflow-x: hidden;">
+    <!-- Header -->
+    <div class="max-w-[1120px] mx-auto px-12">
+      <section class="py-12 pb-10 border-b border-[var(--border)]">
+        <h1 class="text-[36px] font-extrabold tracking-tight text-[var(--text)] mb-3">人物</h1>
+        <p class="text-[15px] text-[var(--text-2)] leading-relaxed max-w-[640px]">
+          追踪科技与地缘领域关键人物的公开发言、观点演变和活跃度。
+        </p>
+      </section>
+    </div>
+
+    <!-- People Grid -->
+    <div class="max-w-[1120px] mx-auto px-12 py-10">
+      <div class="grid grid-cols-4 gap-4">
+        {people.map((p: any) => (
+          <PersonCard
+            slug={p.slug}
+            name={p.name}
+            role={p.role}
+            quoteCount={p.quotes.length}
+          />
+        ))}
+      </div>
+    </div>
+  </main>
+</Base>

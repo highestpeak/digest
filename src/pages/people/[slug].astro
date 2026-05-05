@@ -1,0 +1,93 @@
+---
+import Base from '../../layouts/Base.astro';
+import Heatmap from '../../components/Heatmap.astro';
+import QuoteCard from '../../components/QuoteCard.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+
+export async function getStaticPaths() {
+  const files = import.meta.glob('../../../data/people/*.json', { eager: true });
+  return Object.entries(files).map(([path, mod]: [string, any]) => {
+    const d = mod.default || mod;
+    return {
+      params: { slug: d.slug },
+      props: { data: d },
+    };
+  });
+}
+
+const { data } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const initial = data.name.charAt(0).toUpperCase();
+
+// Status colors for related events
+const dotColors: Record<string, string> = {
+  active: '#ef4444',
+  watching: '#f59e0b',
+  resolved: '#10b981',
+};
+---
+
+<Base title={`${data.name} · The Digest`} current="People">
+  <main style="overflow-x: hidden;">
+    <!-- Profile Header -->
+    <div class="max-w-[1120px] mx-auto px-12">
+      <section class="py-10 pb-8 border-b border-[var(--border)]">
+        <div class="flex items-start gap-5">
+          <span class="w-[88px] h-[88px] rounded-full bg-[var(--accent-bg)] text-[var(--accent)] flex items-center justify-center text-[36px] font-bold flex-shrink-0">
+            {initial}
+          </span>
+          <div>
+            <h1 class="text-[28px] font-extrabold tracking-tight text-[var(--text)] mb-1">{data.name}</h1>
+            <p class="text-sm text-[var(--text-3)] mb-3">{data.role}</p>
+            <p class="text-[14px] text-[var(--text-2)] leading-[1.8] max-w-[700px] m-0">{data.bio}</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Heatmap -->
+    <div class="max-w-[1120px] mx-auto px-12 py-10">
+      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">活跃度（近 {data.activity.weeks} 周）</div>
+      <Heatmap data={data.activity.data} />
+    </div>
+
+    <!-- Related Events -->
+    {data.related_events && data.related_events.length > 0 && (
+      <div style="background: var(--bg-alt); margin: 0 -9999px; padding: 48px 9999px;">
+        <div class="max-w-[1120px] mx-auto px-12">
+          <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">关联事件</div>
+          <div class="flex flex-col gap-2">
+            {data.related_events.map((evt: any) => (
+              <a href={`${base}events/${evt.slug}`} class="flex items-center gap-4 py-3 px-4 rounded-[10px] bg-[var(--bg-card)] shadow-[var(--shadow)] no-underline hover:opacity-85 transition-opacity">
+                <span
+                  class="w-2 h-2 rounded-full flex-shrink-0"
+                  style={`background: ${dotColors[evt.status] || '#6b7280'};`}
+                />
+                <span class="text-sm font-medium text-[var(--text)] flex-1">{evt.title}</span>
+                <span class="text-xs text-[var(--text-3)]">{evt.mentions} 次提及</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+    )}
+
+    <!-- Quotes -->
+    <div class="max-w-[1120px] mx-auto px-12 py-12">
+      <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-6 font-medium">引言记录</div>
+      <div class="flex flex-col gap-6">
+        {data.quotes.map((q: any) => (
+          <div class="bg-[var(--bg-card)] rounded-[18px] shadow-[var(--shadow)] p-6">
+            <QuoteCard
+              personName={data.name}
+              personSlug={data.slug}
+              text={q.text}
+              source={q.source}
+              date={q.date}
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  </main>
+</Base>

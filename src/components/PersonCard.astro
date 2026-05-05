@@ -1,0 +1,73 @@
+---
+interface Props {
+  slug: string;
+  name: string;
+  role: string;
+  quoteCount: number;
+}
+
+const { slug, name, role, quoteCount } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const initial = name.charAt(0).toUpperCase();
+---
+
+<a href={`${base}people/${slug}`} class="person-card">
+  <span class="avatar">{initial}</span>
+  <div class="info">
+    <span class="name">{name}</span>
+    <span class="role">{role}</span>
+    <span class="quote-count">{quoteCount} 条引言</span>
+  </div>
+</a>
+
+<style>
+  .person-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 24px 16px;
+    background: var(--bg-card);
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+    text-decoration: none;
+    text-align: center;
+    transition: opacity 0.2s;
+  }
+  .person-card:hover {
+    opacity: 0.85;
+  }
+  .avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: var(--accent-bg);
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .name {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text);
+  }
+  .role {
+    font-size: 11px;
+    color: var(--text-3);
+    line-height: 1.4;
+  }
+  .quote-count {
+    font-size: 11px;
+    color: var(--accent);
+    margin-top: 4px;
+  }
+</style>

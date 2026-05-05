@@ -1,0 +1,80 @@
+---
+interface Props {
+  data: number[];
+}
+
+const { data } = Astro.props;
+
+// 84 cells: 12 weeks x 7 days (columns = Mon-Sun, rows = weeks)
+// We display as 7 columns (days) x 12 rows (weeks)
+const cols = 7;
+const rows = Math.ceil(data.length / cols);
+
+// Intensity levels mapped to opacity of accent color
+const intensityMap: Record<number, string> = {
+  0: 'var(--bg-alt)',
+  1: 'rgba(37, 99, 235, 0.15)',
+  2: 'rgba(37, 99, 235, 0.35)',
+  3: 'rgba(37, 99, 235, 0.6)',
+  4: 'rgba(37, 99, 235, 0.85)',
+};
+
+function getColor(val: number): string {
+  if (val <= 0) return intensityMap[0];
+  if (val >= 4) return intensityMap[4];
+  return intensityMap[val] || intensityMap[0];
+}
+
+const dayLabels = ['一', '二', '三', '四', '五', '六', '日'];
+---
+
+<div class="heatmap-wrapper">
+  <div class="heatmap-grid" style={`grid-template-columns: repeat(${cols}, 1fr);`}>
+    {data.map((val, i) => (
+      <div
+        class="heatmap-cell"
+        style={`background: ${getColor(val)};`}
+        title={`Week ${Math.floor(i / cols) + 1}, Day ${(i % cols) + 1}: ${val}`}
+      />
+    ))}
+  </div>
+  <div class="heatmap-legend">
+    <span class="legend-label">少</span>
+    {[0, 1, 2, 3, 4].map(v => (
+      <div class="legend-cell" style={`background: ${getColor(v)};`} />
+    ))}
+    <span class="legend-label">多</span>
+  </div>
+</div>
+
+<style>
+  .heatmap-wrapper {
+    width: 100%;
+  }
+  .heatmap-grid {
+    display: grid;
+    gap: 3px;
+    width: 100%;
+  }
+  .heatmap-cell {
+    aspect-ratio: 1;
+    border-radius: 3px;
+    min-width: 0;
+  }
+  .heatmap-legend {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 10px;
+    justify-content: flex-end;
+  }
+  .legend-label {
+    font-size: 10px;
+    color: var(--text-3);
+  }
+  .legend-cell {
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+  }
+</style>
