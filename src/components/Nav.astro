@@ -1,0 +1,90 @@
+---
+import ThemeToggle from './ThemeToggle.astro';
+
+interface Props {
+  current?: string;
+}
+
+const { current } = Astro.props;
+const base = import.meta.env.BASE_URL;
+
+const links = [
+  { name: 'Home', href: `${base}` },
+  { name: 'Archive', href: `${base}archive` },
+  { name: 'Models', href: `${base}models` },
+  { name: 'Events', href: `${base}events` },
+  { name: 'People', href: `${base}people` },
+];
+---
+
+<nav>
+  <div class="nav-inner">
+    <span class="brand">THE DIGEST</span>
+    <div class="links">
+      {links.map(link => (
+        <a href={link.href} class:list={['pill', { active: current === link.name }]}>
+          {link.name}
+        </a>
+      ))}
+    </div>
+    <ThemeToggle />
+  </div>
+</nav>
+
+<style>
+  nav {
+    position: sticky;
+    top: 16px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    margin-bottom: 32px;
+  }
+  .nav-inner {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 8px 20px;
+    border-radius: 9999px;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+  }
+  .brand {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--text-3);
+    margin-right: 8px;
+    user-select: none;
+  }
+  .links {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .pill {
+    padding: 5px 14px;
+    border-radius: 9999px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-2);
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+  }
+  .pill:hover {
+    background: var(--accent-bg);
+    color: var(--accent);
+  }
+  .pill.active {
+    background: var(--accent-bg);
+    color: var(--accent);
+  }
+
+  :global([data-theme="dark"]) nav .nav-inner {
+    background: rgba(9, 9, 11, 0.85);
+  }
+</style>
