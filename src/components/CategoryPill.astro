@@ -1,0 +1,50 @@
+---
+interface Props {
+  category: 'ai' | 'geo' | 'econ' | 'indie';
+}
+
+const { category } = Astro.props;
+
+const colorMap: Record<string, string> = {
+  ai: '#10b981',
+  geo: '#f59e0b',
+  econ: '#3b82f6',
+  indie: '#8b5cf6',
+};
+
+const labelMap: Record<string, string> = {
+  ai: 'AI',
+  geo: 'Geo',
+  econ: 'Econ',
+  indie: 'Indie',
+};
+
+const color = colorMap[category];
+const label = labelMap[category];
+---
+
+<span class="category-pill" style={`--dot-color: ${color}; background: var(--cat-${category}-bg); color: ${color};`}>
+  <span class="dot"></span>
+  {label}
+</span>
+
+<style>
+  .category-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 3px 10px;
+    border-radius: 9999px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--dot-color);
+    box-shadow: 0 0 6px var(--dot-color);
+  }
+</style>

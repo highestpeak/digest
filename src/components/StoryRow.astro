@@ -1,0 +1,44 @@
+---
+import CategoryPill from './CategoryPill.astro';
+
+interface Props {
+  category: 'ai' | 'geo' | 'econ' | 'indie';
+  title: string;
+  sourceCount: number;
+  importance: number;
+}
+
+const { category, title, sourceCount } = Astro.props;
+---
+
+<div class="story-row">
+  <CategoryPill category={category} />
+  <span class="title">{title}</span>
+  <span class="meta">{sourceCount} sources</span>
+</div>
+
+<style>
+  .story-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 20px;
+    border-radius: 12px;
+    transition: background 0.2s;
+  }
+  .story-row:hover {
+    background: var(--accent-bg);
+  }
+  .title {
+    flex: 1;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text);
+    line-height: 1.4;
+  }
+  .meta {
+    font-size: 12px;
+    color: var(--text-3);
+    white-space: nowrap;
+  }
+</style>

@@ -1,0 +1,58 @@
+---
+interface Props {
+  status: 'active' | 'watching' | 'resolved';
+  label?: string;
+}
+
+const { status, label } = Astro.props;
+
+const defaults: Record<string, string> = {
+  active: '持续追踪',
+  watching: '观察中',
+  resolved: '已结案',
+};
+
+const displayLabel = label || defaults[status];
+---
+
+<span class:list={['status-badge', status]}>
+  {status !== 'resolved' && <span class="dot"></span>}
+  {displayLabel}
+</span>
+
+<style>
+  .status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: 9999px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .status-badge.active {
+    background: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+  }
+  .status-badge.active .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #ef4444;
+    animation: pulse-dot 2s ease-in-out infinite;
+  }
+  .status-badge.watching {
+    background: rgba(245, 158, 11, 0.1);
+    color: #f59e0b;
+  }
+  .status-badge.watching .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #f59e0b;
+  }
+  .status-badge.resolved {
+    background: rgba(16, 185, 129, 0.1);
+    color: #10b981;
+  }
+</style>
