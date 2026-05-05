@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #fafaf9;
+  --bg-alt: #f0efed;
+  --bg-card: #fff;
+  --text: #1c1917;
+  --text-2: #44403c;
+  --text-3: #78716c;
+  --border: #e7e5e4;
+  --accent: #2563eb;
+  --accent-bg: rgba(37, 99, 235, 0.07);
+  --red: #ef4444;
+  --shadow: 0 1px 8px rgba(0, 0, 0, 0.04);
+  --cat-ai: #10b981;
+  --cat-ai-bg: rgba(16, 185, 129, 0.08);
+  --cat-geo: #f59e0b;
+  --cat-geo-bg: rgba(245, 158, 11, 0.08);
+  --cat-econ: #3b82f6;
+  --cat-econ-bg: rgba(59, 130, 246, 0.08);
+  --cat-indie: #8b5cf6;
+  --cat-indie-bg: rgba(139, 92, 246, 0.08);
+}
+
+[data-theme="dark"] {
+  --bg: #09090b;
+  --bg-alt: #111113;
+  --bg-card: #1a1a1e;
+  --text: #f4f4f5;
+  --text-2: #d4d4d8;
+  --text-3: #a1a1aa;
+  --border: #27272a;
+  --accent: #60a5fa;
+  --accent-bg: rgba(96, 165, 250, 0.1);
+  --shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  --cat-ai-bg: rgba(16, 185, 129, 0.12);
+  --cat-geo-bg: rgba(245, 158, 11, 0.12);
+  --cat-econ-bg: rgba(59, 130, 246, 0.12);
+  --cat-indie-bg: rgba(139, 92, 246, 0.12);
+}
+
+html {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  transition: background 0.3s, color 0.3s;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
