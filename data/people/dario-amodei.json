@@ -5,6 +5,7 @@
   "bio": "Italian-American AI researcher, formerly VP of Research at OpenAI. Co-founded Anthropic with his sister Daniela in 2021, focused on AI safety research. The architect behind the Claude model series.",
   "related_events": [
     { "slug": "ai-agent-ecosystem", "title": "AI Agent Ecosystem Evolution", "mentions": 6, "status": "active" },
+    { "slug": "ai-cybersecurity-mythos", "title": "Anthropic Mythos & Frontier AI Cybersecurity", "mentions": 4, "status": "active" },
     { "slug": "ai-regulation", "title": "Global AI Regulation & Legislation", "mentions": 4, "status": "active" }
   ],
   "activity": {
@@ -25,6 +26,12 @@
     ]
   },
   "quotes": [
+    {
+      "text": "We have maybe six to twelve months to patch what Mythos found before Chinese AI catches up. This is a moment of danger, and the window is narrow.",
+      "source": "CNBC",
+      "date": "2026-05-05",
+      "topic": "Mythos cybersecurity vulnerabilities"
+    },
     {
       "text": "We're seeing capabilities emerge that we didn't deliberately train for. This isn't a bug — it's a signal on the path to AGI.",
       "source": "Lex Fridman Podcast",

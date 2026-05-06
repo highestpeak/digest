@@ -14,21 +14,24 @@
       "title": "Anthropic Launches 10 Pre-Built Finance AI Agents with Claude Opus 4.7 + Microsoft 365",
       "summary": "The library covers pitchbooks, credit memos, KYC, AML investigation, underwriting, and insurance claims. Claude now integrates directly into Excel, PowerPoint, and Word. Goldman Sachs, Citi, Visa, and AIG are among early adopters; BMO's AML agent is now live. Claude Opus 4.7 leads Vals AI's Finance Agent benchmark with 64.4%.",
       "sources": ["Fortune", "The Register", "The Next Web", "Anthropic"],
-      "novelty": "high"
+      "novelty": "high",
+      "url": "https://fortune.com/2026/05/06/anthropic-finance-agents-wall-street/"
     },
     {
       "category": "geo",
       "title": "Russia and Ukraine Declare Competing Ceasefires — Trump-Xi Summit Confirmed for May 14–15",
       "summary": "Russia declared a unilateral May 8–9 ceasefire for Victory Day; Ukraine countered with its own May 5–6 truce, calling Russia's proposal 'not serious.' Trump's Beijing visit — the first in eight years — looms large: Xi has made Taiwan the top agenda item, a significant escalation from their last summit.",
       "sources": ["Al Jazeera", "Euronews", "NPR", "Taipei Times", "The Standard HK"],
-      "novelty": "high"
+      "novelty": "high",
+      "url": "https://www.aljazeera.com/news/2026/5/6/russia-ukraine-competing-ceasefires"
     },
     {
       "category": "econ",
       "title": "Q1 2026 Mega Earnings: Meta +33%, Apple +17%, Alphabet Cloud +63%, Microsoft Beats by $0.21 EPS",
       "summary": "All four cloud giants surpassed estimates. Microsoft's annual AI capex guidance is ~$190B; Amazon's is ~$200B. AI ROI has now become the dominant earnings narrative, with Azure AI growing 47% YoY. The question is no longer whether AI spend is large — it's whether enterprise deployment can catch up.",
       "sources": ["CNBC", "IndexBox", "Motley Fool", "UncoverAlpha", "S&P Global"],
-      "novelty": "medium"
+      "novelty": "medium",
+      "url": "https://www.cnbc.com/2026/05/06/mega-earnings-q1-results.html"
     }
   ],
   "stories": [
@@ -36,37 +39,43 @@
       "category": "ai",
       "title": "GPT-5.5 vs Claude Opus 4.7 — Models Win Different Races",
       "source_count": 4,
-      "importance": "high"
+      "importance": "high",
+      "url": "https://www.theverge.com/2026/5/6/gpt-5-5-vs-claude-opus-4-7"
     },
     {
       "category": "ai",
       "title": "Google, Microsoft, OpenAI, Anthropic Grant US Commerce Dept Pre-Release Model Reviews",
       "source_count": 2,
-      "importance": "medium"
+      "importance": "medium",
+      "url": "https://www.reuters.com/technology/ai-companies-commerce-dept-review-2026-05-06/"
     },
     {
       "category": "geo",
       "title": "Trump-Xi Beijing Summit May 14–15: Record Taiwan Arms Deal Casts Shadow",
       "source_count": 5,
-      "importance": "high"
+      "importance": "high",
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/05/06/trump-xi-summit"
     },
     {
       "category": "econ",
       "title": "US-China 90-Day Trade Truce Runs Through August; Sixth Round of Talks Called 'Constructive'",
       "source_count": 3,
-      "importance": "medium"
+      "importance": "medium",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-06/us-china-trade-truce"
     },
     {
       "category": "geo",
       "title": "Russia Victory Day Parade to Have No Military Hardware — Drone Strike Fears Change Tradition",
       "source_count": 2,
-      "importance": "medium"
+      "importance": "medium",
+      "url": "https://www.euronews.com/2026/05/06/russia-victory-day-parade-no-tanks"
     },
     {
       "category": "indie",
       "title": "Micro-SaaS Market Growing 30% Annually — AI Coding Assistants Cutting Solo Dev Time by 50%",
       "source_count": 3,
-      "importance": "low"
+      "importance": "low",
+      "url": "https://www.indiehackers.com/post/micro-saas-growth-2026"
     }
   ],
   "perspectives": [

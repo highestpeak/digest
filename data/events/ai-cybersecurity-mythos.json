@@ -1,0 +1,35 @@
+{
+  "slug": "ai-cybersecurity-mythos",
+  "title": "Anthropic Mythos & Frontier AI Cybersecurity",
+  "status": "active",
+  "description": "Tracking the cybersecurity implications of Anthropic's Mythos model — a frontier AI system that has demonstrated autonomous discovery and exploitation of high-severity software vulnerabilities at unprecedented scale. Surrounding ecosystem includes Project Glasswing, Chinese AI parity timelines, and the asymmetric defense problem for organizations without privileged access.",
+  "tags": ["AI Cybersecurity", "Anthropic", "Vulnerabilities", "Mythos", "Project Glasswing", "AI Safety"],
+  "key_people": ["dario-amodei"],
+  "related_events": ["ai-regulation", "ai-agent-ecosystem", "us-china-chips"],
+  "timeline": [
+    {
+      "date": "2026-04-07",
+      "title": "Anthropic Restricts Claude Mythos Preview to Security Researchers via Project Glasswing",
+      "summary": "Anthropic announced Project Glasswing, a coalition of approximately 40 organizations including AWS, Apple, Microsoft, Google, CrowdStrike, and Palo Alto Networks. Mythos Preview is gated behind responsible-disclosure agreements and is not available via general API.",
+      "sources": ["Simon Willison", "Anthropic Glasswing page", "WEF"]
+    },
+    {
+      "date": "2026-04-22",
+      "title": "Mythos Preview Demonstrates 17-Year-Old FreeBSD RCE Exploit Autonomously",
+      "summary": "Mythos identified and weaponized a 17-year-old remote code execution vulnerability in FreeBSD that grants root via NFS, writing an end-to-end exploit chain that expert pen-testers said would have taken weeks of manual work.",
+      "sources": ["Anthropic red.anthropic.com", "Dark Reading"]
+    },
+    {
+      "date": "2026-05-05",
+      "title": "Dario Amodei: 'Moment of Danger' — Tens of Thousands of Vulnerabilities, 6–12 Month Patch Window",
+      "summary": "Anthropic CEO Dario Amodei publicly warned that Mythos has now surfaced tens of thousands of high-severity vulnerabilities across every major operating system and web browser. He estimated Chinese frontier AI is 6–12 months behind, framing the gap as a finite window in which Western infrastructure can be hardened. Mythos found ~300 vulnerabilities in Firefox alone vs. ~20 from a prior Anthropic model.",
+      "sources": ["CNBC", "Rest of World", "WEF", "Dark Reading"]
+    },
+    {
+      "date": "2026-05-06",
+      "title": "Operational Technology Vendors Publicly Complain About Glasswing Exclusion",
+      "summary": "Sources told Nextgov/FCW that operational technology providers — covering industrial control systems, energy grid components, and water utilities — feel 'annoyance' at being shut out of Project Glasswing despite being prime targets for the vulnerability classes Mythos surfaces. Critics argue the access tiering concentrates cyber resilience in firms that already hold AI compute.",
+      "sources": ["Nextgov/FCW", "Rest of World"]
+    }
+  ]
+}

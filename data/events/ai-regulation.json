@@ -30,6 +30,12 @@
       "title": "EU AI Act Enforcement Confirmed for Q3 2026 — Compliance Window Now ~90 Days",
       "summary": "The European Commission confirmed the enforcement date. Companies must complete high-risk system registration and compliance self-assessment before Q3. Several US AI companies said they may delay agent product launches in the European market.",
       "sources": ["European Commission", "Reuters", "Financial Times"]
+    },
+    {
+      "date": "2026-05-05",
+      "title": "CAISI Signs Pre-Release Model Evaluation Agreements With Google DeepMind, Microsoft, and xAI",
+      "summary": "The Center for AI Standards and Innovation (CAISI), the Trump administration's reorganized successor to NIST's AI Safety Institute, formalized agreements that grant the US government access to evaluate frontier models before public release. The deals extend a framework already in place with Anthropic and OpenAI, putting all five of the largest US labs under a common pre-release review regime.",
+      "sources": ["CNN", "CNBC"]
     }
   ]
 }

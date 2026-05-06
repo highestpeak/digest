@@ -1,0 +1,26 @@
+{
+  "slug": "wang-yi",
+  "name": "Wang Yi",
+  "role": "Foreign Minister of China; Director of the CCP Central Foreign Affairs Commission Office",
+  "bio": "Veteran Chinese diplomat who has served as Foreign Minister and senior foreign-policy chief across multiple administrations. Wang has become Beijing's principal interlocutor on Iran, Ukraine, and US-China relations during the 2026 multipolar diplomatic cycle.",
+  "related_events": [
+    { "slug": "iran-war-ceasefire", "title": "US-Iran War Ceasefire Negotiations", "mentions": 2, "status": "active" }
+  ],
+  "activity": {
+    "weeks": 4,
+    "data": [
+      0, 1, 0, 0, 1, 0, 1,
+      1, 0, 1, 0, 0, 1, 0,
+      0, 1, 0, 1, 0, 0, 1,
+      0, 1, 0, 0, 2, 1, 0
+    ]
+  },
+  "quotes": [
+    {
+      "text": "China calls for a comprehensive ceasefire and the immediate reopening of the Strait of Hormuz; the parties should not let this diplomatic window close.",
+      "source": "Washington Post / Al Jazeera",
+      "date": "2026-05-06",
+      "topic": "Iran-US war mediation"
+    }
+  ]
+}

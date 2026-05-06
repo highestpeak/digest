@@ -1,0 +1,278 @@
+{
+  "date": "2026-05-07",
+  "issue": 44,
+  "headline": "US-Iran Near One-Page Peace Memo, Markets Hit Records on Hopium, Anthropic CEO Warns of 6-12 Month Cyber 'Moment of Danger'",
+  "summary": "Washington and Tehran are reportedly closing in on a one-page memorandum to end the Iran war — including a moratorium on nuclear enrichment, sanctions relief, and Hormuz reopening — as Trump simultaneously threatens 'much higher level' strikes if no deal is reached. Wall Street rallied to fresh records on the news (S&P 500 +1.46%, Nasdaq +2.02%), with AMD +13% and Super Micro +18% leading a chip rally. On the AI front, Dario Amodei said Anthropic's Mythos model has uncovered tens of thousands of high-severity software vulnerabilities and warned the West has only 6–12 months to patch them before Chinese AI catches up, while New Zealand's Q1 unemployment surprised to the downside at 5.3%.",
+  "meta": {
+    "article_count": 22,
+    "source_count": 15,
+    "reading_minutes": 14
+  },
+  "highlights": [
+    {
+      "category": "geo",
+      "title": "US-Iran Closing on One-Page MOU to End War — Trump Threatens 'Much Higher Level' Strikes if No Deal",
+      "summary": "Per Axios, the framework would have Iran commit to a moratorium on nuclear enrichment in exchange for US sanctions relief, frozen-fund release, and a mutual reopening of the Strait of Hormuz, followed by a 30-day window for a fuller agreement. Wang Yi pressed Iranian FM Araghchi on Wednesday in Beijing to accept a 'comprehensive ceasefire,' positioning China as a parallel mediator just one week before the May 14–15 Trump-Xi summit.",
+      "sources": ["Axios", "CNBC", "Al Jazeera", "Washington Post", "South China Morning Post"],
+      "novelty": "high",
+      "url": "https://www.axios.com/2026/05/07/us-iran-peace-memo-one-page"
+    },
+    {
+      "category": "econ",
+      "title": "Wall Street Closes at Record Highs on Iran Peace Hope — AMD +13%, Super Micro +18%",
+      "summary": "S&P 500 rose 1.46% to 7,365.12 and Nasdaq jumped 2.02% to 25,838.94, both fresh record closes. Industrials led (+2.7%) with tech +2.2%; only energy (-4.2%) and utilities sold off as WTI crude plunged ~7% to $95.19 on Hormuz-reopening expectations. AMD's strong guidance and AI server demand were standout drivers; CoreWeave, Coinbase, and Airbnb all report after the bell on May 7.",
+      "sources": ["TheStreet", "CNBC", "Schwab", "Globe and Mail"],
+      "novelty": "medium",
+      "url": "https://www.cnbc.com/2026/05/07/wall-street-record-highs-iran-peace.html"
+    },
+    {
+      "category": "ai",
+      "title": "Dario Amodei Warns of Cyber 'Moment of Danger' — Mythos Has Found Tens of Thousands of Vulnerabilities",
+      "summary": "Anthropic's Mythos Preview autonomously exploited a 17-year-old FreeBSD RCE flaw and surfaced ~300 Firefox vulnerabilities (vs. ~20 found by an earlier Anthropic model). Across all software, the count now runs into the tens of thousands. Amodei told CNBC the West has 'maybe six to 12 months' to patch before Chinese frontier models reach parity. Anthropic restricted access via Project Glasswing — a coalition of AWS, Apple, Microsoft, Google, CrowdStrike, and Palo Alto Networks — but operational technology (OT) vendors have publicly complained about exclusion.",
+      "sources": ["CNBC", "Rest of World", "Dark Reading", "Nextgov/FCW", "WEF"],
+      "novelty": "high",
+      "url": "https://www.cnbc.com/2026/05/07/anthropic-mythos-cybersecurity-warning.html"
+    }
+  ],
+  "stories": [
+    {
+      "category": "geo",
+      "title": "China's Wang Yi Hosts Iran's Araghchi in Beijing, Pushes Comprehensive Ceasefire Ahead of Trump-Xi Summit",
+      "source_count": 4,
+      "importance": "high",
+      "url": "https://www.washingtonpost.com/world/2026/05/07/wang-yi-araghchi-beijing-ceasefire/"
+    },
+    {
+      "category": "ai",
+      "title": "GPT-5.5 Instant Becomes ChatGPT's New Default — 52% Fewer Hallucinations, Personalized Memory Across Files and Gmail",
+      "source_count": 3,
+      "importance": "medium",
+      "url": "https://openai.com/blog/gpt-5-5-instant-default"
+    },
+    {
+      "category": "ai",
+      "title": "Pentagon Awards AI Contracts to 8 Big Tech Firms After Excluding Anthropic Over Federal Use Restrictions",
+      "source_count": 2,
+      "importance": "medium",
+      "url": "https://www.nextgov.com/defense/2026/05/pentagon-ai-contracts-big-tech/"
+    },
+    {
+      "category": "econ",
+      "title": "NZ Q1 Unemployment Falls to 5.3% — Beats Forecasts but BNZ Warns Iran-War Hit Yet to Materialize",
+      "source_count": 4,
+      "importance": "medium",
+      "url": "https://www.nzherald.co.nz/business/nz-unemployment-q1-2026/"
+    },
+    {
+      "category": "econ",
+      "title": "Westpac NZ Posts $545M Half-Year Profit; MYOB Survey Says Government Failing Small Business",
+      "source_count": 2,
+      "importance": "low",
+      "url": "https://www.stuff.co.nz/business/westpac-nz-half-year-profit-2026"
+    },
+    {
+      "category": "indie",
+      "title": "Cursor Ships Enterprise Admin Controls — Soft Spend Limits, Provider-Level Allowlists, Usage Alerts at 50/80/100%",
+      "source_count": 1,
+      "importance": "low",
+      "url": "https://cursor.com/blog/enterprise-admin-controls"
+    },
+    {
+      "category": "econ",
+      "title": "May 7 Earnings Triple-Header: CoreWeave (revenue +100% YoY), Coinbase (post-700-layoff cut), Airbnb",
+      "source_count": 3,
+      "importance": "medium",
+      "url": "https://www.thestreet.com/investing/earnings-may-7-coreweave-coinbase-airbnb"
+    },
+    {
+      "category": "ai",
+      "title": "Google's $40B Anthropic Investment Lands at $350B Valuation — Half of Google/Amazon's Q1 'AI Profit' Came From the Stake, Not Operations",
+      "source_count": 3,
+      "importance": "medium",
+      "url": "https://www.theinformation.com/articles/google-anthropic-350b-valuation"
+    }
+  ],
+  "perspectives": [
+    {
+      "title": "Iran Deal: Imminent Breakthrough or Pressure-Tactic Theater?",
+      "subtitle": "Different outlets read the same Axios scoop very differently",
+      "event_slug": "iran-war-ceasefire",
+      "sources": [
+        {
+          "name": "Axios / US News",
+          "quote": "The two sides are converging on a one-page memorandum that would declare an end to the war and open a 30-day window to negotiate the detailed nuclear, sanctions, and Hormuz terms — the closest the parties have come since the war began."
+        },
+        {
+          "name": "Al Jazeera",
+          "quote": "Trump simultaneously warned Iran would be bombed at a 'much higher level' if no deal materializes, leaving Tehran to weigh whether the memo is a genuine off-ramp or a pretext for the next escalation."
+        }
+      ]
+    },
+    {
+      "title": "Mythos Disclosure: Defensive Breakthrough or Asymmetric Gatekeeping?",
+      "subtitle": "Industry voices split on Anthropic's Project Glasswing access tiering",
+      "event_slug": "ai-cybersecurity-mythos",
+      "sources": [
+        {
+          "name": "Dark Reading / WEF",
+          "quote": "Mythos has rewritten the cybersecurity threat model: exploits that took expert pen-testers weeks now ship in hours, and Anthropic's coalition with AWS, Apple, Microsoft, Google, and the major security vendors is the only credible patching pipeline at this scale."
+        },
+        {
+          "name": "Rest of World / Nextgov",
+          "quote": "Restricting Mythos to ~40 elite tech firms leaves operational technology vendors, central banks outside the G7, and entire countries effectively undefended — concentrating cyber resilience in exactly the same hands that already hold AI compute."
+        }
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "person_slug": "dario-amodei",
+      "person_name": "Dario Amodei",
+      "text": "We have maybe six to twelve months to patch what Mythos found before Chinese AI catches up. This is a moment of danger, and the window is narrow.",
+      "source": "CNBC",
+      "date": "2026-05-05"
+    },
+    {
+      "person_slug": "donald-trump",
+      "person_name": "Donald Trump",
+      "text": "We've had very good talks with Iran over the past 24 hours, and it's very possible we'll make a deal — but if not, the bombing will be at a much higher level.",
+      "source": "CNBC / Al Jazeera",
+      "date": "2026-05-06"
+    },
+    {
+      "person_slug": "wang-yi",
+      "person_name": "Wang Yi",
+      "text": "China calls for a comprehensive ceasefire and the immediate reopening of the Strait of Hormuz; the parties should not let this diplomatic window close.",
+      "source": "Washington Post / Al Jazeera",
+      "date": "2026-05-06"
+    }
+  ],
+  "map_hotspots": [
+    {
+      "lat": 35.6892,
+      "lng": 51.389,
+      "color": "red",
+      "title": "Tehran — Peace MOU Under Review",
+      "summary": "Iran weighing one-page US memorandum: nuclear enrichment moratorium for sanctions relief; formal response expected within 48 hours via Pakistani mediator"
+    },
+    {
+      "lat": 38.9,
+      "lng": -77.0,
+      "color": "amber",
+      "title": "Washington — Trump's Twin-Track Diplomacy",
+      "summary": "Axios reports US-Iran near deal; Trump simultaneously threatens 'much higher level' strikes if Tehran balks"
+    },
+    {
+      "lat": 39.9,
+      "lng": 116.4,
+      "color": "amber",
+      "title": "Beijing — Wang Yi Hosts Araghchi",
+      "summary": "China pushes 'comprehensive ceasefire' and Hormuz reopening one week before May 14–15 Trump-Xi summit"
+    },
+    {
+      "lat": 26.5667,
+      "lng": 56.25,
+      "color": "amber",
+      "title": "Strait of Hormuz",
+      "summary": "Trump says Hormuz operation 'paused' amid talks; WTI crude -7% to $95.19 on reopening expectations"
+    },
+    {
+      "lat": 50.45,
+      "lng": 30.52,
+      "color": "amber",
+      "title": "Kyiv — Ukraine's Pre-Victory-Day Truce Window",
+      "summary": "Ukraine's May 5–6 unilateral truce ended; Russia's May 8–9 Victory Day ceasefire begins tomorrow"
+    },
+    {
+      "lat": 40.71,
+      "lng": -74.0,
+      "color": "green",
+      "title": "Wall Street Records on Peace Hopes",
+      "summary": "S&P 500 +1.46% to 7,365 (record); Nasdaq +2.02%; AMD +13%, Super Micro +18%; energy -4.2%"
+    },
+    {
+      "lat": -41.29,
+      "lng": 174.78,
+      "color": "green",
+      "title": "Wellington — NZ Q1 Unemployment 5.3%",
+      "summary": "Beats 5.4% consensus; RBNZ holds at 2.25%; BNZ warns Iran war labour-market drag still 6–12 months out"
+    },
+    {
+      "lat": 37.77,
+      "lng": -122.42,
+      "color": "violet",
+      "title": "San Francisco — Anthropic 'Moment of Danger' Warning",
+      "summary": "Mythos has surfaced tens of thousands of vulnerabilities; 6–12 month patch window before Chinese AI parity"
+    }
+  ],
+  "model_flash": [
+    {
+      "category": "Text Chat",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "Llama 4",
+      "best_value": "Gemini 2.5 Flash",
+      "change": "none"
+    },
+    {
+      "category": "Code Gen",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "DeepSeek V4",
+      "best_value": "DeepSeek V4",
+      "change": "new"
+    },
+    {
+      "category": "Reasoning",
+      "best_closed": "Claude Mythos Preview",
+      "best_open": "QwQ 32B",
+      "best_value": "Gemini 2.5 Flash",
+      "change": "new"
+    },
+    {
+      "category": "Image Gen",
+      "best_closed": "Midjourney v7",
+      "best_open": "Flux 1.1",
+      "best_value": "Flux 1.1",
+      "change": "none"
+    },
+    {
+      "category": "Video Gen",
+      "best_closed": "Sora 2",
+      "best_open": "Wan 2.1",
+      "best_value": "Wan 2.1",
+      "change": "none"
+    },
+    {
+      "category": "Multimodal",
+      "best_closed": "GPT-5.5",
+      "best_open": "Qwen 3.6",
+      "best_value": "Gemini 2.5 Flash",
+      "change": "new"
+    }
+  ],
+  "event_updates": [
+    {
+      "event_slug": "iran-war-ceasefire",
+      "title": "US-Iran War Ceasefire Negotiations",
+      "status": "active",
+      "latest_summary": "Axios reports US-Iran converging on a one-page MOU: enrichment moratorium for sanctions relief plus a 30-day detailed-deal window. Trump threatens 'much higher level' strikes if no deal. China's Wang Yi hosts Iran's Araghchi in Beijing pushing comprehensive ceasefire."
+    },
+    {
+      "event_slug": "ai-cybersecurity-mythos",
+      "title": "Anthropic Mythos & Frontier AI Cybersecurity",
+      "status": "active",
+      "latest_summary": "Dario Amodei's 'moment of danger' warning: Mythos has found tens of thousands of high-severity vulnerabilities including a 17-year-old FreeBSD RCE; Project Glasswing limits access to ~40 firms; Chinese parity expected within 6–12 months."
+    },
+    {
+      "event_slug": "ai-regulation",
+      "title": "Global AI Regulation & Legislation",
+      "status": "active",
+      "latest_summary": "CAISI (Center for AI Standards and Innovation) signs pre-release model evaluation agreements with Google DeepMind, Microsoft, and xAI — extending the framework already in place with Anthropic and OpenAI."
+    },
+    {
+      "event_slug": "russia-ukraine-ceasefire",
+      "title": "Russia-Ukraine Ceasefire Negotiations",
+      "status": "watching",
+      "latest_summary": "Ukraine's May 5–6 unilateral truce expired; Russia's May 8–9 Victory Day ceasefire begins tomorrow. Moscow parade will proceed without tanks or missiles for first time in nearly two decades."
+    }
+  ]
+}

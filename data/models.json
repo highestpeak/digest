@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-05-06",
   "categories": ["Text Chat", "Code Gen", "Reasoning", "Image Gen", "Video Gen", "Multimodal"],
-  "data_sources": ["Chatbot Arena", "LiveBench", "ARC-AGI", "GPQA Diamond"],
+  "data_sources": ["Chatbot Arena", "LiveBench", "ARC-AGI", "GPQA Diamond", "SWE-bench"],
   "rankings": [
     { "rank": 1, "model": "Claude Opus 4.7", "org": "Anthropic", "type": "closed", "category": "Text Chat", "score": 1392, "change": "new", "date_added": "2026-05-05" },
     { "rank": 2, "model": "GPT-5.5", "org": "OpenAI", "type": "closed", "category": "Text Chat", "score": 1371, "change": "new", "date_added": "2026-04-24" },
