@@ -6,14 +6,26 @@ interface Props {
   title: string;
   sourceCount: number;
   importance: number;
+  url?: string;
 }
 
-const { category, title, sourceCount } = Astro.props;
+const { category, title, sourceCount, url } = Astro.props;
 ---
 
 <div class="story-row">
   <CategoryPill category={category} />
-  <span class="title">{title}</span>
+  {url ? (
+    <a href={url} target="_blank" rel="noopener noreferrer" class="title title-link">
+      {title}
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="external-icon">
+        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+        <polyline points="15 3 21 3 21 9"></polyline>
+        <line x1="10" y1="14" x2="21" y2="3"></line>
+      </svg>
+    </a>
+  ) : (
+    <span class="title">{title}</span>
+  )}
   <span class="meta">{sourceCount} sources</span>
 </div>
 
@@ -35,6 +47,24 @@ const { category, title, sourceCount } = Astro.props;
     font-weight: 500;
     color: var(--text);
     line-height: 1.4;
+  }
+  .title-link {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: baseline;
+    gap: 4px;
+  }
+  .title-link:hover {
+    color: var(--accent);
+  }
+  .external-icon {
+    flex-shrink: 0;
+    opacity: 0.4;
+    position: relative;
+    top: 1px;
+  }
+  .title-link:hover .external-icon {
+    opacity: 1;
   }
   .meta {
     font-size: 12px;

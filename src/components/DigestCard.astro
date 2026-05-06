@@ -6,14 +6,28 @@ interface Props {
   title: string;
   summary: string;
   sources: string;
+  url?: string;
 }
 
-const { category, title, summary, sources } = Astro.props;
+const { category, title, summary, sources, url } = Astro.props;
 ---
 
 <article class="digest-card">
   <CategoryPill category={category} />
-  <h3>{title}</h3>
+  {url ? (
+    <h3>
+      <a href={url} target="_blank" rel="noopener noreferrer" class="title-link">
+        {title}
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="external-icon">
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+          <polyline points="15 3 21 3 21 9"></polyline>
+          <line x1="10" y1="14" x2="21" y2="3"></line>
+        </svg>
+      </a>
+    </h3>
+  ) : (
+    <h3>{title}</h3>
+  )}
   <p class="summary">{summary}</p>
   <span class="sources">{sources}</span>
 </article>
@@ -42,6 +56,25 @@ const { category, title, summary, sources } = Astro.props;
     color: var(--text);
     margin: 12px 0 8px;
     line-height: 1.4;
+  }
+  .title-link {
+    color: var(--text);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: baseline;
+    gap: 5px;
+  }
+  .title-link:hover {
+    color: var(--accent);
+  }
+  .external-icon {
+    flex-shrink: 0;
+    opacity: 0.5;
+    position: relative;
+    top: 1px;
+  }
+  .title-link:hover .external-icon {
+    opacity: 1;
   }
   .summary {
     font-size: 13px;
