@@ -6,6 +6,7 @@ interface Ranking {
   type: string;
   category: string;
   score: number;
+  benchmark?: string;
   change: string;
   date_added: string;
 }
@@ -83,7 +84,12 @@ for (const r of rankings) {
             <td class="td-cell text-[13px] text-[var(--text-2)]">{r.category}</td>
             <td class="td-cell">
               <div class="flex items-center gap-3">
-                <span class="text-base font-bold text-[var(--text)] tabular-nums w-14">{r.score}</span>
+                <div class="flex flex-col leading-tight">
+                  <span class="text-base font-bold text-[var(--text)] tabular-nums">{r.score}</span>
+                  {r.benchmark && (
+                    <span class="text-[10px] text-[var(--text-3)] font-normal whitespace-nowrap">{r.benchmark}</span>
+                  )}
+                </div>
                 <div class="w-20 h-1.5 rounded-full bg-[var(--border)] overflow-hidden">
                   <div class="h-full rounded-full bg-[var(--accent)]" style={`width: ${pct}%;`} />
                 </div>

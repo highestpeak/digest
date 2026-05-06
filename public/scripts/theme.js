@@ -35,3 +35,21 @@
     if (btn) btn.addEventListener('click', toggle);
   }
 })();
+
+// Auto-hide nav on scroll down, show on scroll up (mobile only)
+(function () {
+  let lastScroll = 0;
+  const nav = document.querySelector('nav');
+  if (nav) {
+    window.addEventListener('scroll', function () {
+      if (window.innerWidth > 768) return;
+      const current = window.scrollY;
+      if (current > lastScroll && current > 60) {
+        nav.style.transform = 'translateY(-100%)';
+      } else {
+        nav.style.transform = 'translateY(0)';
+      }
+      lastScroll = current;
+    }, { passive: true });
+  }
+})();
