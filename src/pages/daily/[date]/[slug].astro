@@ -1,0 +1,168 @@
+---
+import Base from '../../../layouts/Base.astro';
+import CategoryPill from '../../../components/CategoryPill.astro';
+
+export async function getStaticPaths() {
+  const files = import.meta.glob('../../../../data/daily/*.json', { eager: true });
+  const paths: any[] = [];
+
+  for (const [, mod] of Object.entries(files)) {
+    const d = (mod as any).default || mod;
+    if (!d.articles || d.articles.length === 0) continue;
+
+    d.articles.forEach((article: any, i: number) => {
+      paths.push({
+        params: { date: d.date, slug: article.slug },
+        props: {
+          article,
+          date: d.date,
+          issue: d.issue,
+          prevArticle: i > 0 ? d.articles[i - 1] : null,
+          nextArticle: i < d.articles.length - 1 ? d.articles[i + 1] : null,
+        },
+      });
+    });
+  }
+
+  return paths;
+}
+
+const { article, date, issue, prevArticle, nextArticle } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+
+<Base title={`${article.title} · The Digest`} current="Archive">
+  <main style="overflow-x: hidden;">
+    <!-- Breadcrumb -->
+    <div class="max-w-[780px] mx-auto px-12 pt-8 pb-2">
+      <nav class="flex items-center gap-2 text-xs text-[var(--text-3)] flex-wrap">
+        <a href={`${base}archive`} class="hover:text-[var(--accent)] no-underline text-[var(--text-3)]">Archive</a>
+        <span>/</span>
+        <a href={`${base}daily/${date}`} class="hover:text-[var(--accent)] no-underline text-[var(--text-3)]">{date}</a>
+        <span>/</span>
+        <span class="text-[var(--text)] truncate max-w-[300px]">{article.title}</span>
+      </nav>
+    </div>
+
+    <!-- Article Header -->
+    <div class="max-w-[780px] mx-auto px-12 py-8">
+      <div class="flex items-center gap-3 mb-5">
+        <CategoryPill category={article.category} />
+        <span class="text-xs text-[var(--text-3)]">{article.reading_minutes} min read</span>
+      </div>
+      <h1 class="text-[32px] font-extrabold tracking-tight leading-[1.3] text-[var(--text)] mb-5">
+        {article.title}
+      </h1>
+      <div class="flex items-center gap-4 text-sm text-[var(--text-2)]">
+        <span>{article.author}</span>
+        <span class="text-[var(--text-3)]">·</span>
+        <span>{date}</span>
+        <span class="text-[var(--text-3)]">·</span>
+        <span>Issue #{issue}</span>
+      </div>
+    </div>
+
+    <!-- Article Body -->
+    <div class="max-w-[780px] mx-auto px-12 pb-12">
+      <div class="article-body" set:html={article.body} />
+    </div>
+
+    <!-- Sources -->
+    {article.sources && article.sources.length > 0 && (
+      <div style="background: var(--bg-alt); margin: 0 -9999px; padding: 36px 9999px;">
+        <div class="max-w-[780px] mx-auto px-12">
+          <div class="text-xs uppercase tracking-[2px] text-[var(--text-3)] mb-4 font-medium">Sources</div>
+          <div class="flex flex-col gap-2">
+            {article.sources.map((src: any) => (
+              <a href={src.url} target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 p-3 rounded-[10px] bg-[var(--bg-card)] no-underline hover:opacity-80 transition-opacity">
+                <span class="text-sm font-medium text-[var(--text)]">{src.name}</span>
+                <span class="flex-1 text-xs text-[var(--text-3)] truncate">{src.url}</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-[var(--text-3)] flex-shrink-0">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+    )}
+
+    <!-- Prev/Next Article Navigation -->
+    <div class="max-w-[780px] mx-auto px-12">
+      <div class="border-t border-[var(--border)] py-6 flex justify-between items-center">
+        {prevArticle ? (
+          <a href={`${base}daily/${date}/${prevArticle.slug}`} class="text-xs text-[var(--text-3)] no-underline px-3.5 py-1.5 rounded-full bg-[var(--accent-bg)] hover:bg-[var(--accent)] hover:text-white transition-colors max-w-[40%] truncate">
+            ← {prevArticle.title}
+          </a>
+        ) : (
+          <a href={`${base}daily/${date}`} class="text-xs text-[var(--text-3)] no-underline px-3.5 py-1.5 rounded-full bg-[var(--accent-bg)] hover:bg-[var(--accent)] hover:text-white transition-colors">
+            ← Back to digest
+          </a>
+        )}
+        {nextArticle ? (
+          <a href={`${base}daily/${date}/${nextArticle.slug}`} class="text-xs text-[var(--text-3)] no-underline px-3.5 py-1.5 rounded-full bg-[var(--accent-bg)] hover:bg-[var(--accent)] hover:text-white transition-colors max-w-[40%] truncate">
+            {nextArticle.title} →
+          </a>
+        ) : (
+          <a href={`${base}daily/${date}`} class="text-xs text-[var(--text-3)] no-underline px-3.5 py-1.5 rounded-full bg-[var(--accent-bg)] hover:bg-[var(--accent)] hover:text-white transition-colors">
+            Back to digest →
+          </a>
+        )}
+      </div>
+    </div>
+  </main>
+
+  <style>
+    .article-body {
+      font-size: 16px;
+      line-height: 1.85;
+      color: var(--text-2);
+    }
+    .article-body :global(h2) {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      line-height: 1.3;
+    }
+    .article-body :global(h2:first-child) {
+      margin-top: 0;
+    }
+    .article-body :global(p) {
+      margin-bottom: 1.25rem;
+    }
+    .article-body :global(strong) {
+      color: var(--text);
+      font-weight: 600;
+    }
+    .article-body :global(em) {
+      font-style: italic;
+    }
+    .article-body :global(a) {
+      color: var(--accent);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .article-body :global(a:hover) {
+      opacity: 0.8;
+    }
+    .article-body :global(ul),
+    .article-body :global(ol) {
+      margin-bottom: 1.25rem;
+      padding-left: 1.5rem;
+    }
+    .article-body :global(li) {
+      margin-bottom: 0.5rem;
+    }
+    .article-body :global(blockquote) {
+      border-left: 3px solid var(--accent);
+      padding-left: 1rem;
+      margin: 1.5rem 0;
+      color: var(--text-3);
+      font-style: italic;
+    }
+  </style>
+</Base>

@@ -96,7 +96,7 @@ function formatMonth(ym: string) {
           </div>
           <div class="flex flex-col">
             {(entries as any[]).map((entry: any) => (
-              <a href="#" class="daily-row flex items-center gap-6 py-3 px-4 rounded-[10px] no-underline transition-colors">
+              <a href={`${base}daily/${entry.date}`} class="daily-row flex items-center gap-6 py-3 px-4 rounded-[10px] no-underline transition-colors">
                 <div class="flex items-center gap-2 w-[120px] flex-shrink-0">
                   <span class="text-sm font-medium text-[var(--text)]">{entry.date}</span>
                   <span class="text-xs text-[var(--text-3)]">{getWeekday(entry.date)}</span>

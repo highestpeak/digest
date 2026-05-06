@@ -51,7 +51,7 @@ const hotspotsWithColors = data.map_hotspots.map((spot: any) => ({
           <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.meta.source_count} sources</span>
           <span class="text-xs px-3.5 py-1 rounded-full bg-[var(--accent-bg)] text-[var(--text-3)]">{data.meta.reading_minutes} min read</span>
         </div>
-        <a href="#digest" class="inline-block bg-[var(--accent)] text-white px-7 py-3 rounded-full font-semibold shadow hover:opacity-90 transition-opacity no-underline">
+        <a href={`${base}daily/${data.date}`} class="inline-block bg-[var(--accent)] text-white px-7 py-3 rounded-full font-semibold shadow hover:opacity-90 transition-opacity no-underline">
           Read this issue →
         </a>
       </section>
@@ -68,6 +68,7 @@ const hotspotsWithColors = data.map_hotspots.map((spot: any) => ({
               title={h.title}
               summary={h.summary}
               sources={h.sources.join(' · ')}
+              url={h.url}
             />
           ))}
         </div>
@@ -80,6 +81,7 @@ const hotspotsWithColors = data.map_hotspots.map((spot: any) => ({
               title={s.title}
               sourceCount={s.source_count}
               importance={s.importance}
+              url={s.url}
             />
           ))}
         </div>
