@@ -5,9 +5,10 @@ interface Props {
   summary: string;
   sources: string[];
   isLatest: boolean;
+  imageUrl?: string;
 }
 
-const { date, title, summary, sources, isLatest } = Astro.props;
+const { date, title, summary, sources, isLatest, imageUrl } = Astro.props;
 ---
 
 <div class="tl-node">
@@ -24,6 +25,11 @@ const { date, title, summary, sources, isLatest } = Astro.props;
       ))}
     </div>
   </div>
+  {imageUrl && (
+    <div class="tl-thumb">
+      <img src={imageUrl} alt="" style="width: 80px; height: 80px; object-fit: cover; border-radius: 10px; display: block;" loading="lazy" />
+    </div>
+  )}
 </div>
 
 <style>
@@ -88,6 +94,11 @@ const { date, title, summary, sources, isLatest } = Astro.props;
     border-radius: 9999px;
     background: var(--accent-bg);
     color: var(--accent);
+  }
+  .tl-thumb {
+    flex-shrink: 0;
+    align-self: flex-start;
+    margin-top: 2px;
   }
 
   @keyframes pulse-timeline {
