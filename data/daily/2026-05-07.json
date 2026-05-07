@@ -100,11 +100,13 @@
       "sources": [
         {
           "name": "Axios / US News",
-          "quote": "The two sides are converging on a one-page memorandum that would declare an end to the war and open a 30-day window to negotiate the detailed nuclear, sanctions, and Hormuz terms — the closest the parties have come since the war began."
+          "quote": "The two sides are converging on a one-page memorandum that would declare an end to the war and open a 30-day window to negotiate the detailed nuclear, sanctions, and Hormuz terms — the closest the parties have come since the war began.",
+          "url": "https://www.usnews.com/news/world/articles/2026-05-06/us-and-iran-closing-in-on-one-page-memo-to-end-war-axios-reports"
         },
         {
           "name": "Al Jazeera",
-          "quote": "Trump simultaneously warned Iran would be bombed at a 'much higher level' if no deal materializes, leaving Tehran to weigh whether the memo is a genuine off-ramp or a pretext for the next escalation."
+          "quote": "Trump simultaneously warned Iran would be bombed at a 'much higher level' if no deal materializes, leaving Tehran to weigh whether the memo is a genuine off-ramp or a pretext for the next escalation.",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/5/6/iran-war-live-trump-says-hormuz-operation-paused-amid-us-tehran-talks"
         }
       ]
     },
@@ -114,12 +116,14 @@
       "event_slug": "ai-cybersecurity-mythos",
       "sources": [
         {
-          "name": "Dark Reading / WEF",
-          "quote": "Mythos has rewritten the cybersecurity threat model: exploits that took expert pen-testers weeks now ship in hours, and Anthropic's coalition with AWS, Apple, Microsoft, Google, and the major security vendors is the only credible patching pipeline at this scale."
+          "name": "Dark Reading",
+          "quote": "Mythos has rewritten the cybersecurity threat model: exploits that took expert pen-testers weeks now ship in hours, and Anthropic's coalition with AWS, Apple, Microsoft, Google, and the major security vendors is the only credible patching pipeline at this scale.",
+          "url": "https://www.darkreading.com/cybersecurity-operations/anthropic-mythos-cyber-what-comes-next"
         },
         {
-          "name": "Rest of World / Nextgov",
-          "quote": "Restricting Mythos to ~40 elite tech firms leaves operational technology vendors, central banks outside the G7, and entire countries effectively undefended — concentrating cyber resilience in exactly the same hands that already hold AI compute."
+          "name": "Nextgov / Rest of World",
+          "quote": "Restricting Mythos to ~40 elite tech firms leaves operational technology vendors, central banks outside the G7, and entire countries effectively undefended — concentrating cyber resilience in exactly the same hands that already hold AI compute.",
+          "url": "https://www.nextgov.com/cybersecurity/2026/05/operational-technology-providers-are-feeling-annoyance-exclusion-anthropics-mythos-rollout-sources-say/413309/"
         }
       ]
     }
