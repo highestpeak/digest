@@ -22,7 +22,60 @@
     { "rank": 2, "model": "Qwen 3", "org": "Alibaba", "type": "open", "category": "Multimodal", "score": 76.4, "benchmark": "MMMU", "change": "up", "date_added": "2026-04-22" },
     { "rank": 3, "model": "Gemini 2.5 Pro", "org": "Google", "type": "closed", "category": "Multimodal", "score": 75.1, "benchmark": "MMMU", "change": "down", "date_added": "2026-01-10" }
   ],
-  "weekly_analysis": "The biggest move this week came from Anthropic's Claude 4 launch, which claimed the top spot in Text Chat, Code Gen, and Reasoning in one shot. An ARC-AGI score of 64.3% marks the first commercial model to systematically surpass the human expert baseline (~60%), signaling a new phase for general reasoning capabilities.\n\nOpenAI announced a 40% price cut on GPT-5 API within 48 hours of Claude 4's release, indicating price competition is intensifying. On the open-source side, DeepSeek V3 holds strong in Code Gen while Llama 4 continues a steady climb in Text Chat.\n\nImage and Video Gen saw no major changes this week — Midjourney v7 and Sora 2 remain on top. Notable: open-source video model Wan 2.1 continues to close the gap with closed-source rivals; its community-contributed LoRA adapters now outnumber Runway's official plugin marketplace.",
+  "weekly_report": {
+    "title": "Weekly Model Landscape Report",
+    "date": "2026-05-05",
+    "summary": "Claude Opus 4 dominates three categories in its debut week...",
+    "sections": [
+      {
+        "heading": "Key Changes This Week",
+        "body": "Claude Opus 4 launched on May 5th and immediately claimed #1 in Text Chat (Chatbot Arena Elo 1392), Code Gen (SWE-bench Verified 64.3%), and Reasoning (ARC-AGI 64.3%). This is the first time a single model has topped three categories simultaneously.\n\nOpenAI responded within 48 hours with a 40% API price cut on GPT-5, signaling that the competition is shifting from capability to economics."
+      },
+      {
+        "heading": "Model Comparison: Claude Opus 4 vs GPT-5.5 vs Llama 4",
+        "type": "comparison",
+        "models": [
+          {
+            "name": "Claude Opus 4",
+            "org": "Anthropic",
+            "strengths": ["Best-in-class reasoning (ARC-AGI 64.3%)", "Strongest code generation (SWE-bench 64.3%)", "200K context window", "Managed Agents platform integration"],
+            "weaknesses": ["Higher API cost ($15/M input)", "No image generation", "Slower inference than GPT-5"],
+            "best_for": "Complex multi-step reasoning, code generation, agent workflows"
+          },
+          {
+            "name": "GPT-5.5",
+            "org": "OpenAI",
+            "strengths": ["Fastest inference speed", "Strong multimodal understanding (MMMU 78.9%)", "40% price cut makes it cost-competitive", "Mature function calling ecosystem"],
+            "weaknesses": ["Reasoning trails Claude Opus 4 by 2.5 points on ARC-AGI", "Code gen fell to #3 this week"],
+            "best_for": "Real-time applications, multimodal tasks, cost-sensitive deployments"
+          },
+          {
+            "name": "Llama 4",
+            "org": "Meta",
+            "strengths": ["Open-source (free to self-host)", "Strong text chat performance (Elo 1341)", "Active fine-tuning community", "No vendor lock-in"],
+            "weaknesses": ["Requires significant compute for self-hosting", "Reasoning significantly behind closed-source models", "No official agent framework"],
+            "best_for": "Self-hosted deployments, privacy-sensitive applications, fine-tuning for specific domains"
+          }
+        ]
+      },
+      {
+        "heading": "What's Driving Recent Progress",
+        "body": "Three technical trends are behind this week's leaderboard shifts:\n\n**1. Inference-time compute scaling.** Claude Opus 4's reasoning breakthrough comes from allocating more compute during inference rather than training. Dario Amodei described this as 'shifting from training-time scaling to inference-time scaling.' The model can 'think longer' on harder problems, trading latency for accuracy.\n\n**2. Synthetic data and self-play.** Both Anthropic and OpenAI are now training on AI-generated data pipelines where models critique and improve their own outputs. This breaks the traditional ceiling of human-annotated training data.\n\n**3. Tool-use integration at training time.** Claude Opus 4 was trained with tool-use as a first-class capability, not fine-tuned on top. This explains its strong performance on SWE-bench, which requires the model to navigate codebases, run tests, and iterate on solutions."
+      },
+      {
+        "heading": "How to Choose: Decision Framework",
+        "body": "**Pick Claude Opus 4 if:** You need the strongest reasoning or code generation, are building agent workflows, or prioritize accuracy over speed.\n\n**Pick GPT-5.5 if:** You need fast inference, strong multimodal understanding, or are cost-sensitive after the 40% price cut.\n\n**Pick Llama 4 if:** You need to self-host for privacy/compliance, want to fine-tune for a specific domain, or want to avoid vendor lock-in.\n\n**Pick Gemini 2.5 Flash if:** You're optimizing for cost above all else. At $0.15/M tokens, it's 100x cheaper than Claude Opus 4 while maintaining competitive quality for simpler tasks."
+      },
+      {
+        "heading": "Open Source Momentum",
+        "body": "The open-source gap continues to narrow. DeepSeek V3 holds #2 in Code Gen with 58.9% on SWE-bench — only 5.4 points behind Claude Opus 4. In Image Gen, Flux 1.1 from Black Forest Labs has closed to within 35 Elo points of Midjourney v7.\n\nThe most interesting development is Wan 2.1 in Video Gen: its community-contributed LoRA adapters now outnumber Runway's official plugin marketplace, creating a grassroots ecosystem that closed-source providers struggle to match."
+      },
+      {
+        "heading": "What to Watch Next Week",
+        "body": "- Google I/O is expected to unveil Gemini 3, which could reshuffle the Reasoning and Multimodal categories\n- Meta is rumored to release Llama 4 Scout, a smaller model optimized for edge deployment\n- The first EU AI Act compliance deadlines for model providers take effect in Q3, potentially affecting which models are available in Europe"
+      }
+    ]
+  },
   "trend_data": {
     "weeks": ["W12", "W13", "W14", "W15", "W16", "W17", "W18", "W19"],
     "series": [
