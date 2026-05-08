@@ -3,33 +3,99 @@
   "title": "US-Iran War Ceasefire Negotiations",
   "status": "active",
   "description": "Tracking the diplomacy around the 2026 US-Iran war that began with US strikes alongside Israel and rattled global energy markets. Pakistan and China are acting as de facto mediators while the White House pushes for a one-page memorandum of understanding covering nuclear enrichment, sanctions, and Strait of Hormuz transit.",
-  "tags": ["Iran", "United States", "Middle East", "Nuclear", "Hormuz", "Trump", "Diplomacy"],
-  "key_people": ["donald-trump", "wang-yi", "abbas-araghchi"],
-  "related_events": ["us-china-chips", "russia-ukraine-ceasefire"],
+  "tags": [
+    "Iran",
+    "United States",
+    "Middle East",
+    "Nuclear",
+    "Hormuz",
+    "Trump",
+    "Diplomacy"
+  ],
+  "key_people": [
+    "donald-trump",
+    "wang-yi",
+    "abbas-araghchi"
+  ],
+  "related_events": [
+    "us-china-chips",
+    "russia-ukraine-ceasefire"
+  ],
   "timeline": [
     {
       "date": "2026-04-08",
       "title": "First US-Iran Two-Week Ceasefire, Mediated by Pakistan",
       "summary": "US and Iran agreed to a 14-day ceasefire mediated by Pakistan, with the New York Times reporting China played a quiet but crucial role in pushing Tehran to the table. Trump credited Beijing publicly while threatening 50% secondary tariffs on any country supplying Iran with weapons.",
-      "sources": ["Wikipedia (2026 Iran war ceasefire)", "Irish Times", "PBS"]
+      "sources": [
+        "Wikipedia (2026 Iran war ceasefire)",
+        "Irish Times",
+        "PBS"
+      ]
     },
     {
       "date": "2026-04-28",
       "title": "Iran Submits New Peace Proposal — White House Response Pending",
       "summary": "Iran tabled a fresh proposal centered on phased sanctions relief tied to nuclear monitoring concessions. Iran's Foreign Ministry confirmed receipt of a US response in early May, with Pakistan continuing to relay messages between the two governments.",
-      "sources": ["Al Jazeera", "CNBC"]
+      "sources": [
+        "Al Jazeera",
+        "CNBC"
+      ]
     },
     {
       "date": "2026-05-06",
       "title": "Wang Yi Hosts Iran's Araghchi in Beijing — China Pushes 'Comprehensive Ceasefire'",
       "summary": "Chinese FM Wang Yi met Iranian FM Abbas Araghchi in Beijing and publicly called for a comprehensive ceasefire and the immediate reopening of the Strait of Hormuz. The meeting positioned Beijing as a parallel mediator just one week before the May 14–15 Trump-Xi summit, where Iran is now expected to share the agenda with Taiwan and trade.",
-      "sources": ["Washington Post", "Al Jazeera", "Washington Times", "PBS"]
+      "sources": [
+        "Washington Post",
+        "Al Jazeera",
+        "Washington Times",
+        "PBS"
+      ]
     },
     {
       "date": "2026-05-06",
       "title": "Axios: US-Iran Closing on One-Page MOU to End the War",
       "summary": "The framework would have Iran commit to a moratorium on nuclear enrichment in exchange for US sanctions relief, the release of frozen Iranian funds, and a mutual reopening of the Strait of Hormuz, followed by a 30-day window for a fuller deal. The White House expected Iranian responses on key points within 48 hours. Trump simultaneously warned Iran would be bombed at a 'much higher level' if no agreement materialized.",
-      "sources": ["Axios", "US News", "CNBC", "Al Jazeera"]
+      "sources": [
+        "Axios",
+        "US News",
+        "CNBC",
+        "Al Jazeera"
+      ]
+    },
+    {
+      "date": "2026-05-07",
+      "title": "Iran 'Strongly Rejects' Parts of MOU; US Strikes Bandar Abbas and Qeshm; Saudi/Kuwait Lift Base Restrictions",
+      "summary": "Iran's Foreign Ministry confirmed it conveyed its response to the 14-point MOU but said it 'strongly rejected' some terms — most notably the demand that Tehran ship its enriched uranium out of the country and accept a permanent enrichment cap. In parallel, US Central Command struck Iran's port city of Bandar Abbas and the Strait of Hormuz island of Qeshm. Saudi Arabia and Kuwait lifted the base and airspace restrictions imposed during Project Freedom, leaving the US the option to resume the escort operation. Trump publicly said the war 'will be over quickly' but warned of bombing at a 'much higher level' if Tehran refuses.",
+      "sources": [
+        "Al Jazeera",
+        "Time",
+        "Times of Israel",
+        "NBC News",
+        "Haaretz",
+        "CBS News"
+      ]
+    },
+    {
+      "date": "2026-05-07",
+      "title": "Israel Strikes Beirut for First Time Since April Ceasefire — Re-Opens Lebanon Front Around Iran Talks",
+      "summary": "Israel hit the southern suburbs of Beirut for the first time since the April 16 US-brokered ceasefire, killing a senior Hezbollah Radwan-Force commander, and continued strikes across southern Lebanon (Ain Baal, Dibbin, Nabatieh). Tehran has consistently insisted any wider peace deal must include Israel halting its fight with Hezbollah — making the Beirut strike a direct complication for the MOU negotiations.",
+      "sources": [
+        "Al Jazeera",
+        "Euronews",
+        "Times of Israel"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "title": "Fox News / NCRI Reveal 'Rainbow Site' — Alleged Secret 2,500-Acre Tritium Facility Threatens MOU Talks",
+      "summary": "Fox News aired NCRI satellite images of an alleged 2,500-acre secret nuclear weapons facility ('Rainbow Site') in Semnan Province, Iran, reportedly dedicated to tritium extraction for nuclear warhead enhancement. Iran's UN mission called the report fabricated; FM Araghchi blamed Israel. The revelation, if verified, would undermine Iran's peaceful-use claims and could collapse the 14-point MOU framework. US strikes on Bandar Abbas/Qeshm remain the latest US military action.",
+      "sources": [
+        "Fox News",
+        "Iran International",
+        "Jerusalem Post",
+        "Xinhua"
+      ]
     }
   ]
 }

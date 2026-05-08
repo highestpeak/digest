@@ -30,6 +30,12 @@
       "title": "Operational Technology Vendors Publicly Complain About Glasswing Exclusion",
       "summary": "Sources told Nextgov/FCW that operational technology providers — covering industrial control systems, energy grid components, and water utilities — feel 'annoyance' at being shut out of Project Glasswing despite being prime targets for the vulnerability classes Mythos surfaces. Critics argue the access tiering concentrates cyber resilience in firms that already hold AI compute.",
       "sources": ["Nextgov/FCW", "Rest of World"]
+    },
+    {
+      "date": "2026-05-07",
+      "title": "Mozilla Ships Firefox 150 With 271 Mythos-Found Vulnerabilities Patched in a Single Release",
+      "summary": "Mozilla published a 'Behind the Scenes' post detailing how Claude Mythos Preview surfaced 271 distinct Firefox vulnerabilities in one evaluation pass, including a 15-year-old HTML-parser flaw and two unusual sandbox-escape bugs. They were rolled up into three CVEs (CVE-2026-6784/6785/6786). April 2026 saw 423 Firefox bug fixes versus 31 in April 2025 — a 13.6× jump. Mozilla credited 'agentic harnesses that can reliably detect security issues' as the qualitative shift that changed the game.",
+      "sources": ["Mozilla Hacks", "TechCrunch", "Engadget", "The Register", "Slashdot"]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "slug": "anna-breman",
+  "name": "Anna Breman",
+  "role": "Governor, Reserve Bank of New Zealand",
+  "bio": "Swedish-born economist who became Governor of the Reserve Bank of New Zealand. Previously served as Deputy Governor of Sweden's Riksbank. Took the RBNZ helm during a period of elevated global energy inflation tied to the Iran war and is steering monetary policy through the resulting stagflationary mix.",
+  "related_events": [
+    { "slug": "iran-war-ceasefire", "title": "US-Iran War Ceasefire Negotiations", "mentions": 1, "status": "active" }
+  ],
+  "activity": {
+    "weeks": 4,
+    "data": [
+      0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 1, 0, 0, 0,
+      0, 0, 1, 0, 0, 0, 1
+    ]
+  },
+  "quotes": [
+    {
+      "text": "New Zealand's financial system remains resilient amid heightened global risks. The closure of the Strait of Hormuz has created significant disruptions to world energy markets, and the longer the conflict persists the greater the risks to global financial stability.",
+      "source": "RBNZ Financial Stability Report May 2026",
+      "date": "2026-05-07",
+      "topic": "Iran-war energy shock and NZ financial stability"
+    }
+  ]
+}

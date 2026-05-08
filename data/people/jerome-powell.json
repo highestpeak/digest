@@ -1,0 +1,20 @@
+{
+  "slug": "jerome-powell",
+  "name": "Jerome Powell",
+  "role": "Outgoing Chair, Federal Reserve (term ends May 15, 2026)",
+  "bio": "Jerome H. Powell served as Federal Reserve Chair from February 2018 to May 15, 2026. Appointed by Trump and reappointed by Biden, he navigated the COVID-era stimulus, the subsequent inflation surge, and the rate-tightening cycle. After legal action by the Trump administration, Powell announced he would remain on the Fed board as a governor after his chairmanship concluded.",
+  "related_events": [
+    "us-china-chips"
+  ],
+  "activity": {
+    "last_active": "2026-04-29",
+    "frequency": "low"
+  },
+  "quotes": [
+    {
+      "text": "I will remain on the board for a period of time to be determined. The legal actions taken against me have left me no choice but to stay.",
+      "source": "CNBC / PBS NewsHour",
+      "date": "2026-04-29"
+    }
+  ]
+}

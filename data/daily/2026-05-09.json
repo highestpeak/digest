@@ -1,0 +1,275 @@
+{
+  "date": "2026-05-09",
+  "issue": 46,
+  "headline": "Putin Holds Scaled-Back Victory Day Parade With Only 2 Foreign Leaders; Fox News Reveals Iran 'Rainbow Site' Tritium Facility That Threatens MOU; April Jobs +115K Doubles Consensus Sending S&P 500 to New ATH",
+  "summary": "Russia staged its most stripped-down Victory Day parade in decades — no tanks, no missiles, no armored vehicles — with only the leaders of Laos and Malaysia attending in person; Zelensky formally signed a decree permitting the one-hour ceremony while warning Moscow the broader war continues. Fox News and the National Council of Resistance of Iran published satellite images of an alleged 2,500-acre secret nuclear weapons facility in Semnan Province ('Rainbow Site') reportedly dedicated to tritium extraction; Tehran called the report Israeli-driven fabrication, but the disclosure clouds the already-stalled 14-point MOU talks. US April nonfarm payrolls came in at +115,000 — more than double the 55–70K consensus — with the unemployment rate steady at 4.3% and cooler-than-expected wage growth (+3.6% YoY), a 'goldilocks' reading that sent the S&P 500 to a new all-time high close of 7,398.93 and the Nasdaq to 26,247.08.",
+  "meta": { "article_count": 28, "source_count": 18, "reading_minutes": 16 },
+  "highlights": [
+    {
+      "category": "geo",
+      "title": "Moscow Holds Its Most Scaled-Back Victory Day Parade: No Tanks, No Missiles, Only 2 Foreign Leaders",
+      "summary": "Russia's May 9 parade featured only marching infantry and heightened security — the first time in Vladimir Putin's tenure that no heavy weaponry rolled through Red Square. Of the roughly 20 heads of state invited, only Laos President Thongloun Sisoulith and Malaysian Supreme Ruler Sultan Ibrahim attended in person. Zelensky signed a decree formally excluding Red Square from Ukraine's weapons-use plan for the duration of the one-hour ceremony, but warned foreign representatives not to attend and said Moscow will 'go back to killing our people' the moment it ends. Russia's unilateral May 8–9 ceasefire remains technically in force, though Ukrainian officials continue logging violations elsewhere on the front.",
+      "sources": ["Kyiv Independent", "Al Jazeera", "Euronews", "NPR", "National Review"],
+      "novelty": "high",
+      "url": "https://kyivindependent.com/no-tanks-no-missiles-why-this-years-victory-parade-will-be-smaller-than-ever/",
+      "image_url": "https://images.unsplash.com/photo-1549490349-8643362247b5?w=600&h=400&fit=crop"
+    },
+    {
+      "category": "geo",
+      "title": "Fox News / NCRI Reveal Iran's 'Rainbow Site' — Alleged 2,500-Acre Secret Tritium Facility in Semnan Province",
+      "summary": "Fox News aired satellite images obtained by the National Council of Resistance of Iran showing a facility called the 'Rainbow Site' (operational cover: chemical company Diba Energy Siba) spanning nearly 2,500 acres in Semnan Province. NCRI says its sole purpose is extracting tritium — a radioactive isotope used to boost nuclear warheads — that has virtually no peaceful application. Iran's UN mission called the report 'fabricated' and part of 'the usual NCRI pattern'; Foreign Minister Araghchi blamed Israel for leaking the imagery to derail forthcoming indirect talks with Washington. The revelation, if substantiated, would contradict Iran's insistence that its nuclear programme is peaceful and could collapse the 14-point MOU framework.",
+      "sources": ["Fox News", "Iran International", "Jerusalem Post", "Ynetnews", "Xinhua"],
+      "novelty": "high",
+      "url": "https://www.iranintl.com/en/202505095014",
+      "image_url": "https://images.unsplash.com/photo-1566024287286-457247b70310?w=600&h=400&fit=crop"
+    },
+    {
+      "category": "econ",
+      "title": "April Jobs Surprise: +115K vs 55–70K Forecast — 'Goldilocks' Print Sends S&P 500 to New All-Time High of 7,398",
+      "summary": "The Bureau of Labor Statistics reported 115,000 nonfarm payroll jobs added in April — more than double the FactSet/Reuters consensus of ~62K and well above every surveyed estimate. Sector gains were led by health care (+37K), transportation and warehousing (+30K), and retail trade (+22K); federal government shed another 9,000 jobs. Unemployment held at 4.3% and average hourly earnings rose only 3.6% YoY (below the 3.8% estimate), removing the 'stagflation' framing that had weighed on markets. The S&P 500 rose 0.84% to close at a record 7,398.93; the Nasdaq gained 1.71% to 26,247.08. Markets now price the Fed on hold through at least early 2027.",
+      "sources": ["BLS", "CNBC", "TheStreet", "Motley Fool", "UPI", "Eurasia Business News"],
+      "novelty": "high",
+      "url": "https://www.cnbc.com/2026/05/08/jobs-report-april-2026.html",
+      "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=400&fit=crop"
+    }
+  ],
+  "stories": [
+    {
+      "category": "econ",
+      "title": "Kevin Warsh Clears Senate Banking Committee 13–11 — Full Senate Vote Expected May 11, Replaces Powell May 15",
+      "source_count": 5,
+      "importance": "high",
+      "url": "https://www.aljazeera.com/economy/2026/4/29/senate-panel-advances-kevin-warshs-nomination-for-us-fed-chair"
+    },
+    {
+      "category": "geo",
+      "title": "India–Pakistan: One Year After Operation Sindoor, Escalation Risks Return — Islamabad Warns 'Full Force' Response",
+      "source_count": 4,
+      "importance": "high",
+      "url": "https://thediplomat.com/2026/05/a-year-after-operation-sindoor-rising-risks-and-deepening-instability/"
+    },
+    {
+      "category": "ai",
+      "title": "Project Glasswing Expands: CrowdStrike Joins as Founding Member; Claude Mythos Found 17-Year-Old FreeBSD RCE (CVE-2026-4747)",
+      "source_count": 4,
+      "importance": "medium",
+      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-founding-member-anthropic-mythos-frontier-model-to-secure-ai/"
+    },
+    {
+      "category": "geo",
+      "title": "US–China Summit Now 5 Days Out: Beijing Urges Washington to Drop Section 301 Trade Probe Before May 14–15 Meeting",
+      "source_count": 4,
+      "importance": "medium",
+      "url": "https://www.scmp.com/news/us/article/3352544/china-urges-us-drop-trade-probe-key-trump-xi-summit-approaches"
+    },
+    {
+      "category": "ai",
+      "title": "Google I/O 2026 Preview (May 19): 'Remy' 24/7 Agent, Gemini 4 With Built-In Image/Video Gen, Android 17, and Aluminum OS",
+      "source_count": 5,
+      "importance": "medium",
+      "url": "https://opentools.ai/news/google-io-2026-ai-gemini-updates-and-android-xr-innovations"
+    },
+    {
+      "category": "indie",
+      "title": "Blitzy Raises $200M Series A at $1.4B Valuation; CopilotKit Closes $27M — AI-Coded Platforms Dominate Dev-Tool Funding",
+      "source_count": 3,
+      "importance": "medium",
+      "url": "https://techcrunch.com/2026/05/05/copilotkit-raises-27m-to-help-devs-deploy-app-native-ai-agents/"
+    },
+    {
+      "category": "indie",
+      "title": "Indie Hackers Are Outpacing VC-Backed Rivals in 2026: Reaching $10K–$100K MRR Without Funding on AI-Native Stacks",
+      "source_count": 2,
+      "importance": "low",
+      "url": "https://monolit.sh/blog/why-indie-hackers-are-winning-against-funded-startups-2026"
+    }
+  ],
+  "perspectives": [
+    {
+      "title": "Rainbow Site: Intelligence Bombshell or Israeli Disinformation?",
+      "subtitle": "Fox News/NCRI show satellite imagery of a tritium-extraction complex; Tehran says the report is fabricated Israeli interference",
+      "event_slug": "iran-war-ceasefire",
+      "sources": [
+        {
+          "name": "Iran International (NCRI/Fox News reporting)",
+          "quote": "Satellite images reveal a 2,500-acre facility in Semnan Province operated under the cover of Diba Energy Siba, dedicated to tritium extraction — a substance with virtually no peaceful or commercial application and used exclusively to enhance nuclear weapons.",
+          "url": "https://www.iranintl.com/en/202505095014"
+        },
+        {
+          "name": "Iran International (Iranian government response)",
+          "quote": "Iran's mission to the United Nations rejected the Fox News report as 'fabricated,' accusing the NCRI of following the usual pattern of producing false reports; Foreign Minister Araghchi called the imagery part of an Israeli effort to derail forthcoming indirect talks with Washington.",
+          "url": "https://www.iranintl.com/en/202505093279"
+        }
+      ]
+    },
+    {
+      "title": "Russia's Victory Day Parade: Symbol of Weakness or Strategic Restraint?",
+      "subtitle": "Kyiv frames the scale-back as evidence of Russia's growing vulnerability; Moscow insists it is a measured response to threats",
+      "event_slug": "russia-ukraine-ceasefire",
+      "sources": [
+        {
+          "name": "Kyiv Independent",
+          "quote": "Zelenskyy said Russia's decision not to display military equipment at the parade was due to fear of Ukraine's drones and constitutes evidence of Moscow's growing weakness — a far cry from the rows of ICBMs and tank columns that defined Victory Days under Putin's earlier years.",
+          "url": "https://kyivindependent.com/no-tanks-no-missiles-why-this-years-victory-parade-will-be-smaller-than-ever/"
+        },
+        {
+          "name": "National Review",
+          "quote": "Moscow insists the stripped-down format reflects security precautions rather than military impotence, and the Kremlin still threatened a 'massive missile strike on the center of Kyiv' if Ukraine attempted to disrupt the ceremony — a threat that kept foreign diplomats at home and turned the parade into a geopolitical Rorschach test.",
+          "url": "https://www.nationalreview.com/the-morning-jolt/a-fearful-russia-prepares-for-its-victory-day-parade/"
+        }
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "person_slug": "volodymyr-zelensky",
+      "person_name": "Volodymyr Zelensky",
+      "text": "They want permission from Ukraine to hold their parade, so they can safely march onto the square for one hour once a year, and then go back to killing our people and waging war again.",
+      "source": "Kyiv Independent",
+      "date": "2026-05-08"
+    },
+    {
+      "person_slug": "jerome-powell",
+      "person_name": "Jerome Powell",
+      "text": "I will remain on the board for a period of time to be determined. The legal actions taken against me have left me no choice but to stay.",
+      "source": "CNBC / PBS NewsHour",
+      "date": "2026-04-29"
+    },
+    {
+      "person_slug": "seyed-abbas-araghchi",
+      "person_name": "Seyed Abbas Araghchi",
+      "text": "These satellite images follow the usual pattern — they are Israeli-driven fabrications aimed at disrupting the negotiations with the United States at a critical moment.",
+      "source": "Iran International",
+      "date": "2026-05-09"
+    }
+  ],
+  "map_hotspots": [
+    {
+      "lat": 55.7558,
+      "lng": 37.6173,
+      "color": "amber",
+      "title": "Moscow — Victory Day Parade, Scaled Back",
+      "summary": "Russia held its most stripped-down Victory Day parade since Soviet times — no tanks, no missiles, only marching infantry. Just two foreign heads of state attended. Zelensky signed a decree excluding Red Square from Ukraine's weapons plan for the one-hour ceremony."
+    },
+    {
+      "lat": 35.58,
+      "lng": 53.39,
+      "color": "red",
+      "title": "Semnan Province, Iran — 'Rainbow Site' Nuclear Facility Revealed",
+      "summary": "Fox News and NCRI published satellite imagery of an alleged 2,500-acre facility dedicated to tritium extraction in Semnan Province. Iran denies the report as Israeli fabrication, but the revelation could collapse MOU negotiations if verified."
+    },
+    {
+      "lat": 35.6892,
+      "lng": 51.389,
+      "color": "red",
+      "title": "Tehran — Iran Rejects 'Rainbow Site' Report, Araghchi Blames Israel",
+      "summary": "Foreign Minister Araghchi dismissed Fox News satellite imagery as Israeli-driven disinformation timed to derail US-Iran indirect talks. Iran's UN mission called the NCRI claims 'fabricated' and following a 'usual pattern.'"
+    },
+    {
+      "lat": 50.45,
+      "lng": 30.52,
+      "color": "amber",
+      "title": "Kyiv — Zelensky Signs Victory Day Decree, Warns Moscow",
+      "summary": "Zelensky signed a decree formally excluding Red Square from Ukrainian weapons operations for the parade's duration, but urged foreign leaders not to attend and said Russia will return to war the moment the ceremony ends."
+    },
+    {
+      "lat": 38.9,
+      "lng": -77.0,
+      "color": "green",
+      "title": "Washington — April Jobs +115K, Fed Transition Begins",
+      "summary": "April nonfarm payrolls doubled consensus at +115K; S&P 500 hit a new all-time high of 7,398.93. Kevin Warsh passed Senate Banking Committee 13-11; full Senate vote May 11 to confirm him as Fed Chair replacing Powell on May 15."
+    },
+    {
+      "lat": 40.71,
+      "lng": -74.0,
+      "color": "green",
+      "title": "Wall Street — S&P 500 and Nasdaq Hit New All-Time Highs",
+      "summary": "S&P 500 advanced 0.84% to close at 7,398.93; Nasdaq climbed 1.71% to 26,247.08 — both records. Jobs report deemed 'goldilocks': strong enough to allay stagflation fears, soft enough to keep Fed on hold. Markets now price no cuts through early 2027."
+    },
+    {
+      "lat": 33.7294,
+      "lng": 73.0931,
+      "color": "amber",
+      "title": "Islamabad — One Year After Operation Sindoor, Pakistan Warns 'Full Force' Response",
+      "summary": "On the first anniversary of India's Operation Sindoor, Pakistan warned it would respond with 'full force' to any future Indian attack. Both governments are posturing ahead of what analysts say is a narrowing window before the next crisis."
+    },
+    {
+      "lat": 28.6139,
+      "lng": 77.209,
+      "color": "amber",
+      "title": "New Delhi — Modi Vows to Crush Terror 'Ecosystem' on Sindoor Anniversary",
+      "summary": "Prime Minister Modi said India remains 'steadfast as ever' in defeating terrorism and its enabling ecosystem, marking one year since India launched strikes against terrorist infrastructure in Pakistan-administered Kashmir."
+    },
+    {
+      "lat": 39.9042,
+      "lng": 116.4074,
+      "color": "amber",
+      "title": "Beijing — US-China Summit 5 Days Away; China Urges Drop of Section 301 Probe",
+      "summary": "China urged the US to drop its Section 301 excess-capacity investigation at a Washington hearing, calling it legally flawed, just days before the Trump-Xi summit on May 14-15 — the first presidential meeting since October 2025."
+    }
+  ],
+  "model_flash": [
+    {
+      "category": "Text Chat",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "Llama 4",
+      "best_value": "Gemini 2.5 Flash",
+      "change": "none"
+    },
+    {
+      "category": "Code Gen",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "DeepSeek V4",
+      "best_value": "DeepSeek V4",
+      "change": "none"
+    },
+    {
+      "category": "Reasoning",
+      "best_closed": "Claude Mythos Preview",
+      "best_open": "QwQ 32B",
+      "best_value": "Gemini 2.5 Flash",
+      "change": "none"
+    },
+    {
+      "category": "Image Gen",
+      "best_closed": "Midjourney v7",
+      "best_open": "Flux 1.1",
+      "best_value": "Flux 1.1",
+      "change": "none"
+    },
+    {
+      "category": "Video Gen",
+      "best_closed": "Sora 2",
+      "best_open": "Wan 2.1",
+      "best_value": "Wan 2.1",
+      "change": "none"
+    },
+    {
+      "category": "Multimodal",
+      "best_closed": "GPT-5.5",
+      "best_open": "Qwen 3.6",
+      "best_value": "Gemini 2.5 Flash",
+      "change": "none"
+    }
+  ],
+  "event_updates": [
+    {
+      "event_slug": "iran-war-ceasefire",
+      "title": "US-Iran War Ceasefire Negotiations",
+      "status": "active",
+      "latest_summary": "Fox News and NCRI published satellite images of an alleged secret 2,500-acre Iranian nuclear weapons facility in Semnan Province ('Rainbow Site') dedicated to tritium extraction. Iran dismissed the report as Israeli-driven fabrication. The revelation complicates the already-stalled 14-point MOU; Iran had earlier 'strongly rejected' the US demand to ship enriched uranium abroad. US strikes on Bandar Abbas and Qeshm remain the latest US military action; Saudi Arabia and Kuwait have lifted base restrictions. Trump says 'war will be over quickly' but has threatened heavier bombing if Iran refuses."
+    },
+    {
+      "event_slug": "russia-ukraine-ceasefire",
+      "title": "Russia-Ukraine Ceasefire Negotiations",
+      "status": "watching",
+      "latest_summary": "Russia's unilateral May 8–9 Victory Day ceasefire held during the scaled-back Red Square parade — no tanks, missiles, or heavy weapons present for the first time in Putin's rule. Only Laos and Malaysia sent heads of state. Zelensky signed a decree permitting the ceremony but warned it changes nothing about the war. Ukraine hit a Russian Karakurt-class missile ship at Kaspiysk naval base in Dagestan ahead of the parade. 208 combat engagements recorded in the past day."
+    },
+    {
+      "event_slug": "us-china-chips",
+      "title": "US-China Trade & Chip Export Controls",
+      "status": "watching",
+      "latest_summary": "Trump-Xi summit is now five days away (May 14-15 in Beijing). China urged the US at a Washington hearing to drop its Section 301 excess-capacity investigation, calling it legally flawed. Analysts expect announcements of Chinese purchases of US goods (Boeing, agriculture) and a bilateral Board of Trade framework, but say underlying semiconductor and export-control tensions remain unresolved. Chinese exports to the US have fallen 11% YoY in early 2026."
+    }
+  ]
+}

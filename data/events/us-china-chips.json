@@ -3,39 +3,83 @@
   "title": "US-China Chip Export Controls",
   "status": "active",
   "description": "The ongoing evolution of US chip export control policy toward China. From the first round of restrictions in 2022 to the 2026 pivot toward advanced packaging technology — tracking every policy shift, bilateral response, and impact on the global semiconductor supply chain.",
-  "tags": ["Geopolitics", "Semiconductor", "US-China Relations", "Export Controls"],
-  "key_people": ["gina-raimondo", "ren-zhengfei", "jensen-huang", "peter-wennink"],
-  "related_events": ["ai-regulation", "ai-agent-ecosystem"],
+  "tags": [
+    "Geopolitics",
+    "Semiconductor",
+    "US-China Relations",
+    "Export Controls"
+  ],
+  "key_people": [
+    "gina-raimondo",
+    "ren-zhengfei",
+    "jensen-huang",
+    "peter-wennink"
+  ],
+  "related_events": [
+    "ai-regulation",
+    "ai-agent-ecosystem"
+  ],
   "timeline": [
     {
       "date": "2025-10-15",
       "title": "US Commerce Dept Expands Entity List — 14 Chinese Semiconductor Firms Added",
       "summary": "The latest entity list update targets EDA toolchains and photoresist suppliers, marking the first time design software companies have been included. China's Commerce Ministry issued a statement of strong opposition the same day.",
-      "sources": ["Reuters", "Bloomberg", "MOFCOM official site"]
+      "sources": [
+        "Reuters",
+        "Bloomberg",
+        "MOFCOM official site"
+      ]
     },
     {
       "date": "2025-12-20",
       "title": "Netherlands and Japan Simultaneously Tighten DUV Equipment Export Licenses to China",
       "summary": "ASML and Tokyo Electron suspended delivery of DUV equipment maintenance services to China under pressure from their respective governments. Industry estimates suggest this affects roughly 30% of China's planned mature-node capacity expansion.",
-      "sources": ["Financial Times", "NHK", "ASML investor notice"]
+      "sources": [
+        "Financial Times",
+        "NHK",
+        "ASML investor notice"
+      ]
     },
     {
       "date": "2026-02-08",
       "title": "Huawei Launches Ascend 910C — Performance Approaches A100, But Packaging Still Relies on External Foundries",
       "summary": "Huawei used a chiplet architecture to work around compute restrictions, but advanced packaging still depends on specific foundry partners. Analysts noted this exposed the exact lever for the next phase of controls.",
-      "sources": ["South China Morning Post", "SemiAnalysis", "Huawei official site"]
+      "sources": [
+        "South China Morning Post",
+        "SemiAnalysis",
+        "Huawei official site"
+      ]
     },
     {
       "date": "2026-04-10",
       "title": "BIS Internal Draft Leaked: Controls Shift from Compute Thresholds to Packaging Technology",
       "summary": "A draft obtained by The Information shows the US is redefining its export control framework — anchoring new restrictions on advanced packaging techniques such as CoWoS and InFO rather than FLOPS thresholds.",
-      "sources": ["The Information", "Tom's Hardware", "SemiAnalysis"]
+      "sources": [
+        "The Information",
+        "Tom's Hardware",
+        "SemiAnalysis"
+      ]
     },
     {
       "date": "2026-05-02",
       "title": "US Commerce Dept Formally Publishes Revised Export Control Framework",
       "summary": "The new framework targets advanced packaging rather than raw compute. Reuters described it as 'narrowed in scope'; South China Morning Post and multiple industry analysts called it a 'precision upgrade'. China's Commerce Ministry issued a reciprocal countermeasure statement within 24 hours.",
-      "sources": ["Federal Register", "Reuters", "South China Morning Post", "Bloomberg"]
+      "sources": [
+        "Federal Register",
+        "Reuters",
+        "South China Morning Post",
+        "Bloomberg"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "title": "China Urges US to Drop Section 301 Probe 5 Days Before Trump-Xi Summit",
+      "summary": "At a Washington hearing, Beijing called the US Section 301 excess-capacity investigation legally flawed and urged its withdrawal before the May 14-15 summit. Analysts expect the leaders to announce Chinese purchases of US goods and a Board of Trade framework, but underlying chip/export-control tensions remain unresolved. Chinese exports to US fell 11% YoY in early 2026.",
+      "sources": [
+        "South China Morning Post",
+        "World Economic Forum",
+        "Brookings"
+      ]
     }
   ]
 }

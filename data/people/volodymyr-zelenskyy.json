@@ -4,11 +4,24 @@
   "role": "President of Ukraine",
   "bio": "Former comedian and actor turned politician, elected President of Ukraine in 2019. Has led the country through Russia's full-scale invasion since February 2022, becoming a prominent figure in international diplomacy and wartime leadership.",
   "related_events": [
-    { "slug": "russia-ukraine-ceasefire", "title": "Russia-Ukraine Ceasefire Negotiations", "mentions": 3, "status": "active" }
+    {
+      "slug": "russia-ukraine-ceasefire",
+      "title": "Russia-Ukraine Ceasefire Negotiations",
+      "mentions": 3,
+      "status": "active"
+    }
   ],
   "activity": {
     "weeks": 1,
-    "data": [1, 0, 0, 0, 0, 0, 2]
+    "data": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
   },
   "quotes": [
     {
@@ -16,6 +29,11 @@
       "source": "NPR / Kyiv Independent",
       "date": "2026-05-05",
       "topic": "Russia Victory Day ceasefire proposal"
+    },
+    {
+      "text": "They want permission from Ukraine to hold their parade, so they can safely march onto the square for one hour once a year, and then go back to killing our people and waging war again.",
+      "source": "Kyiv Independent",
+      "date": "2026-05-08"
     }
   ]
 }

@@ -1,0 +1,292 @@
+{
+  "date": "2026-05-08",
+  "issue": 45,
+  "headline": "Iran 'Strongly Rejects' Parts of US 14-Point MOU as Israel Hits Beirut, April Jobs Report Lands With Forecasts Cut to 55–70K, CoreWeave Backlog Tops $99B but Stock Slips",
+  "summary": "Iran formally responded to the US one-page, 14-point peace memorandum but said it 'strongly rejects' some terms, complicating a deal that markets had largely priced in — even as Saudi Arabia and Kuwait lifted base restrictions and the US carried out fresh strikes on Bandar Abbas and Qeshm Island. Israel hit Beirut's southern suburbs for the first time since the April 16 ceasefire, killing a senior Hezbollah commander and reopening a front the Iran negotiations had hoped to keep frozen. The US April nonfarm payrolls report drops at 8:30 a.m. ET with consensus down to ~55–70K from March's 178K; ADP private payrolls came in at +109K. CoreWeave reported Q1 revenue of $2.08B (vs $1.97B est) and a $99.4B backlog, but the stock slipped after-hours; Coinbase missed at $1.41B revenue, and Airbnb beat at $2.7B and raised full-year guidance. Mozilla shipped Firefox 150 with 271 vulnerabilities patched via Anthropic's Mythos — the most in a single release in browser history.",
+  "meta": {
+    "article_count": 26,
+    "source_count": 17,
+    "reading_minutes": 15
+  },
+  "highlights": [
+    {
+      "category": "geo",
+      "title": "Iran 'Strongly Rejects' Parts of US 14-Point MOU as Israel Strikes Beirut, US Hits Bandar Abbas",
+      "summary": "Tehran's Foreign Ministry confirmed it conveyed its response to the one-page, 14-point memorandum but said it 'strongly rejected' some terms — most notably the US demand that Iran ship its enriched uranium out of the country. In parallel, Israel carried out its first strike on Beirut's southern suburbs since the April 16 ceasefire, killing a senior Hezbollah Radwan-Force commander, while US Central Command struck Iran's coastal city of Bandar Abbas and the Strait of Hormuz island of Qeshm. Saudi Arabia and Kuwait quietly lifted the base and airspace restrictions they had imposed during Project Freedom, clearing the runway for the US to resume the operation if talks fail.",
+      "sources": ["Al Jazeera", "Time", "Euronews", "Times of Israel", "NBC News", "Haaretz"],
+      "novelty": "high",
+      "url": "https://www.aljazeera.com/news/2026/5/7/what-are-us-proposals-to-end-war-and-will-iran-agree-to-them",
+      "image_url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=600&h=400&fit=crop"
+    },
+    {
+      "category": "econ",
+      "title": "April Jobs Report Drops at 8:30 a.m. ET — Consensus Slashed to 55–70K from March's 178K",
+      "summary": "The Bureau of Labor Statistics releases April nonfarm payrolls on Friday morning with FactSet consensus at +70K, Kiplinger's preview at +67K and the lowest at +55K — versus March's blowout +178K. Unemployment is expected to hold at 4.3%. The April ADP private-employment report this week showed +109K with annual pay up 4.4%. With the Fed split 8–4 in April on holding at 3.50–3.75% and headline PCE running 3.5% on the energy pass-through, a sub-50K print would crystallize the stagflation framing; an upside surprise (>120K) would push back the rate-cut path that futures are pricing.",
+      "sources": ["BLS", "CNN", "Kiplinger", "Morningstar", "ADP", "FactSet"],
+      "novelty": "high",
+      "url": "https://www.cnn.com/2026/05/07/economy/us-jobs-report-april-preview",
+      "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=400&fit=crop"
+    },
+    {
+      "category": "ai",
+      "title": "Mozilla Ships Firefox 150 With 271 Mythos-Found Vulnerabilities Patched — Most in Browser History",
+      "summary": "Mozilla published a 'Behind the Scenes' post detailing how Anthropic's Claude Mythos Preview surfaced 271 distinct vulnerabilities in Firefox in a single evaluation pass, including a 15-year-old HTML-parser flaw and two unusual sandbox-escape bugs. They were rolled up into three CVEs (CVE-2026-6784/6785/6786) and shipped in Firefox 150. April 2026 alone saw 423 Firefox bug fixes vs 31 in April 2025 — a 13.6× jump. Mozilla credited 'agentic harnesses that can reliably detect security issues' as the qualitative shift that made it possible.",
+      "sources": ["Mozilla Hacks", "TechCrunch", "Engadget", "The Register", "Slashdot"],
+      "novelty": "high",
+      "url": "https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/",
+      "image_url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=400&fit=crop"
+    }
+  ],
+  "stories": [
+    {
+      "category": "econ",
+      "title": "CoreWeave Q1 Revenue Doubles to $2.08B, Backlog Hits $99.4B — but Net Loss Widens to $740M and Stock Slips After-Hours",
+      "source_count": 5,
+      "importance": "high",
+      "url": "https://www.cnbc.com/2026/05/07/coreweave-crwv-q1-earnings-report-2026.html"
+    },
+    {
+      "category": "econ",
+      "title": "Coinbase Q1 Misses at $1.41B (vs $1.48B Est) — Derivatives Volume +169%, Layoffs Hit 14% of Staff",
+      "source_count": 4,
+      "importance": "medium",
+      "url": "https://www.cnbc.com/2026/05/07/coinbase-coin-earnings-q1-2026.html"
+    },
+    {
+      "category": "econ",
+      "title": "Airbnb Q1 Revenue Beats at $2.7B (+18% YoY), Lifts Full-Year to 'Low- to Mid-Teens' Growth",
+      "source_count": 4,
+      "importance": "medium",
+      "url": "https://www.cnbc.com/2026/05/07/airbnb-abnb-earnings-q1-2026.html"
+    },
+    {
+      "category": "geo",
+      "title": "Russia–Ukraine Victory Day 'Ceasefires' Collapse on Day One — 1,820 Violations Logged Before May 8",
+      "source_count": 4,
+      "importance": "high",
+      "url": "https://www.defensenews.com/global/europe/2026/05/07/dueling-victory-day-ceasefires-for-war-in-ukraine-collapse-almost-immediately/"
+    },
+    {
+      "category": "econ",
+      "title": "RBNZ Financial Stability Report: Governor Anna Breman Says NZ System Resilient but Iran War Will Slow Recovery",
+      "source_count": 4,
+      "importance": "medium",
+      "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/05/financial-system-resilient-amid-heightened-global-risks"
+    },
+    {
+      "category": "geo",
+      "title": "Wire China: Trump's Board-of-Trade Move Signals 'US Has Given Up on Changing China' Ahead of May 14–15 Summit",
+      "source_count": 3,
+      "importance": "medium",
+      "url": "https://www.thewirechina.com/2026/05/07/trumps-board-of-trade-move-signals-the-u-s-has-given-up-on-changing-china/"
+    },
+    {
+      "category": "ai",
+      "title": "Ethan Mollick Analysis: ~50% of Microsoft/Oracle/Google/Amazon Cloud Backlog Now Tied to OpenAI + Anthropic",
+      "source_count": 2,
+      "importance": "medium",
+      "url": "https://blog.greeden.me/en/2026/05/07/generative-ai-news-weekly-summary-april-30-may-7-2026-gpt-5-5-instant-claude-financial-agents-and-geminis-multimodal-rag-accelerate-practical-ai/"
+    },
+    {
+      "category": "indie",
+      "title": "Indie Hackers Pulse: AI Coding Tools Cutting Solo-Dev Time 3–5×, Micro-SaaS Market Growing ~30% Annually",
+      "source_count": 2,
+      "importance": "low",
+      "url": "https://superframeworks.com/articles/best-micro-saas-ideas-solopreneurs"
+    }
+  ],
+  "perspectives": [
+    {
+      "title": "Iran Deal: Mixed Messages or Slow Convergence?",
+      "subtitle": "Time and Al Jazeera read Tehran's response as a partial rejection; Axios still sees a deal closing",
+      "event_slug": "iran-war-ceasefire",
+      "sources": [
+        {
+          "name": "Time",
+          "quote": "Iran 'strongly rejected' parts of the US proposal — most notably the demand that Tehran ship its enriched uranium out of the country — leaving both sides offering mixed messages on whether a deal is genuinely close or whether the framework is being used as cover for the next escalation.",
+          "url": "https://time.com/article/2026/05/07/us-iran-war-deal-mou-axios-report-negotiations-strait-nuclear/"
+        },
+        {
+          "name": "Al Jazeera",
+          "quote": "The US-Iran proposals leave unresolved the two terms Iran will not concede in any short document: shipping enriched uranium abroad and a permanent cap on enrichment levels. Pakistan is still relaying messages, but Tehran's spokesperson made clear the framework as written is not acceptable.",
+          "url": "https://www.aljazeera.com/news/2026/5/7/what-are-us-proposals-to-end-war-and-will-iran-agree-to-them"
+        }
+      ]
+    },
+    {
+      "title": "CoreWeave Q1: Hyperscale Validation or Concentration Risk?",
+      "subtitle": "Bulls cite the $99.4B backlog; bears point to the $740M loss and after-hours slip",
+      "event_slug": "ai-agent-ecosystem",
+      "sources": [
+        {
+          "name": "Stocktitan / CoreWeave IR",
+          "quote": "Revenue more than doubled to $2.08B, the revenue backlog reached $99.4B, ten clients are now committed to spending at least $1B with us, and the company has 3.5 GW of total contracted power — CEO Mike Intrator said 'we have reached hyperscale.'",
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-First-Quarter-2026-Results/"
+        },
+        {
+          "name": "Motley Fool",
+          "quote": "The AI boom is real, but CoreWeave's losses are widening — net loss reached $740M versus $315M a year ago, technology and infrastructure costs jumped 127% to $1.27B, and the stock slipped after-hours despite topping all 32 analyst revenue estimates compiled by Bloomberg.",
+          "url": "https://www.fool.com/investing/2026/05/07/coreweaves-ai-boom-is-real-but-comes-with-a-huge-r/"
+        }
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "person_slug": "donald-trump",
+      "person_name": "Donald Trump",
+      "text": "They want to make a deal. We've had very good talks with Iran over the last 24 hours, and it's very possible that we'll make a deal. The war will be over quickly.",
+      "source": "Al Jazeera",
+      "date": "2026-05-07"
+    },
+    {
+      "person_slug": "anna-breman",
+      "person_name": "Anna Breman",
+      "text": "New Zealand's financial system remains resilient amid heightened global risks. The closure of the Strait of Hormuz has created significant disruptions to world energy markets, and the longer the conflict persists the greater the risks to global financial stability.",
+      "source": "RBNZ",
+      "date": "2026-05-07"
+    },
+    {
+      "person_slug": "mike-intrator",
+      "person_name": "Mike Intrator",
+      "text": "We have reached hyperscale. Ten clients are now committed to spending at least one billion dollars with CoreWeave, and our revenue backlog reached $99.4 billion this quarter.",
+      "source": "CoreWeave Q1 2026 earnings call",
+      "date": "2026-05-07"
+    }
+  ],
+  "map_hotspots": [
+    {
+      "lat": 35.6892,
+      "lng": 51.389,
+      "color": "red",
+      "title": "Tehran — Iran 'Strongly Rejects' Parts of MOU",
+      "summary": "Iran conveys formal response to 14-point one-page MOU; rejects key terms including shipping enriched uranium abroad; Foreign Ministry says framework as written not acceptable"
+    },
+    {
+      "lat": 33.8938,
+      "lng": 35.5018,
+      "color": "red",
+      "title": "Beirut — First Israeli Strike Since April Ceasefire",
+      "summary": "Israel hits southern suburbs for first time since April 16 ceasefire, killing senior Hezbollah Radwan-Force commander; Israeli officials say message is 'strike at will' if Hezbollah violates terms"
+    },
+    {
+      "lat": 27.1865,
+      "lng": 56.2808,
+      "color": "red",
+      "title": "Bandar Abbas / Qeshm Island — US CENTCOM Strikes",
+      "summary": "US carries out strikes on Iran's main port city and Strait of Hormuz island; officials say strikes do not mark resumption of war but pressure Tehran while it weighs MOU"
+    },
+    {
+      "lat": 26.5667,
+      "lng": 56.25,
+      "color": "amber",
+      "title": "Strait of Hormuz — Saudi/Kuwait Reopen Bases",
+      "summary": "Saudi Arabia and Kuwait lift base and airspace restrictions imposed during Project Freedom; clears way for US to resume escort operation if talks fail; ~23,000 seafarers still stranded in Persian Gulf"
+    },
+    {
+      "lat": 50.45,
+      "lng": 30.52,
+      "color": "red",
+      "title": "Kyiv — Victory Day 'Ceasefires' Collapse",
+      "summary": "Russia-Ukraine dueling truces collapsed on day one; 1,820 ceasefire violations logged by Zelenskyy team; 108 Russian combat drones, 3 missiles overnight; Russia's May 8–9 unilateral ceasefire continues amid live strikes"
+    },
+    {
+      "lat": 38.9,
+      "lng": -77.0,
+      "color": "amber",
+      "title": "Washington — April Jobs Report Friday 8:30 a.m. ET",
+      "summary": "BLS nonfarm payrolls release; consensus +55–70K vs March +178K; unemployment seen 4.3%; ADP showed +109K private; sub-50K print would crystallize stagflation framing"
+    },
+    {
+      "lat": 40.71,
+      "lng": -74.0,
+      "color": "amber",
+      "title": "Wall Street — Iran Headline Whipsaw",
+      "summary": "S&P 500 +0.17% to 7,377.72 and Nasdaq +0.53% to 25,976.76 May 7; futures faded after CNN reported Iran would impose new Hormuz transit rules; jobs report next catalyst"
+    },
+    {
+      "lat": -41.29,
+      "lng": 174.78,
+      "color": "green",
+      "title": "Wellington — RBNZ Financial Stability Report",
+      "summary": "Governor Anna Breman: NZ banking system resilient; conflict will slow recovery; rising public-debt pressures in major advanced economies flagged as systemic risk"
+    },
+    {
+      "lat": 37.77,
+      "lng": -122.42,
+      "color": "violet",
+      "title": "San Francisco — Mozilla Ships 271 Mythos Patches",
+      "summary": "Firefox 150 patches 271 Mythos-found vulnerabilities; April 2026 had 423 fixes vs 31 in April 2025 (13.6×); 15-year-old HTML-parser flaw, two sandbox escapes among them"
+    }
+  ],
+  "model_flash": [
+    {
+      "category": "Text Chat",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "Llama 4",
+      "best_value": "Gemini 2.5 Flash",
+      "change": "none"
+    },
+    {
+      "category": "Code Gen",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "DeepSeek V4",
+      "best_value": "DeepSeek V4",
+      "change": "none"
+    },
+    {
+      "category": "Reasoning",
+      "best_closed": "Claude Mythos Preview",
+      "best_open": "QwQ 32B",
+      "best_value": "Gemini 2.5 Flash",
+      "change": "none"
+    },
+    {
+      "category": "Image Gen",
+      "best_closed": "Midjourney v7",
+      "best_open": "Flux 1.1",
+      "best_value": "Flux 1.1",
+      "change": "none"
+    },
+    {
+      "category": "Video Gen",
+      "best_closed": "Sora 2",
+      "best_open": "Wan 2.1",
+      "best_value": "Wan 2.1",
+      "change": "none"
+    },
+    {
+      "category": "Multimodal",
+      "best_closed": "GPT-5.5",
+      "best_open": "Qwen 3.6",
+      "best_value": "Gemini 2.5 Flash",
+      "change": "none"
+    }
+  ],
+  "event_updates": [
+    {
+      "event_slug": "iran-war-ceasefire",
+      "title": "US-Iran War Ceasefire Negotiations",
+      "status": "active",
+      "latest_summary": "Iran formally responded to the 14-point MOU but 'strongly rejected' key terms (notably shipping enriched uranium abroad). US struck Bandar Abbas and Qeshm; Saudi Arabia and Kuwait lifted Project Freedom base restrictions; Trump says war 'will be over quickly' but warns of 'much higher level' bombing if Tehran refuses."
+    },
+    {
+      "event_slug": "ai-cybersecurity-mythos",
+      "title": "Anthropic Mythos & Frontier AI Cybersecurity",
+      "status": "active",
+      "latest_summary": "Mozilla shipped Firefox 150 with 271 vulnerabilities patched via Mythos in a single evaluation pass — including a 15-year-old HTML-parser flaw — across CVEs 2026-6784/6785/6786. April 2026 fixes ran 13.6× the April 2025 count."
+    },
+    {
+      "event_slug": "russia-ukraine-ceasefire",
+      "title": "Russia-Ukraine Ceasefire Negotiations",
+      "status": "watching",
+      "latest_summary": "Dueling Victory Day ceasefires collapsed on day one; Russia launched 108 drones and 3 missiles overnight May 5–6 striking Kharkiv; 1,820 violations logged by Ukraine; Russia's unilateral May 8–9 ceasefire continues amid live strikes."
+    },
+    {
+      "event_slug": "us-china-chips",
+      "title": "US-China Chip Export Controls",
+      "status": "watching",
+      "latest_summary": "Six days to Trump-Xi summit (May 14–15); Wire China's read: Trump's proposed bilateral 'Board of Trade' framework signals Washington has 'given up on changing China' and is reverting to managed-trade tariff coexistence rather than systemic reform."
+    }
+  ]
+}
