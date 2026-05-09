@@ -34,7 +34,7 @@
     },
     {
       "date": "2026-04-28",
-      "title": "Iran Submits New Peace Proposal — White House Response Pending",
+      "title": "Iran Submits New Peace Proposal \u2014 White House Response Pending",
       "summary": "Iran tabled a fresh proposal centered on phased sanctions relief tied to nuclear monitoring concessions. Iran's Foreign Ministry confirmed receipt of a US response in early May, with Pakistan continuing to relay messages between the two governments.",
       "sources": [
         "Al Jazeera",
@@ -43,8 +43,8 @@
     },
     {
       "date": "2026-05-06",
-      "title": "Wang Yi Hosts Iran's Araghchi in Beijing — China Pushes 'Comprehensive Ceasefire'",
-      "summary": "Chinese FM Wang Yi met Iranian FM Abbas Araghchi in Beijing and publicly called for a comprehensive ceasefire and the immediate reopening of the Strait of Hormuz. The meeting positioned Beijing as a parallel mediator just one week before the May 14–15 Trump-Xi summit, where Iran is now expected to share the agenda with Taiwan and trade.",
+      "title": "Wang Yi Hosts Iran's Araghchi in Beijing \u2014 China Pushes 'Comprehensive Ceasefire'",
+      "summary": "Chinese FM Wang Yi met Iranian FM Abbas Araghchi in Beijing and publicly called for a comprehensive ceasefire and the immediate reopening of the Strait of Hormuz. The meeting positioned Beijing as a parallel mediator just one week before the May 14\u201315 Trump-Xi summit, where Iran is now expected to share the agenda with Taiwan and trade.",
       "sources": [
         "Washington Post",
         "Al Jazeera",
@@ -66,7 +66,7 @@
     {
       "date": "2026-05-07",
       "title": "Iran 'Strongly Rejects' Parts of MOU; US Strikes Bandar Abbas and Qeshm; Saudi/Kuwait Lift Base Restrictions",
-      "summary": "Iran's Foreign Ministry confirmed it conveyed its response to the 14-point MOU but said it 'strongly rejected' some terms — most notably the demand that Tehran ship its enriched uranium out of the country and accept a permanent enrichment cap. In parallel, US Central Command struck Iran's port city of Bandar Abbas and the Strait of Hormuz island of Qeshm. Saudi Arabia and Kuwait lifted the base and airspace restrictions imposed during Project Freedom, leaving the US the option to resume the escort operation. Trump publicly said the war 'will be over quickly' but warned of bombing at a 'much higher level' if Tehran refuses.",
+      "summary": "Iran's Foreign Ministry confirmed it conveyed its response to the 14-point MOU but said it 'strongly rejected' some terms \u2014 most notably the demand that Tehran ship its enriched uranium out of the country and accept a permanent enrichment cap. In parallel, US Central Command struck Iran's port city of Bandar Abbas and the Strait of Hormuz island of Qeshm. Saudi Arabia and Kuwait lifted the base and airspace restrictions imposed during Project Freedom, leaving the US the option to resume the escort operation. Trump publicly said the war 'will be over quickly' but warned of bombing at a 'much higher level' if Tehran refuses.",
       "sources": [
         "Al Jazeera",
         "Time",
@@ -78,8 +78,8 @@
     },
     {
       "date": "2026-05-07",
-      "title": "Israel Strikes Beirut for First Time Since April Ceasefire — Re-Opens Lebanon Front Around Iran Talks",
-      "summary": "Israel hit the southern suburbs of Beirut for the first time since the April 16 US-brokered ceasefire, killing a senior Hezbollah Radwan-Force commander, and continued strikes across southern Lebanon (Ain Baal, Dibbin, Nabatieh). Tehran has consistently insisted any wider peace deal must include Israel halting its fight with Hezbollah — making the Beirut strike a direct complication for the MOU negotiations.",
+      "title": "Israel Strikes Beirut for First Time Since April Ceasefire \u2014 Re-Opens Lebanon Front Around Iran Talks",
+      "summary": "Israel hit the southern suburbs of Beirut for the first time since the April 16 US-brokered ceasefire, killing a senior Hezbollah Radwan-Force commander, and continued strikes across southern Lebanon (Ain Baal, Dibbin, Nabatieh). Tehran has consistently insisted any wider peace deal must include Israel halting its fight with Hezbollah \u2014 making the Beirut strike a direct complication for the MOU negotiations.",
       "sources": [
         "Al Jazeera",
         "Euronews",
@@ -88,13 +88,24 @@
     },
     {
       "date": "2026-05-09",
-      "title": "Fox News / NCRI Reveal 'Rainbow Site' — Alleged Secret 2,500-Acre Tritium Facility Threatens MOU Talks",
+      "title": "Fox News / NCRI Reveal 'Rainbow Site' \u2014 Alleged Secret 2,500-Acre Tritium Facility Threatens MOU Talks",
       "summary": "Fox News aired NCRI satellite images of an alleged 2,500-acre secret nuclear weapons facility ('Rainbow Site') in Semnan Province, Iran, reportedly dedicated to tritium extraction for nuclear warhead enhancement. Iran's UN mission called the report fabricated; FM Araghchi blamed Israel. The revelation, if verified, would undermine Iran's peaceful-use claims and could collapse the 14-point MOU framework. US strikes on Bandar Abbas/Qeshm remain the latest US military action.",
       "sources": [
         "Fox News",
         "Iran International",
         "Jerusalem Post",
         "Xinhua"
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "title": "MOU Talks Frozen \u2014 Iran Rejected Key Clauses, Rainbow Site Unaddressed",
+      "summary": "As of May 10, no MOU has been signed. Iran reportedly rejected key clauses including the requirement to ship enriched uranium abroad and the timeline on the enrichment moratorium (US 20 years vs Iran 5 years, with 12-15 years as current compromise). The Rainbow Site tritium-facility revelation (Fox News/NCRI, May 9) has not been addressed by either side and complicates the inspection provisions of the draft agreement. Indirect talks via the Omani channel remain the active diplomatic track.",
+      "sources": [
+        "Axios",
+        "Time",
+        "Iran International",
+        "Al Jazeera"
       ]
     }
   ]

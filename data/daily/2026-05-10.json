@@ -1,0 +1,230 @@
+{
+  "date": "2026-05-10",
+  "issue": 47,
+  "headline": "Trump 3-Day Russia-Ukraine Ceasefire Holds Under Fire; Iran MOU Stalled as Rainbow Site Revelation Lingers; S&P 500 Eyes CPI Week at New ATH With Warsh Vote Monday",
+  "summary": "Day 2 of Trump's US-brokered May 9–11 ceasefire between Russia and Ukraine proceeded with mutual violation accusations — Kyiv logged more than 140 Russian attacks; Moscow said it responded in kind — but both sides remained at the table and Trump called it the 'beginning of the end of a very long, deadly, and hard fought War.' Iran-US MOU negotiations remained frozen: Iran reportedly rejected several key clauses, the Rainbow Site tritium-facility revelation from Friday has yet to be addressed by either side, and no deal was signed. Markets closed their best week in months with the S&P 500 sitting at a fresh all-time high of 7,398.93, but a packed schedule awaits: Kevin Warsh's full Senate confirmation vote is expected Monday, CPI on Tuesday, PPI Wednesday, and the Trump-Xi Beijing summit on Thursday-Friday.",
+  "meta": { "article_count": 24, "source_count": 16, "reading_minutes": 14 },
+  "highlights": [
+    {
+      "category": "geo",
+      "title": "Trump 3-Day Russia-Ukraine Ceasefire: Both Sides Claim Violations but Hold the Line — 'Beginning of the End'",
+      "summary": "Day 2 of the Trump-brokered May 9–11 ceasefire passed with Ukraine logging over 140 Russian artillery attacks, 10 front-line assaults, and 850+ drone sorties; Moscow said it had 'responded in kind to violations.' Despite the mutual blame, neither side formally withdrew from the agreement. The deal also includes an exchange of 1,000 prisoners per side, which Trump called 'a tremendous sign of good will.' Trump declared on Truth Social that the truce 'may be the beginning of the end of a very long, deadly, and hard fought War,' and said talks are 'getting closer and closer every day.' Analysts note that any ceasefire extension — even imperfect — would mark the most durable halt to combat since Russia's February 2022 invasion.",
+      "sources": ["NPR", "Al Jazeera", "Kyiv Independent", "CBC News", "Reuters / Investing.com"],
+      "novelty": "high",
+      "url": "https://www.npr.org/2026/05/09/nx-s1-5816478/trump-russia-ukraine-ceasefire",
+      "image_url": "https://images.unsplash.com/photo-1594164032989-f21f0cb64a63?w=600&h=400&fit=crop"
+    },
+    {
+      "category": "econ",
+      "title": "S&P 500 at ATH 7,398 Heading Into Pivotal Week: Warsh Vote (Mon), CPI (Tue), PPI (Wed), Trump-Xi (Thu–Fri)",
+      "summary": "US equity markets ended last week at record highs — S&P 500 at 7,398.93, Nasdaq at 26,247.08 — on the back of the 'goldilocks' April jobs surprise (+115K vs ~60K consensus). The coming week is one of the most consequential of 2026: the Senate is expected to vote on Kevin Warsh's Fed Chair nomination Monday (he needs a simple majority, with Republicans holding 53 seats); CPI for April prints Tuesday; PPI Wednesday; and the Trump-Xi summit in Beijing runs Thursday-Friday. Analysts at Crestwood Advisors warned that while 'new highs and old risks' coexist, any CPI upside surprise or breakdown in summit talks could rapidly reverse the prevailing optimism. Fed chair transition is set for May 15.",
+      "sources": ["CNBC", "Crestwood Advisors", "TheStreet", "Al Jazeera Economy"],
+      "novelty": "high",
+      "url": "https://www.cnbc.com/2026/05/08/stock-market-next-week-outlook-for-may-11-15-2026-.html",
+      "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=400&fit=crop"
+    },
+    {
+      "category": "ai",
+      "title": "AI-Driven Tech Layoffs Surpass 39,000 in 2026 — Meta 8K, Snap 16%, Cloudflare 20% Cite Smaller-Team Efficiency",
+      "summary": "A new wave of AI-driven workforce restructuring emerged across May 2026: Meta announced roughly 8,000 job cuts to reallocate resources toward AI infrastructure, Snap cut 16% of full-time headcount (~1,000 workers) citing 'rapid AI advancements that allow smaller teams to achieve the same output,' and Cloudflare shed 20% (~1,100 jobs). Total AI-attributed tech layoffs in 2026 have now surpassed 39,000 across the industry. Yahoo Finance noted layoffs are 'accelerating in May 2026 as firms restructure around AI,' with smaller, AI-native teams displacing headcount rather than traditional productivity improvements. The trend raises structural labor-market questions ahead of Tuesday's CPI release and the incoming Warsh Fed era.",
+      "sources": ["CNBC", "Deadline", "Yahoo Finance", "Digital Journal", "Newsweek"],
+      "novelty": "medium",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/layoffs-accelerate-may-2026-firms-040430218.html",
+      "image_url": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&h=400&fit=crop"
+    }
+  ],
+  "stories": [
+    {
+      "category": "geo",
+      "title": "Iran MOU Stalled: Tehran Rejected Key Clauses, Rainbow Site Clouds Resumption",
+      "source_count": 5,
+      "importance": "high",
+      "url": "https://www.axios.com/2026/05/06/iran-us-deal-one-page-memo"
+    },
+    {
+      "category": "geo",
+      "title": "Trump-Xi Beijing Summit 4 Days Away — Board of Trade Framework Expected but Chip Controls Remain Flashpoint",
+      "source_count": 5,
+      "importance": "high",
+      "url": "https://www.cfr.org/articles/what-to-expect-ahead-of-next-weeks-trump-xi-summit"
+    },
+    {
+      "category": "econ",
+      "title": "Kevin Warsh Full Senate Confirmation Vote Monday — Needs Simple Majority; Powell Exits May 15",
+      "source_count": 4,
+      "importance": "high",
+      "url": "https://www.cnbc.com/2026/04/29/trump-fed-nominee-kevin-warsh-senate-approval.html"
+    },
+    {
+      "category": "geo",
+      "title": "India-Pakistan: Analysts Warn Next Conflict 'More Dangerous' One Year After Operation Sindoor",
+      "source_count": 4,
+      "importance": "medium",
+      "url": "https://thediplomat.com/2026/05/a-year-after-operation-sindoor-rising-risks-and-deepening-instability/"
+    },
+    {
+      "category": "ai",
+      "title": "OpenAI Rolls Out GPT-5.5-Cyber to Vetted Security Teams — Follows Anthropic Mythos Cybersecurity Track",
+      "source_count": 3,
+      "importance": "medium",
+      "url": "https://www.cnbc.com/2026/05/07/openai-rolls-out-new-gpt-5point5-cyber-to-vetted-cybersecurity-teams.html"
+    },
+    {
+      "category": "ai",
+      "title": "Novo Nordisk and OpenAI Form Global Strategic Partnership — AI Across Drug Discovery, Manufacturing, and Commercial Ops",
+      "source_count": 2,
+      "importance": "low",
+      "url": "https://imfounder.com/science-tech/ai/ai-updates-may-2026/"
+    }
+  ],
+  "perspectives": [
+    {
+      "title": "Trump Ceasefire: 'Beginning of the End' or Just Another Failed Truce?",
+      "subtitle": "Trump calls the 3-day halt a historic breakthrough; Ukraine logs 140+ Russian attacks and questions whether any ceasefire changes the military calculus",
+      "event_slug": "russia-ukraine-ceasefire",
+      "sources": [
+        {
+          "name": "Trump / NPR",
+          "quote": "Trump said Russia and Ukraine agreed to his request for a 3-day ceasefire and that it 'may be the beginning of the end of a very long, deadly, and hard fought War' — framing the halt as a historic diplomatic milestone.",
+          "url": "https://www.npr.org/2026/05/09/nx-s1-5816478/trump-russia-ukraine-ceasefire"
+        },
+        {
+          "name": "Kyiv Post / Kyiv Independent",
+          "quote": "Zelensky said Russian forces carried out over 140 attacks, 10 assaults, and 850+ drone sorties on the first day of the ceasefire — a pattern consistent with 12 years of Russia violating every ceasefire it proposed or agreed to, suggesting the truce changes little on the ground.",
+          "url": "https://www.kyivpost.com/analysis/75728"
+        }
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "person_slug": "donald-trump",
+      "person_name": "Donald Trump",
+      "text": "Russia and Ukraine have agreed to my request for a three-day ceasefire. This may be the beginning of the end of a very long, deadly, and hard fought War.",
+      "source": "Truth Social / NPR",
+      "date": "2026-05-09"
+    },
+    {
+      "person_slug": "volodymyr-zelensky",
+      "person_name": "Volodymyr Zelensky",
+      "text": "Russia has already violated the ceasefire more than 140 times with artillery strikes, assaults, and drone attacks. This is the same pattern we have seen every single time.",
+      "source": "Kyiv Independent / Reuters",
+      "date": "2026-05-09"
+    }
+  ],
+  "map_hotspots": [
+    {
+      "lat": 48.3794,
+      "lng": 31.1656,
+      "color": "amber",
+      "title": "Ukraine Front Line — Ceasefire Day 2: 140+ Attacks Logged Despite Truce",
+      "summary": "Day 2 of Trump's 3-day Russia-Ukraine ceasefire (May 9–11) proceeded with Ukraine logging 140+ Russian artillery attacks, 10 assaults, and 850+ drone sorties. Moscow said it responded in kind to Kyiv's violations. Both sides remain formally in the ceasefire while accusing each other of breaking it."
+    },
+    {
+      "lat": 55.7558,
+      "lng": 37.6173,
+      "color": "amber",
+      "title": "Moscow — Agrees to 3-Day Truce, Intercepts Ukrainian Drones",
+      "summary": "Moscow Mayor Sobyanin said air defenses intercepted Ukrainian drones over a 7-hour window ending ~8pm. Russian Defense Ministry confirmed retaliatory strikes but said it remains party to the Trump-brokered ceasefire through May 11."
+    },
+    {
+      "lat": 35.6892,
+      "lng": 51.389,
+      "color": "red",
+      "title": "Tehran — Iran Stalls on MOU; Rainbow Site Unaddressed",
+      "summary": "Iran reportedly rejected key clauses of the US 14-point MOU — including the timeline on uranium enrichment moratorium — and the Friday disclosure of the 'Rainbow Site' tritium facility has not been officially addressed. No deal signed; talks remain frozen as of May 10."
+    },
+    {
+      "lat": 39.9042,
+      "lng": 116.4074,
+      "color": "amber",
+      "title": "Beijing — Trump-Xi Summit Countdown: 4 Days",
+      "summary": "The Trump-Xi summit in Beijing (May 14–15) is 4 days away. China is expected to offer commodity/Boeing purchase commitments; the US seeks Section 301 probe concessions. A proposed 'Board of Trade' bilateral framework could be the key deliverable. Semiconductor and Taiwan tensions remain unresolved beneath the surface optimism."
+    },
+    {
+      "lat": 28.6139,
+      "lng": 77.209,
+      "color": "amber",
+      "title": "New Delhi — 1 Year After Operation Sindoor, Modi Vows to Crush Terror 'Ecosystem'",
+      "summary": "On the first anniversary of India's Operation Sindoor strikes against terrorist infrastructure in Pakistan-administered Kashmir, PM Modi reiterated India's resolve. Analysts warn both India and Pakistan have spent the past year building faster, longer-range strike capabilities and that the next conflict could escalate higher and faster."
+    },
+    {
+      "lat": 33.7294,
+      "lng": 73.0931,
+      "color": "amber",
+      "title": "Islamabad — Pakistan Rebuilds Strike Capacity One Year After Sindoor",
+      "summary": "Pakistan has used the past 12 months to restructure forces around faster strike cycles and expanded domestic weapons programs. Foreign Affairs warns 'the next India-Pakistan war will escalate' — both sides have drawn lessons that prioritize speed and volume over restraint."
+    },
+    {
+      "lat": 38.9,
+      "lng": -77.0,
+      "color": "green",
+      "title": "Washington — Warsh Vote Monday, CPI Tuesday, Fed Transition May 15",
+      "summary": "Kevin Warsh's full Senate confirmation vote is expected Monday May 11; he needs a simple majority with 53 Republican seats. April CPI follows Tuesday, PPI Wednesday. Powell exits May 15, ending an era defined by post-COVID inflation and the most politically contentious Fed period since Volcker."
+    }
+  ],
+  "model_flash": [
+    {
+      "category": "Text Chat",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "Llama 4",
+      "best_value": "Gemini 2.5 Flash",
+      "change": "none"
+    },
+    {
+      "category": "Code Gen",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "DeepSeek V4",
+      "best_value": "DeepSeek V4",
+      "change": "none"
+    },
+    {
+      "category": "Reasoning",
+      "best_closed": "Claude Mythos Preview",
+      "best_open": "QwQ 32B",
+      "best_value": "Gemini 2.5 Flash",
+      "change": "none"
+    },
+    {
+      "category": "Image Gen",
+      "best_closed": "Midjourney v7",
+      "best_open": "Flux 1.1",
+      "best_value": "Flux 1.1",
+      "change": "none"
+    },
+    {
+      "category": "Video Gen",
+      "best_closed": "Sora 2",
+      "best_open": "Wan 2.1",
+      "best_value": "Wan 2.1",
+      "change": "none"
+    },
+    {
+      "category": "Multimodal",
+      "best_closed": "GPT-5.5",
+      "best_open": "Qwen 3.6",
+      "best_value": "Gemini 2.5 Flash",
+      "change": "none"
+    }
+  ],
+  "event_updates": [
+    {
+      "event_slug": "russia-ukraine-ceasefire",
+      "title": "Russia-Ukraine Ceasefire Negotiations",
+      "status": "active",
+      "latest_summary": "Day 2 of Trump's 3-day US-brokered ceasefire (May 9–11): Ukraine logged 140+ Russian attacks, 10 front-line assaults, and 850+ drone sorties; Moscow said it responded in kind to Ukrainian violations. Both sides remain formally within the framework. The ceasefire includes a 1,000-prisoner exchange per side. Trump called it the 'beginning of the end.' The ceasefire expires May 11 — any extension would be a significant diplomatic breakthrough."
+    },
+    {
+      "event_slug": "iran-war-ceasefire",
+      "title": "US-Iran War Ceasefire Negotiations",
+      "status": "active",
+      "latest_summary": "No deal signed as of May 10. Iran reportedly rejected key clauses of the US 14-point MOU, including provisions on underground nuclear facilities and the duration of the enrichment moratorium. The Rainbow Site revelation (Fox News / NCRI satellite images of an alleged 2,500-acre tritium facility in Semnan Province) has not been formally addressed by either side and continues to cloud the path to agreement. Indirect talks through Omani channel remain the active diplomatic track."
+    },
+    {
+      "event_slug": "us-china-chips",
+      "title": "US-China Trade & Chip Export Controls",
+      "status": "watching",
+      "latest_summary": "Trump-Xi summit in Beijing is 4 days away (May 14–15). Expected deliverables include Chinese purchase commitments (soybeans, Boeing aircraft) and a framework 'Board of Trade' for managed bilateral trade. However, SCMP and CSIS analysis warn that underlying chip/semiconductor export controls and Taiwan tensions remain unresolved. The summit was rescheduled from late March due to the Iran war, and analysts note that trade wins alone won't be enough for Xi domestically."
+    }
+  ]
+}

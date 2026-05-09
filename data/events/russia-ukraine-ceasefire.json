@@ -2,7 +2,7 @@
   "slug": "russia-ukraine-ceasefire",
   "title": "Russia-Ukraine Ceasefire Negotiations",
   "status": "active",
-  "description": "Tracking the evolving ceasefire diplomacy in the Russia-Ukraine war — from Trump-Putin phone calls to competing unilateral truces, Victory Day dynamics, and the role of US mediation in pushing toward a durable peace or temporary pause.",
+  "description": "Tracking the evolving ceasefire diplomacy in the Russia-Ukraine war \u2014 from Trump-Putin phone calls to competing unilateral truces, Victory Day dynamics, and the role of US mediation in pushing toward a durable peace or temporary pause.",
   "tags": [
     "Ukraine",
     "Russia",
@@ -22,7 +22,7 @@
   "timeline": [
     {
       "date": "2026-04-29",
-      "title": "Trump-Putin 90-Minute Phone Call — Ceasefire Floated",
+      "title": "Trump-Putin 90-Minute Phone Call \u2014 Ceasefire Floated",
       "summary": "Trump told reporters he suggested 'a little bit of a ceasefire' to Putin, believing he might go along. Putin's adviser Yuri Ushakov confirmed the call lasted about 90 minutes. Putin indicated he was ready to declare a temporary ceasefire in honor of Victory Day (May 9).",
       "sources": [
         "NPR",
@@ -43,7 +43,7 @@
     {
       "date": "2026-05-04",
       "title": "Russia and Ukraine Declare Competing Ceasefires",
-      "summary": "Russia's Ministry of Defence declared a unilateral ceasefire from May 8–9 tied to Victory Day commemorations, simultaneously warning of a 'massive missile strike' if Ukraine violated it. Ukraine countered by declaring its own truce for May 5–6, calling Russia's proposal politically motivated and 'not serious.'",
+      "summary": "Russia's Ministry of Defence declared a unilateral ceasefire from May 8\u20139 tied to Victory Day commemorations, simultaneously warning of a 'massive missile strike' if Ukraine violated it. Ukraine countered by declaring its own truce for May 5\u20136, calling Russia's proposal politically motivated and 'not serious.'",
       "sources": [
         "Al Jazeera",
         "CBS News",
@@ -54,7 +54,7 @@
     {
       "date": "2026-05-05",
       "title": "Russia's Victory Day Parade to Proceed Without Military Hardware",
-      "summary": "For the first time in nearly two decades, Russia's Victory Day parade in Moscow will include no tanks, missiles, or military equipment — a direct response to Ukraine's long-range drone capability. A strike killed two people deep inside Russia days before the parade.",
+      "summary": "For the first time in nearly two decades, Russia's Victory Day parade in Moscow will include no tanks, missiles, or military equipment \u2014 a direct response to Ukraine's long-range drone capability. A strike killed two people deep inside Russia days before the parade.",
       "sources": [
         "CNN",
         "zona-militar.com",
@@ -63,8 +63,8 @@
     },
     {
       "date": "2026-05-06",
-      "title": "Ukraine's Unilateral Truce Window Closes; Eyes Turn to Russia's May 8–9 Pause",
-      "summary": "Ukraine's self-declared May 5–6 ceasefire expired without major incident. Attention shifted to whether Russia would honor its own May 8–9 Victory Day ceasefire as Moscow simultaneously warned of 'massive missile strikes' if Kyiv broke the truce. Western analysts continued to characterize the rival truces as parallel political theater rather than an off-ramp.",
+      "title": "Ukraine's Unilateral Truce Window Closes; Eyes Turn to Russia's May 8\u20139 Pause",
+      "summary": "Ukraine's self-declared May 5\u20136 ceasefire expired without major incident. Attention shifted to whether Russia would honor its own May 8\u20139 Victory Day ceasefire as Moscow simultaneously warned of 'massive missile strikes' if Kyiv broke the truce. Western analysts continued to characterize the rival truces as parallel political theater rather than an off-ramp.",
       "sources": [
         "NPR",
         "Al Jazeera",
@@ -73,8 +73,8 @@
     },
     {
       "date": "2026-05-07",
-      "title": "Dueling Victory Day Ceasefires Collapse on Day One — 1,820 Violations Logged",
-      "summary": "Defense News and Time reported the rival truces had 'collapsed almost immediately.' Russia launched 108 combat drones and three missiles overnight May 5–6, striking Kharkiv among other cities. By 10 a.m. May 6, Zelenskyy's office logged 1,820 ceasefire violations — including ~30 assault operations and 20+ airstrikes using over 70 guided glide bombs. Zelenskyy accused Putin of 'utter cynicism' after Russia hit Ukrainian energy infrastructure during the supposed truce window.",
+      "title": "Dueling Victory Day Ceasefires Collapse on Day One \u2014 1,820 Violations Logged",
+      "summary": "Defense News and Time reported the rival truces had 'collapsed almost immediately.' Russia launched 108 combat drones and three missiles overnight May 5\u20136, striking Kharkiv among other cities. By 10 a.m. May 6, Zelenskyy's office logged 1,820 ceasefire violations \u2014 including ~30 assault operations and 20+ airstrikes using over 70 guided glide bombs. Zelenskyy accused Putin of 'utter cynicism' after Russia hit Ukrainian energy infrastructure during the supposed truce window.",
       "sources": [
         "Defense News",
         "Time",
@@ -84,7 +84,7 @@
     },
     {
       "date": "2026-05-09",
-      "title": "Victory Day: Russia Holds Most Scaled-Back Parade in Putin Era — No Tanks, No Missiles, Only 2 Foreign Leaders",
+      "title": "Victory Day: Russia Holds Most Scaled-Back Parade in Putin Era \u2014 No Tanks, No Missiles, Only 2 Foreign Leaders",
       "summary": "Russia's May 9 Victory Day parade was the most stripped-down in decades: no heavy weapons, only infantry, with just Laos and Malaysia sending heads of state. Zelensky formally excluded Red Square from Ukraine's weapons plan for the one-hour ceremony but warned that war resumes immediately after. Ukraine struck a Russian Karakurt-class missile ship at Kaspiysk naval base ahead of the parade. 208 combat engagements recorded in the past day; Russian unilateral ceasefire nominally in force but broadly violated.",
       "sources": [
         "Kyiv Independent",
@@ -92,6 +92,18 @@
         "RFERL",
         "Euronews",
         "NPR"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "title": "Trump Brokers 3-Day Ceasefire (May 9\u201311) With 1,000-Prisoner Swap \u2014 Day 1 Sees 140+ Violations",
+      "summary": "President Trump announced a 3-day ceasefire between Russia and Ukraine tied to WWII Victory Day, including an exchange of 1,000 prisoners per side. Both Zelenskyy and Putin's adviser Ushakov confirmed the agreement. Day 1 saw Ukraine log 140+ Russian attacks, 10 assaults, and 850+ drone sorties; Moscow said it responded in kind to Kyiv's violations. Trump called the truce the 'beginning of the end of a very long, deadly, and hard fought War.'",
+      "sources": [
+        "NPR",
+        "Al Jazeera",
+        "CBC News",
+        "Kyiv Independent",
+        "Washington Post"
       ]
     }
   ]
