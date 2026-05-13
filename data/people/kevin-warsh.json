@@ -1,0 +1,34 @@
+{
+  "slug": "kevin-warsh",
+  "name": "Kevin Warsh",
+  "role": "Chair, Federal Reserve (confirmed May 13, 2026; takes office May 15)",
+  "bio": "Kevin Warsh was confirmed by the US Senate as the 17th Chair of the Federal Reserve on May 13, 2026 in a 54–45 vote — the closest margin for a Fed chair confirmation in the modern era. He previously served as a Fed governor (2006–2011) and was a senior policy adviser in the George W. Bush White House. Widely viewed as a Trump ally, he has publicly called for 'regime change' at the central bank but committed during confirmation hearings to use his own judgment rather than take direction from the White House.",
+  "related_events": [
+    {
+      "slug": "ai-regulation",
+      "title": "AI Regulation & Governance",
+      "mentions": 1,
+      "status": "watching"
+    }
+  ],
+  "activity": {
+    "weeks": 4,
+    "data": [
+      0, 0, 0, 0,
+      0, 0, 0, 0,
+      0, 0, 0, 0,
+      0, 0, 0, 0,
+      0, 0, 0, 0,
+      0, 0, 1, 0,
+      1, 0, 2, 1
+    ]
+  },
+  "quotes": [
+    {
+      "text": "I will use my own judgment in setting monetary policy and will not take orders from the White House.",
+      "source": "NPR / CNBC",
+      "date": "2026-05-13",
+      "topic": "Senate confirmation as Fed chair"
+    }
+  ]
+}

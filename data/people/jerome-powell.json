@@ -4,17 +4,63 @@
   "role": "Outgoing Chair, Federal Reserve (term ends May 15, 2026)",
   "bio": "Jerome H. Powell served as Federal Reserve Chair from February 2018 to May 15, 2026. Appointed by Trump and reappointed by Biden, he navigated the COVID-era stimulus, the subsequent inflation surge, and the rate-tightening cycle. After legal action by the Trump administration, Powell announced he would remain on the Fed board as a governor after his chairmanship concluded.",
   "related_events": [
-    "us-china-chips"
+    {
+      "slug": "us-china-chips",
+      "title": "US-China Chip Export Controls",
+      "mentions": 1,
+      "status": "active"
+    }
   ],
   "activity": {
-    "last_active": "2026-04-29",
-    "frequency": "low"
+    "weeks": 4,
+    "data": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   "quotes": [
     {
       "text": "I will remain on the board for a period of time to be determined. The legal actions taken against me have left me no choice but to stay.",
       "source": "CNBC / PBS NewsHour",
       "date": "2026-04-29"
+    },
+    {
+      "text": "I intend to remain on the Board of Governors after my term as Chair ends, in the interest of institutional continuity.",
+      "source": "PBS NewsHour",
+      "date": "2026-05-12",
+      "topic": "Fed transition / staying on board after Warsh confirmation"
+    },
+    {
+      "text": "Central bank independence is not a slogan, it is the institutional precondition for price stability across political cycles. I will continue serving on the Board of Governors to help maintain that continuity.",
+      "source": "Federal Reserve press conference",
+      "date": "2026-05-13",
+      "topic": "Final press conference as Fed chair"
     }
   ]
 }

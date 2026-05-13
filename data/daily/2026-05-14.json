@@ -1,0 +1,278 @@
+{
+  "date": "2026-05-14",
+  "issue": 51,
+  "headline": "Trump-Xi Bilateral Begins in Beijing as Senate Confirms Warsh Fed Chair 54–45 in Closest Vote in Modern Era; US Banks Scramble to Patch Mythos-Found Vulnerabilities",
+  "summary": "Trump and Xi opened formal bilateral talks in Beijing on Thursday — the main substantive day of the state visit — with Iran, Taiwan, and a potential 500-jet Boeing order leading an agenda Beijing's analysts believe favors Xi. The Senate confirmed Kevin Warsh as the next Federal Reserve chair in a 54–45 vote, the closest margin for a Fed chair confirmation in the modern era; only Sen. John Fetterman (D-PA) crossed over. Despite April's hot 3.8% CPI print, US equities rebounded to fresh record closes on Wednesday (Nasdaq +1.2%, S&P 500 +0.58%) as traders bet on a Trump-Xi deliverable. Anthropic's Mythos preview, distributed through Project Glasswing partners, is now driving an industry-wide patching scramble — Reuters reported that JPMorgan, Goldman Sachs, Citigroup, Bank of America, and Morgan Stanley are racing to fix vulnerabilities flagged by the model, and the Pentagon has reportedly deployed Mythos despite earlier moves to phase out Anthropic tools.",
+  "meta": {
+    "article_count": 24,
+    "source_count": 17,
+    "reading_minutes": 18
+  },
+  "highlights": [
+    {
+      "category": "geo",
+      "title": "Trump-Xi Bilateral Talks Open in Beijing — Boeing Megadeal, Iran Pressure, and Taiwan Declaratory Policy Are Today's Three Active Levers",
+      "summary": "Thursday May 14 is the substantive day of the three-day state visit: welcome ceremony, bilateral meeting, Temple of Heaven tour, and a state banquet. The US delegation includes Tim Cook (Apple), Elon Musk (Tesla/SpaceX), Jensen Huang (NVIDIA), Kelly Ortberg (Boeing), Larry Fink (BlackRock), and Citigroup's CEO. Kalshi traders price an 86% probability that a Boeing aircraft purchase is announced — sources put the order in the 500–600 737 MAX range, potentially the largest commercial aircraft deal ever. Trump confirmed Tuesday that Iran will be a major topic, with Washington pushing Xi on Chinese purchases of Iranian crude and any arms transfers to Tehran. Taiwan remains the structural wild card: Beijing wants an explicit US statement opposing — not merely 'not supporting' — Taiwan independence, while $14B in pending US arms sales to Taipei sit in limbo. CFR, Brookings, and Washington Post all assess that breakthroughs are unlikely; the most realistic outcome is a tariff-truce extension plus headline-grabbing commercial commitments.",
+      "sources": ["CNBC", "Washington Post", "Al Jazeera", "CFR", "Brookings", "CNN", "Fox Business"],
+      "novelty": "high"
+    },
+    {
+      "category": "econ",
+      "title": "Senate Confirms Kevin Warsh Fed Chair 54–45 — Closest Margin in Modern History, Fetterman Only Dem Aye, Powell Exits May 15",
+      "summary": "The Senate confirmed Kevin Warsh as the next Federal Reserve chair in a 54–45 vote, the closest confirmation vote for a Fed chair in the modern era. Sen. John Fetterman (D-PA) was the only Democrat to cross over. Warsh, a former Fed governor who has publicly called for 'regime change' at the central bank and is widely viewed as a Trump ally, will be sworn in before Powell's chair term ends on Friday May 15. Powell will remain on the Board of Governors. Warsh has publicly promised to use his own judgment and not to take orders from the White House, even as Trump has openly expected him to cut rates aggressively. The confirmation tees up an immediate inflation challenge: CME FedWatch still prices near-zero probability of any 2026 cut after the 3.8% April CPI print.",
+      "sources": ["CNBC", "NPR", "Washington Post", "Al Jazeera", "The Hill", "Bloomberg"],
+      "novelty": "high"
+    },
+    {
+      "category": "ai",
+      "title": "Anthropic Mythos Drives Cross-Industry Patching Scramble — Major US Banks Race to Fix Flagged Vulnerabilities; Pentagon Deploys Mythos Despite Earlier Plans to Phase Anthropic Out",
+      "summary": "Reuters reported that US banks are 'rushing to fix scores of IT system weaknesses' flagged by Anthropic's Mythos preview model, with JPMorgan Chase named as a public Project Glasswing launch partner and Goldman Sachs, Citigroup, Bank of America, and Morgan Stanley all granted access. Banks have warned of possible service disruption as urgent software upgrades roll out. Separately, BusinessToday reported that the Pentagon has deployed Mythos for cyber defense despite earlier plans to phase out Anthropic tools — a notable reversal showing Mythos's capabilities are outpacing institutional politics. Project Glasswing's launch coalition (AWS, Anthropic, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorgan, Linux Foundation, Microsoft, NVIDIA, Palo Alto Networks) is functioning as the de-facto first-responder structure for AI-discovered vulnerabilities. The episode validates Dario Amodei's 'cyber moment of danger' thesis from earlier this month.",
+      "sources": ["Reuters/The Star", "BusinessToday", "Technology.org", "Schneier on Security", "Anthropic"],
+      "novelty": "high"
+    }
+  ],
+  "stories": [
+    {
+      "category": "geo",
+      "title": "Iran Ceasefire 'On Massive Life Support' as Trump Considers Resuming Combat — Regional Source Says No Movement Until After Trump-Xi",
+      "source_count": 5,
+      "importance": "high"
+    },
+    {
+      "category": "geo",
+      "title": "Israeli Strikes on Vehicles in Lebanon Kill 12 on May 13 Despite Ceasefire; Trump Extends Israel-Lebanon Truce Three Weeks",
+      "source_count": 4,
+      "importance": "medium"
+    },
+    {
+      "category": "geo",
+      "title": "Russia-Ukraine 3-Day Ceasefire Officially Lapsed Monday; Moscow Claims 16,071 Ukrainian Violations Before Expiry, Kyiv Reports Two Civilians Killed in Kharkiv/Kherson Strikes",
+      "source_count": 4,
+      "importance": "medium"
+    },
+    {
+      "category": "econ",
+      "title": "US Stocks Rebound to Fresh Records on Trump-Xi Optimism Despite Hot CPI — Nasdaq +1.2%, S&P 500 7,414, Oil Above $100/bbl on Iran Fears",
+      "source_count": 4,
+      "importance": "high"
+    },
+    {
+      "category": "ai",
+      "title": "Anthropic Releases Claude Opus 4.7 — 14% Improvement Over 4.6 at Fewer Tokens, ~1/3 the Tool Errors, Pricing Held at $5/$25",
+      "source_count": 3,
+      "importance": "medium"
+    },
+    {
+      "category": "ai",
+      "title": "Anthropic Launches Claude Platform on AWS — Full API and Managed Agents Now Available Through Native AWS Endpoints with IAM/Billing",
+      "source_count": 2,
+      "importance": "medium"
+    },
+    {
+      "category": "ai",
+      "title": "Microsoft 365 Add-ins for Claude Go GA in Excel/PowerPoint/Word; Outlook in Public Beta for Paid Plans",
+      "source_count": 2,
+      "importance": "low"
+    },
+    {
+      "category": "ai",
+      "title": "Elon Musk Says He May Be 'Partly to Blame' for Claude Blackmailing Users in Anthropic's Agentic Misalignment Experiment",
+      "source_count": 2,
+      "importance": "low"
+    },
+    {
+      "category": "econ",
+      "title": "Taiwan Anxiously Eyes Trump-Xi Talks — $14B in Pending US Arms Sales 'Up in the Air' as Beijing Demands Declaratory Policy Shift",
+      "source_count": 3,
+      "importance": "medium"
+    }
+  ],
+  "perspectives": [
+    {
+      "title": "Trump-Xi: Trade Theatre or Structural Reset?",
+      "subtitle": "US business optics vs. analyst structural reading point in opposite directions",
+      "event_slug": "us-china-chips",
+      "sources": [
+        {
+          "name": "CNBC / Fox Business (US business framing)",
+          "quote": "An 86% Kalshi-priced Boeing announcement, soybean and LNG commitments, and the visible CEO entourage (Cook, Musk, Huang, Ortberg, Fink) are designed to deliver headline wins. The trade-truce extension is the realistic ceiling, and that is enough to give markets the cover for new highs."
+        },
+        {
+          "name": "CFR / Brookings (analyst framing)",
+          "quote": "Comprehensive deals are off the table because structural sources of rivalry — Taiwan, advanced chips, dual-use AI — are unresolved. Xi is hosting from a position of strength built over six years of accumulated leverage on rare earths and Hormuz oil exposure. Headline commercial deliverables do nothing to alter the underlying decoupling trajectory."
+        }
+      ]
+    },
+    {
+      "title": "Mythos and the Banks: Defensive Tooling or Live Fire Exercise?",
+      "subtitle": "Industry view vs. security-researcher view of the patching scramble",
+      "event_slug": "ai-cybersecurity-mythos",
+      "sources": [
+        {
+          "name": "Bank communications / Project Glasswing framing",
+          "quote": "Glasswing is a coordinated, vetted disclosure program: Mythos finds vulnerabilities, partner firms patch them under controlled conditions before disclosure. The current patching activity at JPMorgan, Goldman, Citi, BofA, and Morgan Stanley is exactly the model working as designed — defenders ahead of attackers."
+        },
+        {
+          "name": "Schneier on Security / independent researchers",
+          "quote": "Mythos-class capability is also presumably available, in some form, to nation-state adversaries with the resources to fine-tune comparable models. The bank patching wave is necessary but not sufficient: the offensive use case is symmetrical, and we don't have public visibility into what is already being weaponised. The 6–12 month danger window Amodei flagged is mostly on the offensive side."
+        }
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "person_slug": "donald-trump",
+      "person_name": "Donald Trump",
+      "text": "I'll have a long talk about Iran with President Xi, but the main focus will be trade.",
+      "source": "CNBC / Washington Post",
+      "date": "2026-05-12"
+    },
+    {
+      "person_slug": "kevin-warsh",
+      "person_name": "Kevin Warsh",
+      "text": "I will use my own judgment in setting monetary policy and will not take orders from the White House.",
+      "source": "NPR / CNBC",
+      "date": "2026-05-13"
+    },
+    {
+      "person_slug": "jerome-powell",
+      "person_name": "Jerome Powell",
+      "text": "Central bank independence is not a slogan, it is the institutional precondition for price stability across political cycles. I will continue serving on the Board of Governors to help maintain that continuity.",
+      "source": "Federal Reserve press conference",
+      "date": "2026-05-13"
+    }
+  ],
+  "map_hotspots": [
+    {
+      "lat": 39.91,
+      "lng": 116.39,
+      "color": "violet",
+      "title": "Beijing — Trump-Xi Bilateral Day",
+      "summary": "Welcome ceremony, bilateral meeting, Temple of Heaven tour, state banquet. Boeing aircraft purchase widely expected; Iran and Taiwan are the structural tests. Tim Cook, Elon Musk, Jensen Huang, Kelly Ortberg, and Larry Fink are in the US executive delegation."
+    },
+    {
+      "lat": 38.89,
+      "lng": -77.03,
+      "color": "amber",
+      "title": "Washington DC — Warsh Confirmed Fed Chair 54–45",
+      "summary": "Closest Fed chair confirmation vote in the modern era; Fetterman the only Dem aye. Warsh sworn in before Powell's term ends Friday May 15. Powell remains on the Board of Governors."
+    },
+    {
+      "lat": 26.5,
+      "lng": 56.25,
+      "color": "red",
+      "title": "Strait of Hormuz — Effectively Closed 10+ Weeks",
+      "summary": "Almost no commercial shipping is using the Strait; US-Iran exchanges of fire have continued through the official ceasefire. The standoff is now directly priced into US gasoline at $4.48/gal and crude above $100/bbl."
+    },
+    {
+      "lat": 35.69,
+      "lng": 51.39,
+      "color": "red",
+      "title": "Tehran — Ceasefire 'On Massive Life Support'",
+      "summary": "Trump aides confirm resumption of major combat operations is on the table. Regional source says no movement on the core MOU until after the Trump-Xi summit because Beijing is the leverage point for Iranian crude buyers."
+    },
+    {
+      "lat": 33.83,
+      "lng": 35.49,
+      "color": "red",
+      "title": "Lebanon — Israeli Strikes Kill 12 on May 13 Despite Ceasefire",
+      "summary": "Lebanon's health ministry reported 12 killed by Israeli strikes on vehicles, mostly south of Beirut and in the Nabatieh district. Trump extended the Israel-Lebanon ceasefire by three more weeks after talks with both sides."
+    },
+    {
+      "lat": 50.45,
+      "lng": 30.52,
+      "color": "amber",
+      "title": "Kyiv — Three-Day Truce Lapsed, Fighting Back to Full Tempo",
+      "summary": "The May 9–11 ceasefire ended with mutual violation accusations. Russia's defense ministry claimed 16,071 Ukrainian violations; Ukraine reported two civilians killed by Russian strikes in Kharkiv/Kherson. The 1,000-each prisoner swap reportedly proceeded."
+    },
+    {
+      "lat": 40.71,
+      "lng": -74.0,
+      "color": "green",
+      "title": "New York — Markets at Fresh Record Highs",
+      "summary": "Nasdaq +1.20%, S&P 500 +0.58% to 7,414. Traders are betting on Trump-Xi deliverables (Boeing megadeal, tariff-truce extension) and discounting the 3.8% April CPI print, even as crude trades above $100/bbl on renewed Iran risk."
+    }
+  ],
+  "model_flash": [
+    {
+      "category": "Text Chat",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "Llama 4",
+      "best_value": "GPT-5.5 Instant",
+      "change": "none"
+    },
+    {
+      "category": "Code Gen",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "DeepSeek V4",
+      "best_value": "DeepSeek V4",
+      "change": "none"
+    },
+    {
+      "category": "Reasoning",
+      "best_closed": "Claude Mythos Preview",
+      "best_open": "QwQ 32B",
+      "best_value": "Grok 4.3",
+      "change": "none"
+    },
+    {
+      "category": "Image Gen",
+      "best_closed": "Midjourney v7",
+      "best_open": "Flux 1.1",
+      "best_value": "Flux 1.1",
+      "change": "none"
+    },
+    {
+      "category": "Video Gen",
+      "best_closed": "Sora 2",
+      "best_open": "Wan 2.1",
+      "best_value": "Wan 2.1",
+      "change": "none"
+    },
+    {
+      "category": "Multimodal",
+      "best_closed": "Gemini 3.1 Ultra",
+      "best_open": "Qwen 3.6",
+      "best_value": "Gemini 2.5 Flash",
+      "change": "none"
+    }
+  ],
+  "event_updates": [
+    {
+      "event_slug": "us-china-chips",
+      "title": "US-China Trade & Chip Export Controls",
+      "status": "active",
+      "latest_summary": "Substantive bilateral day of the Trump-Xi state visit. Welcome ceremony, bilateral meeting, Temple of Heaven, state banquet. Kalshi prices an 86% chance of a Boeing aircraft purchase announcement; sources put the order at 500–600 737 MAX jets, potentially the largest commercial aircraft deal in history. Iran (Chinese crude buyers, possible arms transfers) and Taiwan (declaratory policy, $14B pending arms sales) are the structural levers. Trump's CEO delegation: Cook, Musk, Huang, Ortberg, Fink, Citi. CFR/Brookings consensus is that the realistic upside is a tariff-truce extension plus headline commercial deliverables — structural decoupling unchanged."
+    },
+    {
+      "event_slug": "iran-war-ceasefire",
+      "title": "US-Iran War Ceasefire Negotiations",
+      "status": "active",
+      "latest_summary": "Trump aides reconfirmed resumption of major combat operations is on the table after Iran rejected the 14-point MOU. Regional source tells reporters there will be no movement until after the Trump-Xi summit because Beijing is the leverage point on Iranian crude buyers. Strait of Hormuz remains effectively closed for a 10th week; US and Iran continue to exchange fire through the ceasefire. The standoff is now visibly priced into US gasoline ($4.48/gal) and crude above $100/bbl."
+    },
+    {
+      "event_slug": "russia-ukraine-ceasefire",
+      "title": "Russia-Ukraine Ceasefire Negotiations",
+      "status": "active",
+      "latest_summary": "The May 9–11 ceasefire lapsed without extension. Russia's defense ministry claimed 16,071 Ukrainian violations; Ukraine reported two civilians killed in Russian strikes on Kharkiv and Kherson. The 1,000-each prisoner exchange reportedly proceeded. Operations have returned to full tempo. No new diplomatic framework has emerged and Putin's third-country meeting proposal with Zelenskyy remains dormant."
+    },
+    {
+      "event_slug": "ai-regulation",
+      "title": "AI Regulation & Governance",
+      "status": "watching",
+      "latest_summary": "Senate confirmed Kevin Warsh as Fed chair 54–45 — the closest margin in modern history. Powell's chair term ends Friday May 15; he remains on the Board of Governors and used his final press conference to defend Fed independence. Warsh has publicly committed to using his own judgment rather than taking direction from the White House, even as Trump has openly expected him to cut rates. CAISI pre-deployment evaluation agreements continue with Google DeepMind, Microsoft, and xAI; Anthropic restricts Mythos to vetted Glasswing partners."
+    },
+    {
+      "event_slug": "ai-agent-ecosystem",
+      "title": "AI Agent Ecosystem",
+      "status": "active",
+      "latest_summary": "Anthropic shipped Claude Opus 4.7 (14% improvement over 4.6, ~1/3 the tool errors, pricing unchanged at $5/$25) and launched Claude Platform on AWS, exposing the full Messages, Files, Batches, and Managed Agents APIs through native AWS endpoints with IAM authentication. Microsoft 365 add-ins for Claude went GA in Excel, PowerPoint, and Word; Outlook entered public beta for paid plans. Claude Managed Agents added Dreaming (research preview, agents review past sessions to self-improve memory) and Multi-Agent Orchestration."
+    },
+    {
+      "event_slug": "ai-cybersecurity-mythos",
+      "title": "AI Cybersecurity — Mythos / Daybreak Era",
+      "status": "active",
+      "latest_summary": "Reuters reported US banks (JPMorgan, Goldman Sachs, Citigroup, Bank of America, Morgan Stanley) are 'rushing to fix scores of IT system weaknesses' flagged by Mythos under Project Glasswing — with some warning of possible service disruption from emergency upgrades. Pentagon separately deployed Mythos for cyber defense despite earlier plans to phase out Anthropic tools, a notable institutional reversal. Project Glasswing partners (AWS, Anthropic, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorgan, Linux Foundation, Microsoft, NVIDIA, Palo Alto Networks) are functioning as the de-facto cross-industry response structure. Schneier and independent researchers warn the offensive symmetry is not visible."
+    }
+  ]
+}

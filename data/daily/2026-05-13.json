@@ -1,0 +1,271 @@
+{
+  "date": "2026-05-13",
+  "issue": 50,
+  "headline": "Trump Lands in Beijing for Xi Summit Overshadowed by Iran War; April CPI Hits 3.8% Killing Fed Rate-Cut Hopes; Anthropic-Thomson Reuters Launch Fiduciary-Grade Legal AI",
+  "summary": "Trump arrived in Beijing on Wednesday evening for a three-day state visit with Xi Jinping, the first by a US president in nearly nine years, but the agenda is now dominated by the unresolved Iran war and the closed Strait of Hormuz rather than the originally planned trade-and-Taiwan deliverables. Markets sold off hard after April CPI printed at 3.8% — the hottest in nearly three years — with the Nasdaq down ~2%, gasoline averaging $4.48/gal, and CME FedWatch now pricing essentially zero probability of any 2026 rate cut. In AI, Anthropic and Thomson Reuters announced a deep MCP integration giving Claude users access to Westlaw and CoCounsel inside 12 new legal-practice plug-ins, while Google publicly disclosed it had thwarted what it called the first in-the-wild AI-generated zero-day exploitation attempt by a state-linked actor.",
+  "meta": {
+    "article_count": 28,
+    "source_count": 19,
+    "reading_minutes": 21
+  },
+  "highlights": [
+    {
+      "category": "geo",
+      "title": "Trump Lands in Beijing for Xi Summit — Iran War Now Dominates an Agenda That Was Supposed to Be About Trade",
+      "summary": "Trump arrived in Beijing on Wednesday evening May 13 for a state visit running through May 15, the first by a US president since 2017. The official agenda — Board of Trade managed-trade framework, ~500 Boeing aircraft purchase, soybean/agricultural commitments, and chip-export adjustments — has been crowded out by the unresolved Iran war. US officials confirmed Trump will press Xi on Chinese purchases of Iranian oil and possible Chinese arms supplies to Tehran. Beijing's preferred topic is Taiwan: Chinese scholars have signaled Xi will push for an explicit US statement opposing (not merely 'not supporting') Taiwan independence. Time Magazine, Washington Post and CFR all warn China holds the structural upper hand — six years of accumulated leverage on rare earths, Hormuz-linked oil exposure, and Taiwan — and faces little pressure to offer durable concessions.",
+      "sources": ["Bloomberg", "Washington Post", "CNBC", "Al Jazeera", "SCMP", "CFR", "TIME"],
+      "novelty": "high"
+    },
+    {
+      "category": "econ",
+      "title": "April CPI Comes in at 3.8% — Hottest Since 2023, Markets Tumble, 2026 Fed Cuts Effectively Off the Table",
+      "summary": "April headline CPI rose 0.6% MoM and 3.8% YoY, the hottest since May 2023 and ahead of the 3.7% consensus. Core CPI accelerated to 2.8% (from 2.6%) with monthly core momentum doubling to 0.4%. Energy drove 40%+ of the print: the energy index climbed 3.8% in April and gasoline alone rose 5.4% MoM and is now +28.4% YoY at $4.48/gal national average — direct fallout from the 10-week Hormuz closure. The Nasdaq fell ~2%, S&P 500 down ~1%, with Tesla, Nvidia, Amazon and Alphabet all off more than 1%. CME FedWatch now prices essentially zero probability of any 2026 cut; BofA pushed its first-cut call out to July 2027. The print lands two days before Powell's term expires and tees up an immediate inflation challenge for likely successor Kevin Warsh, whose Senate floor vote is expected today.",
+      "sources": ["CNBC", "BLS", "CNN Business", "Benzinga", "24/7 Wall St"],
+      "novelty": "high"
+    },
+    {
+      "category": "ai",
+      "title": "Anthropic + Thomson Reuters Launch Fiduciary-Grade Legal AI — Claude Gets Westlaw, CoCounsel, and 12 Legal Plug-ins",
+      "summary": "Anthropic and Thomson Reuters announced a Model Context Protocol (MCP) integration that wires Claude directly into Westlaw Primary Law, Practical Law, and the next-generation CoCounsel Legal, the last of which is being rebuilt on the Claude Agent SDK. Twelve new legal-practice plug-ins ('commercial counsel,' 'employment counsel,' 'litigation associate,' 'law student' among them) deploy inside Anthropic's Cowork or embed into firm systems. Additional connectors went live with Box, Everlaw, DocuSign and Harvey AI. CoCounsel agents will plan tasks, retrieve authoritative content, and emit cited, traceable work product — Thomson Reuters is calling this a 'fiduciary-grade' standard. The release is the most concrete enterprise example yet of agents grounded in verified primary sources rather than open-web retrieval.",
+      "sources": ["Law.com", "PR Newswire", "Yahoo Finance", "Virginia Lawyers Weekly", "Seeking Alpha"],
+      "novelty": "high"
+    }
+  ],
+  "stories": [
+    {
+      "category": "geo",
+      "title": "Iran Ceasefire 'On Life Support' — Trump Aides Say Resumption of Combat Now Seriously on the Table",
+      "source_count": 6,
+      "importance": "high"
+    },
+    {
+      "category": "econ",
+      "title": "Senate Confirms Warsh to Fed Board 51–45 — Full Chair Vote Expected as Soon as Today",
+      "source_count": 4,
+      "importance": "high"
+    },
+    {
+      "category": "geo",
+      "title": "Russia-Ukraine 3-Day Ceasefire Officially Lapsed Monday — No Extension, Kinetic Operations Back to Full Tempo",
+      "source_count": 4,
+      "importance": "medium"
+    },
+    {
+      "category": "ai",
+      "title": "Google Discloses It Thwarted Likely First In-the-Wild AI-Generated Zero-Day Exploit by State-Linked Actor",
+      "source_count": 3,
+      "importance": "high"
+    },
+    {
+      "category": "ai",
+      "title": "Anthropic Ships Natural Language Autoencoder (NLA) — Makes Claude's Internal Reasoning Steps Human-Readable",
+      "source_count": 2,
+      "importance": "medium"
+    },
+    {
+      "category": "ai",
+      "title": "OpenAI Launches Daybreak — GPT-5.5-Cyber Tooling for Vulnerability Detection and Patch Validation, EU Access Granted",
+      "source_count": 3,
+      "importance": "medium"
+    },
+    {
+      "category": "ai",
+      "title": "First AI-Generated Driver Patch Submitted to the Linux Kernel — Codex GPT-5.5 Authored AMD Promontory 21 USB Driver",
+      "source_count": 2,
+      "importance": "medium"
+    },
+    {
+      "category": "econ",
+      "title": "NZ Treasury: Unemployment to Peak at 5.5% in 2026, Stays Above 5% All Year — 165K Out of Work, Budget Surplus Pushed Back 2 Years",
+      "source_count": 3,
+      "importance": "medium"
+    },
+    {
+      "category": "indie",
+      "title": "Marc Lou Launches TrustMRR — Read-Only Billing API Keys Generate Verifiable Public MRR Pages, Tackles Fake-Revenue Problem",
+      "source_count": 2,
+      "importance": "low"
+    }
+  ],
+  "perspectives": [
+    {
+      "title": "Beijing Summit: Symbolic Reset or Structural Concession Theatre?",
+      "subtitle": "US and Chinese framings of the same agenda look almost mirror-opposite",
+      "event_slug": "us-china-chips",
+      "sources": [
+        {
+          "name": "Washington Post / Bloomberg (US framing)",
+          "quote": "Xi is hosting an unpredictable Trump from a position of confidence — the summit's downside is bounded because Beijing already has the leverage. Trump's deliverables (Boeing order, soybean commitments, optical Iran wins) are designed to give Washington a win without changing the underlying structural game."
+        },
+        {
+          "name": "CFR / TIME (analyst framing)",
+          "quote": "China has spent six years accumulating leverage — rare earths, Hormuz oil exposure, an elevated Taiwan demand list — and is now positioned to extract a meaningful concession on declaratory Taiwan policy. The summit is set up to fail to deliver structural change because the US side is negotiating from a multi-front distraction."
+        }
+      ]
+    },
+    {
+      "title": "April CPI: Energy Shock Pass-Through or Sticky Domestic Reflation?",
+      "subtitle": "Market and Fed-watcher reactions split on whether the print is a one-off or regime change",
+      "event_slug": "fed-transition-2026",
+      "sources": [
+        {
+          "name": "CNBC / CME FedWatch (markets framing)",
+          "quote": "Gasoline +5.4% MoM and the energy index +3.8% together drove over 40% of the all-items increase. Strip energy out and core 2.8% is uncomfortable but not regime-changing. The print is mostly a Hormuz pass-through and would unwind if the Strait reopens."
+        },
+        {
+          "name": "BofA / Minneapolis Fed (structural framing)",
+          "quote": "Core inflation accelerating from 2.6% to 2.8% with monthly core momentum doubling to 0.4% indicates the energy shock has moved into services and shelter. BofA now expects the Fed to remain on hold through 2026 with first cuts pushed to July 2027 — the inflation regime is no longer transitory."
+        }
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "person_slug": "donald-trump",
+      "person_name": "Donald Trump",
+      "text": "Iran's response was totally unacceptable. We are seriously looking at all options. The ceasefire is on massive life support.",
+      "source": "CNN / NBC News",
+      "date": "2026-05-12"
+    },
+    {
+      "person_slug": "jerome-powell",
+      "person_name": "Jerome Powell",
+      "text": "I intend to remain on the Board of Governors after my term as Chair ends, in the interest of institutional continuity.",
+      "source": "PBS NewsHour",
+      "date": "2026-05-12"
+    },
+    {
+      "person_slug": "vladimir-putin",
+      "person_name": "Vladimir Putin",
+      "text": "Russia's war on Ukraine may be coming to an end. I am willing to meet Zelenskyy in a third country if a peace deal is finalized.",
+      "source": "Al Jazeera",
+      "date": "2026-05-10"
+    }
+  ],
+  "map_hotspots": [
+    {
+      "lat": 39.91,
+      "lng": 116.39,
+      "color": "violet",
+      "title": "Beijing — Trump State Visit Begins",
+      "summary": "Trump arrived Wednesday evening for a three-day state visit (May 13–15), the first by a US president in nearly nine years. Bilateral meeting and welcome ceremony on Thursday, Temple of Heaven and state banquet thereafter. Iran war now dominates the agenda; Taiwan and trade follow."
+    },
+    {
+      "lat": 26.5,
+      "lng": 56.25,
+      "color": "red",
+      "title": "Strait of Hormuz — Closed 10+ Weeks",
+      "summary": "Iran war has sealed the Strait since late February. US CENTCOM has turned around 58 commercial vessels. Saudi Aramco warns ~100M barrels of supply lost per week and possible no resolution in 2026. Direct driver of April's 3.8% CPI print via $4.48/gal gasoline."
+    },
+    {
+      "lat": 35.69,
+      "lng": 51.39,
+      "color": "red",
+      "title": "Tehran — Ceasefire 'On Life Support'",
+      "summary": "Iran rejected the US 14-point MOU on May 11. Trump aides say resumption of major combat operations is now seriously on the table. Talks remain Pakistan-mediated; key sticking points are Hormuz transit, nuclear/ballistic constraints, and sanctions sequencing."
+    },
+    {
+      "lat": 50.45,
+      "lng": 30.52,
+      "color": "amber",
+      "title": "Kyiv — Trump's 3-Day Ceasefire Lapsed",
+      "summary": "The May 9–11 truce ended without extension. Both sides traded violation accusations; the 1,000-each prisoner swap reportedly proceeded. Putin floated meeting Zelenskyy in a third country, but no peace framework is on the table and operations have returned to full tempo."
+    },
+    {
+      "lat": -36.85,
+      "lng": 174.76,
+      "color": "amber",
+      "title": "Auckland / Wellington — NZ Treasury Forecasts Stagnation",
+      "summary": "Treasury sees unemployment peaking at 5.5% in early 2026 and remaining above 5% all year — roughly 165K Kiwis out of work. Budget surplus pushed back two years; net core Crown debt to hit 46.1% of GDP by 2027/28. Budget 2026 delivered May 28 by Finance Minister Willis."
+    },
+    {
+      "lat": 40.71,
+      "lng": -74.0,
+      "color": "amber",
+      "title": "New York — Markets Sell Off on CPI Print",
+      "summary": "Nasdaq fell ~2%, S&P 500 ~1%, Dow ~0.1%. AI hyperscalers and chip producers led the decline with Tesla, Nvidia, Amazon and Alphabet all down >1%. CME FedWatch now prices essentially zero 2026 cuts; BofA pushed first cut to July 2027."
+    }
+  ],
+  "model_flash": [
+    {
+      "category": "Text Chat",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "Llama 4",
+      "best_value": "GPT-5.5 Instant",
+      "change": "none"
+    },
+    {
+      "category": "Code Gen",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "DeepSeek V4",
+      "best_value": "DeepSeek V4",
+      "change": "none"
+    },
+    {
+      "category": "Reasoning",
+      "best_closed": "Claude Mythos Preview",
+      "best_open": "QwQ 32B",
+      "best_value": "Grok 4.3",
+      "change": "none"
+    },
+    {
+      "category": "Image Gen",
+      "best_closed": "Midjourney v7",
+      "best_open": "Flux 1.1",
+      "best_value": "Flux 1.1",
+      "change": "none"
+    },
+    {
+      "category": "Video Gen",
+      "best_closed": "Sora 2",
+      "best_open": "Wan 2.1",
+      "best_value": "Wan 2.1",
+      "change": "none"
+    },
+    {
+      "category": "Multimodal",
+      "best_closed": "Gemini 3.1 Ultra",
+      "best_open": "Qwen 3.6",
+      "best_value": "Gemini 2.5 Flash",
+      "change": "none"
+    }
+  ],
+  "event_updates": [
+    {
+      "event_slug": "us-china-chips",
+      "title": "US-China Trade & Chip Export Controls",
+      "status": "active",
+      "latest_summary": "Trump landed in Beijing Wednesday evening May 13 for a three-day state visit (May 13–15), the first by a US president in nearly nine years. Originally framed around trade and chips, the agenda is now dominated by the Iran war — Trump is expected to press Xi on Chinese oil purchases from Iran and possible arms transfers, while Beijing wants Taiwan declaratory policy at the top of the list. Expected deliverables remain a Board of Trade framework, ~500 Boeing aircraft, soybean and agricultural commitments, and possible easing on 14nm/7nm chip-equipment export controls. CFR and Washington Post analysis says Xi holds the upper hand due to six years of accumulated structural leverage (rare earths, Hormuz oil, Taiwan). Tim Cook, Elon Musk and Kelly Ortberg are among the US executive delegation."
+    },
+    {
+      "event_slug": "iran-war-ceasefire",
+      "title": "US-Iran War Ceasefire Negotiations",
+      "status": "active",
+      "latest_summary": "Trump reiterated on May 12 that Iran's response was 'totally unacceptable' and aides confirmed he is now seriously considering resumption of major combat operations. The Strait of Hormuz remains closed for a 10th week; US CENTCOM has turned around 58 commercial vessels. The Pakistan-mediated talks remain technically alive but with no movement on the core disputes — Hormuz transit, Iran's nuclear/ballistic program, sanctions sequencing. The standoff directly fed the April CPI 3.8% print and the resulting market selloff. Iran will be the dominant Trump-Xi summit agenda item over the next 48 hours."
+    },
+    {
+      "event_slug": "russia-ukraine-ceasefire",
+      "title": "Russia-Ukraine Ceasefire Negotiations",
+      "status": "active",
+      "latest_summary": "The May 9–11 ceasefire lapsed without extension. NASA satellite observations confirm kinetic activity decreased during the truce but never stopped; both sides traded violation accusations. The 1,000-each prisoner exchange reportedly proceeded. Putin again floated a third-country meeting with Zelenskyy contingent on a finalized peace framework, but no framework is on the table. Operations have returned to full tempo."
+    },
+    {
+      "event_slug": "ai-regulation",
+      "title": "AI Regulation & Governance",
+      "status": "watching",
+      "latest_summary": "Senate confirmed Kevin Warsh to the Fed Board of Governors 51–45 (Fetterman the only Democratic Aye); the full chair-confirmation floor vote is expected today, ahead of Powell's term expiry May 15. Powell will remain as a Fed governor. Trump-administration pre-deployment evaluation agreements via CAISI now cover Google DeepMind, Microsoft and xAI; Anthropic continues to restrict Mythos to vetted organizations, while OpenAI granted EU access to GPT-5.5-Cyber via the new Daybreak vulnerability-detection program."
+    },
+    {
+      "event_slug": "ai-agent-ecosystem",
+      "title": "AI Agent Ecosystem",
+      "status": "active",
+      "latest_summary": "Anthropic and Thomson Reuters announced a Model Context Protocol integration giving Claude users access to Westlaw Primary Law, Practical Law, and the next-generation CoCounsel Legal (rebuilt on Claude Agent SDK). Twelve legal-practice plug-ins shipped, plus connectors to Box, Everlaw, DocuSign and Harvey AI. Anthropic separately released the Natural Language Autoencoder (NLA), making Claude's internal reasoning steps human-readable — a notable interpretability step. Codex GPT-5.5 produced the first AI-authored driver patch accepted to the Linux kernel (AMD Promontory 21 USB temperature monitoring)."
+    },
+    {
+      "event_slug": "ai-cybersecurity-mythos",
+      "title": "AI Cybersecurity — Mythos / Daybreak Era",
+      "status": "active",
+      "latest_summary": "Google publicly disclosed it thwarted what it described as the first in-the-wild AI-generated zero-day exploitation attempt by a state-linked actor — the first confirmed offensive use of frontier AI for live vulnerability discovery and exploit generation. OpenAI launched Daybreak, a GPT-5.5-Cyber-powered platform for vulnerability detection and patch validation, with EU access granted. Anthropic Mythos remains restricted to vetted organizations. Amodei's 6–12-month 'cyber danger window' thesis is now visibly playing out on both offence and defence."
+    }
+  ]
+}

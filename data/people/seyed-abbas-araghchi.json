@@ -4,11 +4,16 @@
   "role": "Foreign Minister of Iran",
   "bio": "Seyed Abbas Araghchi has served as Iran's Foreign Minister since August 2024. A career diplomat, he was a key negotiator in the 2015 JCPOA and has led Tehran's response to the 2026 US-Israel-Iran conflict, representing Iran in indirect negotiations with Washington via Pakistani intermediaries.",
   "related_events": [
-    "iran-war-ceasefire"
+    { "slug": "iran-war-ceasefire", "title": "US-Iran War Ceasefire Negotiations", "mentions": 2, "status": "active" }
   ],
   "activity": {
-    "last_active": "2026-05-09",
-    "frequency": "high"
+    "weeks": 4,
+    "data": [
+      0, 0, 1, 0, 1, 0, 1,
+      1, 0, 1, 0, 1, 0, 1,
+      0, 1, 0, 1, 0, 1, 0,
+      1, 0, 1, 0, 1, 1, 0
+    ]
   },
   "quotes": [
     {
