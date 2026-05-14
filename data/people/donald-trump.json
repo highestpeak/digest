@@ -53,7 +53,7 @@
       3,
       4,
       5,
-      3
+      4
     ]
   },
   "quotes": [
@@ -97,6 +97,12 @@
       "source": "CNBC / Washington Post",
       "date": "2026-05-12",
       "topic": "Trump-Xi Beijing summit agenda"
+    },
+    {
+      "text": "Boeing wanted 150, they got 200. The relationship between China and the USA is going to be better than ever before.",
+      "source": "Fox News / Sean Hannity interview excerpt",
+      "date": "2026-05-14",
+      "topic": "Trump-Xi summit Boeing deal and bilateral framing"
     }
   ]
 }

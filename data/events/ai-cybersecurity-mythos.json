@@ -3,45 +3,96 @@
   "title": "Anthropic Mythos & Frontier AI Cybersecurity",
   "status": "active",
   "description": "Tracking the cybersecurity implications of Anthropic's Mythos model — a frontier AI system that has demonstrated autonomous discovery and exploitation of high-severity software vulnerabilities at unprecedented scale. Surrounding ecosystem includes Project Glasswing, Chinese AI parity timelines, and the asymmetric defense problem for organizations without privileged access.",
-  "tags": ["AI Cybersecurity", "Anthropic", "Vulnerabilities", "Mythos", "Project Glasswing", "AI Safety"],
-  "key_people": ["dario-amodei"],
-  "related_events": ["ai-regulation", "ai-agent-ecosystem", "us-china-chips"],
+  "tags": [
+    "AI Cybersecurity",
+    "Anthropic",
+    "Vulnerabilities",
+    "Mythos",
+    "Project Glasswing",
+    "AI Safety"
+  ],
+  "key_people": [
+    "dario-amodei"
+  ],
+  "related_events": [
+    "ai-regulation",
+    "ai-agent-ecosystem",
+    "us-china-chips"
+  ],
   "timeline": [
     {
       "date": "2026-04-07",
       "title": "Anthropic Restricts Claude Mythos Preview to Security Researchers via Project Glasswing",
       "summary": "Anthropic announced Project Glasswing, a coalition of approximately 40 organizations including AWS, Apple, Microsoft, Google, CrowdStrike, and Palo Alto Networks. Mythos Preview is gated behind responsible-disclosure agreements and is not available via general API.",
-      "sources": ["Simon Willison", "Anthropic Glasswing page", "WEF"]
+      "sources": [
+        "Simon Willison",
+        "Anthropic Glasswing page",
+        "WEF"
+      ]
     },
     {
       "date": "2026-04-22",
       "title": "Mythos Preview Demonstrates 17-Year-Old FreeBSD RCE Exploit Autonomously",
       "summary": "Mythos identified and weaponized a 17-year-old remote code execution vulnerability in FreeBSD that grants root via NFS, writing an end-to-end exploit chain that expert pen-testers said would have taken weeks of manual work.",
-      "sources": ["Anthropic red.anthropic.com", "Dark Reading"]
+      "sources": [
+        "Anthropic red.anthropic.com",
+        "Dark Reading"
+      ]
     },
     {
       "date": "2026-05-05",
       "title": "Dario Amodei: 'Moment of Danger' — Tens of Thousands of Vulnerabilities, 6–12 Month Patch Window",
       "summary": "Anthropic CEO Dario Amodei publicly warned that Mythos has now surfaced tens of thousands of high-severity vulnerabilities across every major operating system and web browser. He estimated Chinese frontier AI is 6–12 months behind, framing the gap as a finite window in which Western infrastructure can be hardened. Mythos found ~300 vulnerabilities in Firefox alone vs. ~20 from a prior Anthropic model.",
-      "sources": ["CNBC", "Rest of World", "WEF", "Dark Reading"]
+      "sources": [
+        "CNBC",
+        "Rest of World",
+        "WEF",
+        "Dark Reading"
+      ]
     },
     {
       "date": "2026-05-06",
       "title": "Operational Technology Vendors Publicly Complain About Glasswing Exclusion",
       "summary": "Sources told Nextgov/FCW that operational technology providers — covering industrial control systems, energy grid components, and water utilities — feel 'annoyance' at being shut out of Project Glasswing despite being prime targets for the vulnerability classes Mythos surfaces. Critics argue the access tiering concentrates cyber resilience in firms that already hold AI compute.",
-      "sources": ["Nextgov/FCW", "Rest of World"]
+      "sources": [
+        "Nextgov/FCW",
+        "Rest of World"
+      ]
     },
     {
       "date": "2026-05-07",
       "title": "Mozilla Ships Firefox 150 With 271 Mythos-Found Vulnerabilities Patched in a Single Release",
       "summary": "Mozilla published a 'Behind the Scenes' post detailing how Claude Mythos Preview surfaced 271 distinct Firefox vulnerabilities in one evaluation pass, including a 15-year-old HTML-parser flaw and two unusual sandbox-escape bugs. They were rolled up into three CVEs (CVE-2026-6784/6785/6786). April 2026 saw 423 Firefox bug fixes versus 31 in April 2025 — a 13.6× jump. Mozilla credited 'agentic harnesses that can reliably detect security issues' as the qualitative shift that changed the game.",
-      "sources": ["Mozilla Hacks", "TechCrunch", "Engadget", "The Register", "Slashdot"]
+      "sources": [
+        "Mozilla Hacks",
+        "TechCrunch",
+        "Engadget",
+        "The Register",
+        "Slashdot"
+      ]
     },
     {
       "date": "2026-05-13",
       "title": "Reuters: Major US Banks 'Rushing to Plug Cyber Holes' Flagged by Mythos; Pentagon Deploys Mythos Despite Earlier Plans to Phase Anthropic Out",
       "summary": "Reuters reported that JPMorgan Chase (a public Project Glasswing launch partner), Goldman Sachs, Citigroup, Bank of America, and Morgan Stanley are racing to fix scores of IT system weaknesses flagged by Mythos, with some warning of possible customer-facing disruption from emergency software upgrades. Separately, BusinessToday reported the Pentagon has deployed Mythos for cyber defense despite earlier institutional plans to phase out Anthropic tools — a notable reversal showing capability is outpacing politics. Schneier and independent researchers warn the offensive symmetry is not visible: nation-state adversaries with comparable models are presumably running similar scans without disclosure.",
-      "sources": ["Reuters/The Star", "BusinessToday", "Technology.org", "Schneier on Security"]
+      "sources": [
+        "Reuters/The Star",
+        "BusinessToday",
+        "Technology.org",
+        "Schneier on Security"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "title": "PYMNTS Confirms Industry-Wide Patch-Time Acceleration; OT Vendors 'Annoyed' at Glasswing Exclusion; CNBC Notes Vulnerability Discovery Reproducible With Existing Models",
+      "summary": "Coverage broadens beyond the initial Reuters/JPMorgan-Goldman-Citi-BofA-Morgan Stanley reporting. PYMNTS documents how the Mythos disclosures have collapsed industry patch-time SLAs at major banks. Nextgov reports operational-technology vendors (industrial control, grid, manufacturing systems) are 'annoyed' at being excluded from Anthropic's Glasswing rollout, arguing they sit on critical infrastructure exposure but have no equivalent disclosure pipeline. Rest of World argues the global cybersecurity gap is widening, not narrowing — Glasswing benefits a North American Fortune-200 perimeter while leaving most of the world's banking and infrastructure footprint without privileged access. CNBC follow-up: cybersecurity experts and AI researchers note Mythos-class vulnerability discovery is reproducible with existing publicly available models, suggesting the offensive symmetry is already wider than the Anthropic-specific narrative implies. Amodei's 6–12-month danger window remains the working planning horizon for security teams.",
+      "sources": [
+        "PYMNTS",
+        "Nextgov/FCW",
+        "Rest of World",
+        "CNBC",
+        "Technology.org"
+      ]
     }
   ]
 }

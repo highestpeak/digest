@@ -1,0 +1,272 @@
+{
+  "date": "2026-05-15",
+  "issue": 52,
+  "headline": "Trump Departs Beijing After Xi Warns Taiwan Could Trigger 'Conflicts'; Boeing Deal Lands at 200 Jets (Half Expected); Powell's Final Day as Fed Chair as Russia Hits Kyiv in Biggest Strike of the War",
+  "summary": "Trump wraps up his state visit to China on Friday after a closed-door bilateral that ran two-and-a-quarter hours, a Temple of Heaven tour, and a state banquet. The official deliverables — a 200-jet Boeing order (versus 500–600 widely expected), agreement that the Strait of Hormuz must remain open, a Chinese pledge not to supply Tehran with military equipment, and a 'constructive China-U.S. relationship of strategic stability' framework — landed lighter than Wall Street's optimistic case, and Xi paired the friendly optics with the bluntest Taiwan warning of his tenure: mishandling the issue could lead to 'conflicts' and put the entire relationship in 'great jeopardy.' US equities still closed at fresh records Thursday (S&P 500 first ever close above 7,500, Dow back above 50,000) on Cisco earnings and trade-deal optimism, but a hot April PPI print (+1.4% headline, +1.0% core, both more than 3× consensus) re-armed the inflation-tail risk just as Powell finishes his final day as Fed Chair and Kevin Warsh prepares to be sworn in. Overnight, Russia launched what Kyiv's mayor called the largest strike on the capital of the entire war — 670+ drones and 56 missiles — killing at least 12 and injuring 57+, even as Putin floated that the war may be 'coming to an end.'",
+  "meta": {
+    "article_count": 22,
+    "source_count": 16,
+    "reading_minutes": 17
+  },
+  "highlights": [
+    {
+      "category": "geo",
+      "title": "Trump-Xi Summit Closes With 200-Jet Boeing Order (Half the 500 Expected), 'Strategic Stability' Framework — and Xi's Strongest Taiwan Warning Yet",
+      "summary": "Trump departs Beijing Friday after the substantive Thursday bilateral. The joint outcomes were narrower than markets priced: China committed to 200 Boeing aircraft (Trump said on Fox: 'Boeing wanted 150, they got 200' — analysts had anticipated 500–600), plus US soybeans, oil, and LNG; both sides agreed the Strait of Hormuz must remain open and that Iran should not obtain a nuclear weapon; Xi pledged China would not supply military equipment to Tehran. The framework headline is a 'constructive China-U.S. relationship of strategic stability' Beijing says will guide ties for 'the next three years and beyond.' But Xi used the meeting to deliver his bluntest Taiwan language as Chinese leader: 'If [Taiwan] is handled properly, the bilateral relationship will enjoy overall stability. Otherwise, the two countries will have clashes and even conflicts, putting the entire relationship in great jeopardy.' Boeing shares fell 4.8% on the smaller-than-expected deal; CFR and Brookings read the summit as a managed tariff-truce extension rather than a structural reset.",
+      "sources": ["CNBC", "Bloomberg", "Washington Post", "NPR", "Al Jazeera", "CBS News", "Time", "Irish Times"],
+      "novelty": "high"
+    },
+    {
+      "category": "econ",
+      "title": "Powell's Final Day as Fed Chair as Warsh Prepares to Be Sworn In — Hot April PPI (+1.4%) Re-Arms the Inflation Risk on Day One",
+      "summary": "Jerome Powell's eight-year chairmanship of the Federal Reserve ends Friday May 15. Kevin Warsh, confirmed Wednesday 54–45 in the closest Fed chair vote in modern history, awaits final White House paperwork to be sworn in to both his governor and chair roles; his first FOMC is scheduled June 16–17. Powell remains on the Board of Governors, citing the legal actions against him and institutional continuity. The handoff coincides with an inflation jolt: April PPI rose 1.4% on the month (headline) and 1.0% on core, more than three times consensus on both, on top of last week's 3.8% CPI. CME FedWatch shows traders now pricing about a 30% chance of a 2026 rate HIKE — not the cuts Trump has publicly demanded from Warsh.",
+      "sources": ["CNBC", "NPR", "Federal Reserve", "Washington Post", "Schwab", "Yahoo Finance"],
+      "novelty": "high"
+    },
+    {
+      "category": "geo",
+      "title": "Russia Launches Biggest Strike on Kyiv of Entire War — 670+ Drones, 56 Missiles — at Least 12 Killed, Day of Mourning Declared, Even as Putin Says War 'Coming to an End'",
+      "summary": "Overnight into May 15, Russia executed what Kyiv's mayor described as 'the enemy's largest-scale attack on the capital' since the full-scale invasion began. At least 12 people were killed and 57+ injured in Kyiv; strikes also hit Poltava and Zaporizhzhia, damaging energy and rail infrastructure. Across the 24 hours Ukraine's air force tracked 670+ attack drones and 56 missiles, with more than 1,560 drones in the broader window. The escalation comes days after Putin publicly suggested the war is 'coming to an end' and signaled willingness to meet Zelenskyy in a third country — and after the May 9–11 Trump-brokered ceasefire lapsed without extension. Kyiv declared a day of mourning. Russian total combat losses since Feb 2022 reach ~1.345 million per Ukrainian figures.",
+      "sources": ["CNN", "Al Jazeera", "Ukrinform", "Russia Matters"],
+      "novelty": "high"
+    }
+  ],
+  "stories": [
+    {
+      "category": "econ",
+      "title": "S&P 500 Closes Above 7,500 for First Time, Dow Retakes 50,000, Nasdaq at 26,635 — Cisco +13% Adds Fuel; Friday Open Tested by Hot PPI",
+      "source_count": 4,
+      "importance": "high"
+    },
+    {
+      "category": "geo",
+      "title": "Iran Ceasefire Still on 'Massive Life Support' — Pakistan-Mediated Talks Continue; Strait of Hormuz Effectively Closed for 10+ Weeks With No Commercial Traffic",
+      "source_count": 4,
+      "importance": "high"
+    },
+    {
+      "category": "ai",
+      "title": "US Banks Slash Patch Times as Anthropic Mythos Disclosures Roll On — PYMNTS Documents Industry-Wide Acceleration; Operational Tech Vendors 'Annoyed' at Glasswing Exclusion",
+      "source_count": 4,
+      "importance": "medium"
+    },
+    {
+      "category": "geo",
+      "title": "Putin Floats War 'Coming to an End,' Open to Third-Country Meeting With Zelenskyy — Hours Before Largest Strike on Kyiv of the War",
+      "source_count": 3,
+      "importance": "medium"
+    },
+    {
+      "category": "ai",
+      "title": "Anthropic Debuts Claude for Small Business and Updates Agent SDK — Monthly Credits ($20–$200) Tied to Plan Tier; Fast Mode Now Supports Claude Opus 4.7",
+      "source_count": 3,
+      "importance": "medium"
+    },
+    {
+      "category": "ai",
+      "title": "OpenAI Realtime API Now GA — GPT-Realtime-2 With GPT-5-Class Reasoning, 128K Context, 96.6% Big Bench Audio; Zillow, Deutsche Telekom, Priceline, Vimeo Among First Enterprise Adopters",
+      "source_count": 4,
+      "importance": "medium"
+    },
+    {
+      "category": "ai",
+      "title": "Simon Willison Ships llm 0.32a2 and datasette 1.0a29 — Quiet Tooling Cadence Continues Around Claude Opus 4.7 and AWS Platform Launches",
+      "source_count": 2,
+      "importance": "low"
+    },
+    {
+      "category": "indie",
+      "title": "Indie SaaS Distribution Data Crystallizes: 72% of Successful Solo Founders Cite Distribution (Not Product) as #1 Growth Driver; Lisbon Case Hits $10K MRR in 47 Days Using AI Stack",
+      "source_count": 2,
+      "importance": "low"
+    }
+  ],
+  "perspectives": [
+    {
+      "title": "Trump-Xi Summit: Photo-Op Success or Below-Expectations Reset?",
+      "subtitle": "White House framing vs. market and analyst reading of the deliverables",
+      "event_slug": "us-china-chips",
+      "sources": [
+        {
+          "name": "White House / Trump (Fox interview framing)",
+          "quote": "China agreed to 200 Boeing jets — 'Boeing wanted 150, they got 200' — plus soybeans, oil, and LNG. The Strait of Hormuz will stay open, Iran will not get a nuclear weapon, and President Xi committed not to supply military equipment to Tehran. We have a strategic-stability framework for the next three years. 'The relationship between China and the USA is going to be better than ever before.'"
+        },
+        {
+          "name": "Markets / CFR / Brookings (analyst framing)",
+          "quote": "Boeing shares fell 4.8% on the announcement because the Street had priced 500–600 jets and got 200. The 'strategic stability' framework is verbal architecture, not a binding outcome on chips, Section 301, or Taiwan — which Xi escalated by warning of 'conflicts' if 'mishandled.' The tariff truce holds, the commercial optics are decent, but the structural decoupling trajectory is untouched. Bottom line: this was the realistic ceiling, not the upside scenario."
+        }
+      ]
+    },
+    {
+      "title": "Russia-Ukraine: 'Coming to an End' or Battlefield Coercion?",
+      "subtitle": "Kremlin diplomatic signaling vs. what the overnight strike on Kyiv actually says",
+      "event_slug": "russia-ukraine-ceasefire",
+      "sources": [
+        {
+          "name": "Kremlin signaling / Putin remarks",
+          "quote": "President Putin has now said publicly that the war 'may be coming to an end' and is open to a meeting with President Zelenskyy in a third country if a peace deal is finalized. The 1,000-for-1,000 prisoner exchange proceeded. The political track is intact."
+        },
+        {
+          "name": "Ukrainian government / open-source military analysts",
+          "quote": "The same night Putin floated peace, Russia launched 670+ Shahed-type drones and 56 missiles — the largest strike on Kyiv of the entire war — killing 12 civilians and hitting power and rail. This is coercive bargaining, not de-escalation: pressure the cities so that the next negotiation opens from a worse Ukrainian starting position. Until the strikes on civilian infrastructure stop, 'coming to an end' is rhetoric, not policy."
+        }
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "person_slug": "xi-jinping",
+      "person_name": "Xi Jinping",
+      "text": "The Taiwan question is the most important issue in China-U.S. relations. If it is handled properly, the bilateral relationship will enjoy overall stability. Otherwise, the two countries will have clashes and even conflicts, putting the entire relationship in great jeopardy.",
+      "source": "Chinese Foreign Ministry readout / NPR / Al Jazeera",
+      "date": "2026-05-14"
+    },
+    {
+      "person_slug": "donald-trump",
+      "person_name": "Donald Trump",
+      "text": "Boeing wanted 150, they got 200. The relationship between China and the USA is going to be better than ever before.",
+      "source": "Fox News / Sean Hannity interview excerpt",
+      "date": "2026-05-14"
+    },
+    {
+      "person_slug": "jerome-powell",
+      "person_name": "Jerome Powell",
+      "text": "This is my last press conference as chair, and I will close with a few thoughts. Central bank independence is not a slogan; it is the institutional precondition for price stability across political cycles.",
+      "source": "Federal Reserve press conference",
+      "date": "2026-05-13"
+    }
+  ],
+  "map_hotspots": [
+    {
+      "lat": 39.91,
+      "lng": 116.39,
+      "color": "amber",
+      "title": "Beijing — Trump-Xi Summit Wraps; Strategic-Stability Framework, 200 Boeing Jets, Hormuz Pledge",
+      "summary": "Trump departs Friday after the substantive Thursday bilateral. Boeing 200-jet order (half expected), commodity purchases, Hormuz-open agreement, Chinese pledge of no military equipment to Iran, and a 'constructive strategic stability' framework. Xi delivered his bluntest Taiwan warning as leader: mishandling could lead to 'clashes and even conflicts.'"
+    },
+    {
+      "lat": 25.03,
+      "lng": 121.56,
+      "color": "amber",
+      "title": "Taipei — Xi's 'Conflicts' Warning Lands; $11B Trump Arms Package Authorized in December Still Undelivered",
+      "summary": "Xi told Trump Taiwan is 'the most important issue' and explicitly invoked 'conflicts' if 'mishandled' — strongest language since taking power. The $11B arms package Trump authorized in December has not yet been delivered, leaving Taipei watching whether Beijing will read the summit as Washington stepping back."
+    },
+    {
+      "lat": 38.89,
+      "lng": -77.03,
+      "color": "amber",
+      "title": "Washington DC — Powell's Final Day as Fed Chair, Warsh Awaits Swearing-In",
+      "summary": "Powell's chair term ends Friday May 15. Warsh, confirmed 54–45 Wednesday (closest in modern history), awaits final White House paperwork. First FOMC under Warsh is June 16–17. Powell remains on the Board of Governors. CME FedWatch now prices ~30% probability of a 2026 rate HIKE after hot PPI."
+    },
+    {
+      "lat": 50.45,
+      "lng": 30.52,
+      "color": "red",
+      "title": "Kyiv — Largest Russian Strike of the Entire War: 670+ Drones, 56 Missiles, 12+ Dead",
+      "summary": "Mayor Klitschko called it 'the enemy's largest-scale attack on the capital' since the full-scale invasion began. At least 12 killed and 57 injured. Strikes also damaged energy and railway infrastructure in Poltava and Zaporizhzhia. Day of mourning declared. The escalation comes hours after Putin publicly floated that the war is 'coming to an end.'"
+    },
+    {
+      "lat": 26.5,
+      "lng": 56.25,
+      "color": "red",
+      "title": "Strait of Hormuz — Effectively Closed for 10+ Weeks Despite Summit Pledge",
+      "summary": "Trump and Xi jointly agreed the Strait must remain open. Reality on the water: almost no commercial shipping, ceasefire on 'massive life support,' periodic US-Iran exchanges of fire. Pakistan continues to mediate. Iran's phased proposal (Hormuz first, nuclear later) remains rejected by Washington."
+    },
+    {
+      "lat": 35.69,
+      "lng": 51.39,
+      "color": "red",
+      "title": "Tehran — Ceasefire Survives Summit But Without Breakthrough; Xi Pledge to Withhold Arms Cited",
+      "summary": "Trump and Xi publicly aligned that Iran must not obtain nuclear weapons; Xi pledged no Chinese military equipment to Tehran. Negotiations with Iran remain mediated by Pakistan with the staggered framework rejected. No movement on the 14-point MOU. Crude continues to trade above $100/bbl on Hormuz exposure."
+    },
+    {
+      "lat": 40.71,
+      "lng": -74.0,
+      "color": "green",
+      "title": "New York — Records Set Thursday: S&P 7,501, Dow 50,063, Nasdaq 26,635 — But PPI Surprise Tests Friday Open",
+      "summary": "S&P 500 first ever close above 7,500 (+0.77%), Dow back above 50,000 (+0.75%), Nasdaq +0.88%. Cisco +13% on earnings beat; trade-deal optimism added fuel. PPI Thursday: +1.4% headline / +1.0% core, both more than 3× consensus, re-arming inflation tail-risk for Warsh's incoming Fed."
+    }
+  ],
+  "model_flash": [
+    {
+      "category": "Text Chat",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "Llama 4",
+      "best_value": "GPT-5.5 Instant",
+      "change": "none"
+    },
+    {
+      "category": "Code Gen",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "DeepSeek V4",
+      "best_value": "DeepSeek V4",
+      "change": "none"
+    },
+    {
+      "category": "Reasoning",
+      "best_closed": "Claude Mythos Preview",
+      "best_open": "QwQ 32B",
+      "best_value": "Grok 4.3",
+      "change": "none"
+    },
+    {
+      "category": "Image Gen",
+      "best_closed": "Midjourney v7",
+      "best_open": "Flux 1.1",
+      "best_value": "Flux 1.1",
+      "change": "none"
+    },
+    {
+      "category": "Video Gen",
+      "best_closed": "Sora 2",
+      "best_open": "Wan 2.1",
+      "best_value": "Wan 2.1",
+      "change": "none"
+    },
+    {
+      "category": "Multimodal",
+      "best_closed": "Gemini 3.1 Ultra",
+      "best_open": "Qwen 3.6",
+      "best_value": "Gemini 2.5 Flash",
+      "change": "none"
+    }
+  ],
+  "event_updates": [
+    {
+      "event_slug": "us-china-chips",
+      "title": "US-China Trade & Chip Export Controls",
+      "status": "active",
+      "latest_summary": "State visit concludes Friday. Headline deliverables: 200 Boeing jets (versus 500–600 widely expected — Boeing shares fell 4.8%), Chinese commitments to buy US soybeans, oil, and LNG, joint agreement that the Strait of Hormuz must remain open, Chinese pledge of no military equipment to Iran, and a 'constructive China-U.S. relationship of strategic stability' framework Beijing will treat as the guide for ties for 'the next three years and beyond.' Xi paired the friendly optics with the bluntest Taiwan language of his tenure — 'clashes and even conflicts' if 'mishandled' — and the structural files (advanced chips, Section 301, $11B Taiwan arms package authorized in December but not delivered) were not resolved. CFR/Brookings read: realistic ceiling reached, structural decoupling unchanged."
+    },
+    {
+      "event_slug": "iran-war-ceasefire",
+      "title": "US-Iran War Ceasefire Negotiations",
+      "status": "active",
+      "latest_summary": "Ceasefire survives the Trump-Xi summit but with no negotiated breakthrough. Trump and Xi jointly affirmed Iran must not obtain a nuclear weapon and that the Strait of Hormuz must remain open, with Xi pledging no Chinese military equipment to Tehran. Pakistan-mediated talks continue, with Iran's phased proposal (Hormuz first, nuclear later) still rejected by Washington. The Strait remains effectively closed for a 10th week. Crude above $100/bbl, US gasoline ~$4.48/gal."
+    },
+    {
+      "event_slug": "russia-ukraine-ceasefire",
+      "title": "Russia-Ukraine Ceasefire Negotiations",
+      "status": "active",
+      "latest_summary": "Russia executed what Kyiv's mayor called the largest strike on the capital of the entire war overnight into May 15: 670+ attack drones and 56 missiles, at least 12 killed and 57 injured in Kyiv, with damage to energy and rail infrastructure in Poltava and Zaporizhzhia. Day of mourning declared. The escalation comes days after Putin publicly suggested the war is 'coming to an end' and that he is open to a third-country meeting with Zelenskyy if a deal is finalized — read by Ukrainian analysts as coercive bargaining rather than de-escalation. The May 9–11 ceasefire remains the last operational framework."
+    },
+    {
+      "event_slug": "ai-regulation",
+      "title": "AI Regulation & Governance / Fed Transition",
+      "status": "watching",
+      "latest_summary": "Powell's chair term ends Friday May 15. Warsh awaits final White House paperwork to be sworn in to both governor and chair roles after Wednesday's 54–45 Senate confirmation (closest in modern history). First FOMC scheduled June 16–17. Powell stays on the Board of Governors. The handoff is complicated by April PPI (+1.4% headline, +1.0% core, both 3× consensus) on top of 3.8% CPI; CME FedWatch shows traders now pricing ~30% probability of a 2026 HIKE rather than the cuts Trump has demanded."
+    },
+    {
+      "event_slug": "ai-cybersecurity-mythos",
+      "title": "AI Cybersecurity — Mythos / Daybreak Era",
+      "status": "active",
+      "latest_summary": "PYMNTS documents the industry-wide acceleration of patching at major banks; Nextgov reports operational-technology vendors are 'annoyed' at being excluded from the Glasswing rollout; Rest of World argues the global cybersecurity gap is widening, not narrowing. CNBC's follow-up: independent researchers say Mythos-class vulnerability discovery is reproducible with existing publicly available models, suggesting the danger window is broader than the Anthropic-specific narrative. Amodei's 6–12-month danger frame remains the working planning horizon for security teams."
+    },
+    {
+      "event_slug": "ai-agent-ecosystem",
+      "title": "AI Agent Ecosystem",
+      "status": "active",
+      "latest_summary": "Anthropic launches Claude for Small Business with Agent SDK update (paid plans get $20–$200/month in Agent SDK credits); Fast Mode research preview now supports Claude Opus 4.7. OpenAI's Realtime API hit GA earlier this month with GPT-Realtime-2 (GPT-5-class reasoning in voice, 128K context, 96.6% on Big Bench Audio), GPT-Realtime-Translate (70+ input languages → 13 output), and GPT-Realtime-Whisper. Named enterprise adopters: Zillow (real-estate voice), Deutsche Telekom (multilingual support), Priceline (travel), Vimeo (live translation). Voice agents are now the most competitive frontier between OpenAI and Anthropic infrastructure."
+    }
+  ]
+}
