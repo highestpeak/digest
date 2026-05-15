@@ -1,0 +1,266 @@
+{
+  "date": "2026-05-16",
+  "issue": 53,
+  "headline": "Hormuz Re-Escalates as Tanker Seized Off UAE and Indian-Flagged Ship Sinks Off Oman; Zelensky Vows Retribution as Kyiv Strike Death Toll Hits 24; Anthropic Overtakes OpenAI in US Business Adoption for First Time",
+  "summary": "The day after the Trump-Xi summit ended with a 'strategic stability' framework that left structural decoupling untouched, the Strait of Hormuz crisis snapped back into the foreground: a vessel was seized 38 nautical miles northeast of Fujairah and reportedly steered into Iranian waters, while the Indian-flagged livestock carrier Haji Ali sank off the Omani coast after an attack — exactly the type of incident the Trump-Xi joint pledge to 'keep Hormuz open' was meant to deter. In Kyiv, the death toll from Thursday's apartment-building strike rose to 24 (including three children), Zelensky laid red roses at the rubble and instructed the military to prepare retaliatory long-range strikes against Russia's oil and weapons industry, and the 1,000-for-1,000 prisoner exchange announced under Trump's May 9–11 ceasefire reportedly continued. The May 2026 Ramp AI Index released this week documents a structural milestone: for the first time since the AI race began, more US businesses pay for Anthropic's Claude (34.4%) than OpenAI's ChatGPT (32.3%) — and the engine is Claude Code, which Ramp data shows authored roughly 4% of all GitHub public commits globally. Pope Leo XIV used his first visit to La Sapienza by a pope since 2008 to denounce AI-directed warfare as a 'spiral of annihilation,' calling for monitoring of military AI development. US equities closed the week with Friday losses (S&P 500 -1%, Dow -0.8%, Nasdaq -1.4%) as April PPI's +1.4% headline drove the 10-year Treasury yield to 4.55% — its highest in a year — and WTI/Brent oil settled near $111/bbl on the renewed Hormuz risk premium. Powell's term as Fed Chair formally ended at midnight; Kevin Warsh still awaits final White House paperwork to be sworn in.",
+  "meta": {
+    "article_count": 21,
+    "source_count": 17,
+    "reading_minutes": 16
+  },
+  "highlights": [
+    {
+      "category": "geo",
+      "title": "Strait of Hormuz Re-Escalates: Tanker Seized Off UAE Heading to Iran, Indian-Flagged Haji Ali Sinks Off Oman After Attack — Joint Trump-Xi 'Keep Hormuz Open' Pledge Tested Within 24 Hours",
+      "summary": "A vessel was seized by unauthorized personnel while anchored 38 nautical miles northeast of Fujairah; UK Maritime Trade Operations (UKMTO) and the British military said the ship was redirected toward Iranian waters and is being investigated. Separately, the Indian-flagged livestock carrier Haji Ali — en route from Somalia to Sharjah — sank off the Omani coast after an attack triggered an onboard fire; the Omani Coast Guard rescued all 14 crew. No party has formally claimed responsibility, but the incidents arrived hours after a senior Iranian official reiterated Tehran's claim of control over the waterway and one day after Trump and Xi jointly committed in Beijing that the Strait must remain open. The Strait has now been effectively closed for 10+ consecutive weeks; Brent crude settled around $111/bbl and WTI rose more than 3% Friday to above $104, on track for a weekly gain of more than 9%.",
+      "sources": ["NPR", "OPB", "Washington Times", "PBS News", "NBC News", "Wikipedia (2026 Strait of Hormuz crisis)"],
+      "novelty": "high"
+    },
+    {
+      "category": "geo",
+      "title": "Zelensky Vows Retribution After Kyiv Apartment-Block Strike Death Toll Hits 24 — Orders Military to Prepare Long-Range Strikes on Russia's Oil and Weapons Industry",
+      "summary": "The death toll from Thursday's Russian missile and drone strike on a Kyiv apartment block rose to 24 by Friday afternoon, including three children — one a 15-year-old girl. Zelensky laid red roses at the rubble, then met with senior military and intelligence officials to plan retaliatory long-range strikes. 'Such a Russia can never be normalized,' Zelensky said; 'we are entirely justified in our responses against Russia's oil industry, weapons industry and those directly responsible for committing war crimes against Ukraine and Ukrainians.' Air-force interception data: 94% of the 1,567 drones launched May 13–14 intercepted, but only 7% of the 56 missiles. The 1,000-per-side prisoner swap announced under the May 9–11 Trump ceasefire reportedly continued during the week. Zelensky also called on Western allies to make sanctions 'more painful' and harder to circumvent.",
+      "sources": ["NBC News", "CBC News", "Kyiv Independent", "Kyiv Post", "Globe and Mail", "NPR", "US News"],
+      "novelty": "high"
+    },
+    {
+      "category": "ai",
+      "title": "Ramp AI Index: Anthropic's Claude Overtakes ChatGPT in US Business Adoption for the First Time (34.4% vs 32.3%) — Claude Code Authoring ~4% of All GitHub Public Commits Globally",
+      "summary": "The May 2026 Ramp AI Index, published this week and drawn from spending patterns across 50,000+ US businesses, marks the first crossover since the AI race began: Anthropic's paid-business adoption rose 3.8% in April to 34.4% while OpenAI's fell 2.9% to 32.3%. Anthropic has quadrupled its business adoption over the past year; OpenAI grew 0.3%. Coverage from VentureBeat, Axios, and TechTimes converges on the same engine: Claude Code, whose Ramp data show is now authoring roughly 4% of all GitHub public commits worldwide — double the share from a month earlier. The structural shift sits underneath Friday's product news: Anthropic is bringing back outside agent-tool support on paid plans but behind a separate credit meter, signaling that the 'all-you-can-eat' subscription model may not survive the agent era. Sam Altman responded on X with two months of free Codex usage for new business customers. Anthropic is reportedly eyeing a $950B valuation in its next round.",
+      "sources": ["VentureBeat", "Axios", "TechTimes", "Ramp", "The AI Insider", "eWeek"],
+      "novelty": "high"
+    }
+  ],
+  "stories": [
+    {
+      "category": "econ",
+      "title": "Markets Close Out the Week Lower Friday: S&P -1%, Dow -0.8%, Nasdaq -1.4% — 10-Year Treasury Yield Jumps to 4.55% (Year High) as PPI Inflation Hits, Crude at $111/bbl",
+      "source_count": 4,
+      "importance": "high"
+    },
+    {
+      "category": "geo",
+      "title": "Pope Leo XIV Decries AI-Directed Warfare as 'Spiral of Annihilation' in First Papal Visit to La Sapienza Since Benedict in 2008",
+      "source_count": 5,
+      "importance": "medium"
+    },
+    {
+      "category": "econ",
+      "title": "Powell's Term as Fed Chair Ends at Midnight; Warsh Still Awaits Final White House Paperwork — Inflation Print Makes the 'Warsh Revolution' a Tougher Open",
+      "source_count": 4,
+      "importance": "high"
+    },
+    {
+      "category": "geo",
+      "title": "Trump-Xi Summit Aftermath: Foreign Policy and Time Call It 'Few Wins for Trump' and 'Power Has Shifted East'; Boeing Down 4.8% on Smaller-Than-Expected Order",
+      "source_count": 5,
+      "importance": "medium"
+    },
+    {
+      "category": "econ",
+      "title": "New Zealand Outlook Cut to 1.5% Growth as Iran-War Oil Shock Bites — Real Petrol/Diesel at 50-Year Highs, OCR Seen Rising Toward 3% in 2026",
+      "source_count": 3,
+      "importance": "medium"
+    },
+    {
+      "category": "ai",
+      "title": "OpenAI's Sam Altman Counter-Offer: Two Months Free Codex for New Business Customers — Response to Anthropic's Separate Agent-SDK Credit Meter",
+      "source_count": 2,
+      "importance": "medium"
+    },
+    {
+      "category": "ai",
+      "title": "Anthropic's Cat Wu (TechCrunch): Future AI Will 'Anticipate Your Needs Before You Know What They Are' — Anthropic Framing the Personalization Frontier",
+      "source_count": 1,
+      "importance": "low"
+    },
+    {
+      "category": "indie",
+      "title": "Solo-Founder Compounding Holds: Marc Lou's ShipFast/Zenvoice/IndiePage at ~$70K/Month, Pieter Levels' Portfolio at $3.1–$3.5M ARR (PhotoAI $132K/mo, RemoteOK $41K/mo)",
+      "source_count": 2,
+      "importance": "low"
+    }
+  ],
+  "perspectives": [
+    {
+      "title": "Hormuz: One-Day Reality Test of the Trump-Xi Joint Pledge",
+      "subtitle": "Beijing statement said the Strait must remain open. The water itself answered within 24 hours.",
+      "event_slug": "iran-war-ceasefire",
+      "sources": [
+        {
+          "name": "White House / Beijing joint readout (May 15)",
+          "quote": "President Trump and President Xi agreed the Strait of Hormuz must remain open, that Iran should not obtain a nuclear weapon, and Xi pledged China would not supply military equipment to Tehran. This is part of the constructive China-U.S. relationship of strategic stability that will guide our ties for the next three years and beyond."
+        },
+        {
+          "name": "UKMTO / Omani Coast Guard / NPR maritime reporting (May 15–16)",
+          "quote": "A vessel was seized 38nm northeast of Fujairah and is now heading toward Iranian waters; investigation continues. The Indian-flagged Haji Ali sank off the Omani coast after an attack started a fire onboard — 14 crew rescued. The Strait remains effectively closed for the 10th consecutive week; almost no commercial traffic is transiting. Whatever Beijing and Washington agreed on paper, the operational picture on the water is unchanged and arguably deteriorating."
+        }
+      ]
+    },
+    {
+      "title": "Anthropic vs OpenAI: Crossover or Capex Window?",
+      "subtitle": "Is the Ramp Index a durable enterprise shift, or a leading edge that OpenAI's capex and Codex push will erase?",
+      "event_slug": "ai-agent-ecosystem",
+      "sources": [
+        {
+          "name": "Ramp / VentureBeat / TechTimes (May 14–15)",
+          "quote": "For the first time, more US businesses pay for Claude (34.4%) than for ChatGPT (32.3%). Anthropic quadrupled adoption in a year while OpenAI grew 0.3%. The engine is Claude Code — now authoring ~4% of all GitHub public commits worldwide. This is the first quantitative confirmation that the enterprise AI race has flipped on agentic coding."
+        },
+        {
+          "name": "Sam Altman / OpenAI counter-framing",
+          "quote": "Codex is now free for two months for new business customers. OpenAI's enterprise team continues to ship — GPT-Realtime-2 is GA, the Deployment Company has launched, and the agent surface is being unified. Three threats can still erase Anthropic's lead: pricing pressure (Anthropic just put agent-tool usage behind a separate meter), OpenAI's distribution depth via Microsoft, and the fact that Claude's lead is anchored on a single product (Code) where OpenAI's response is already shipping."
+        }
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "person_slug": "volodymyr-zelenskyy",
+      "person_name": "Volodymyr Zelensky",
+      "text": "Such a Russia can never be normalized. Ukraine will not allow any of the aggressor's strikes that take the lives of our people to go unpunished. We are entirely justified in our responses against Russia's oil industry, weapons industry and those directly responsible for committing war crimes against Ukraine and Ukrainians.",
+      "source": "NBC News / Kyiv Post — remarks at Kyiv apartment building strike site",
+      "date": "2026-05-15"
+    },
+    {
+      "person_slug": "pope-leo-xiv",
+      "person_name": "Pope Leo XIV",
+      "text": "Better monitoring of how AI is being developed and used in military and civilian contexts is required, so that it does not absolve humans of responsibility for their choices and does not exacerbate the tragedy of conflicts. The combination of investments in artificial intelligence and high-tech weaponry is leading the world into a spiral of annihilation.",
+      "source": "Speech at La Sapienza University, Rome — America Magazine / NPR / PBS",
+      "date": "2026-05-14"
+    },
+    {
+      "person_slug": "sam-altman",
+      "person_name": "Sam Altman",
+      "text": "Codex is free for two months for new business customers — we're confident that once teams see what it can do, they'll stay.",
+      "source": "X (formerly Twitter) — @sama",
+      "date": "2026-05-15"
+    }
+  ],
+  "map_hotspots": [
+    {
+      "lat": 25.13,
+      "lng": 56.34,
+      "color": "red",
+      "title": "Fujairah, UAE — Tanker Seized 38nm Northeast, Heading Toward Iranian Waters",
+      "summary": "UKMTO and the British military say an unnamed vessel was seized while anchored 38 nautical miles northeast of Fujairah and is now being redirected toward Iranian waters. Investigation ongoing. No formal claim of responsibility; Iran has not publicly claimed the operation but a senior Iranian official has reiterated Tehran's claim of control over the Strait of Hormuz."
+    },
+    {
+      "lat": 22.6,
+      "lng": 59.5,
+      "color": "red",
+      "title": "Off Oman Coast — Indian-Flagged Haji Ali Sinks After Attack; 14 Crew Rescued",
+      "summary": "The Indian-flagged livestock carrier Haji Ali, en route from Somalia to Sharjah, was attacked off the Omani coast. Fire onboard caused loss of stability and the vessel later sank. All 14 crew rescued by the Omani Coast Guard. Maritime security analysts are treating the incident in conjunction with the same-day Fujairah seizure as a coordinated escalation around Hormuz despite the Trump-Xi joint pledge from Beijing one day earlier."
+    },
+    {
+      "lat": 50.45,
+      "lng": 30.52,
+      "color": "red",
+      "title": "Kyiv — Apartment-Block Death Toll Hits 24; Zelensky Orders Retaliation Plan Against Russian Oil and Weapons Industry",
+      "summary": "Friday afternoon update lifts the death toll from Thursday's apartment-block strike to 24, including three children. Zelensky laid red roses at the rubble, then met with senior military and intelligence officials to prepare long-range retaliatory strikes 'using all necessary resources.' Calls on Western allies to tighten sanctions enforcement against circumvention. The 1,000-per-side prisoner exchange under the lapsed May 9–11 ceasefire reportedly continued during the week."
+    },
+    {
+      "lat": 41.9,
+      "lng": 12.51,
+      "color": "violet",
+      "title": "Rome — Pope Leo XIV Calls AI-Directed Warfare a 'Spiral of Annihilation'",
+      "summary": "First papal visit to La Sapienza University since Benedict XVI cancelled his 2008 visit amid protests. Leo denounced rapidly rising European military spending 'at the expense of education and healthcare, while enriching elites who care nothing for the common good,' and called for monitoring of AI's military and civilian uses. Vatican observers expect the theme to anchor Leo's first encyclical, due in the coming weeks."
+    },
+    {
+      "lat": 38.89,
+      "lng": -77.03,
+      "color": "amber",
+      "title": "Washington DC — Powell's Term Ends; Warsh Still Awaits Final White House Paperwork to Be Sworn In",
+      "summary": "Jerome Powell's term as Fed Chair formally ended at midnight. Kevin Warsh, confirmed Wednesday 54–45 (closest in modern Fed history), still awaits final White House paperwork to be sworn in to both governor and chair roles. Powell remains on the Board of Governors. First FOMC under Warsh: June 16–17. CME FedWatch is pricing roughly a 30% probability of a 2026 rate HIKE after the hot April PPI."
+    },
+    {
+      "lat": 40.71,
+      "lng": -74.0,
+      "color": "amber",
+      "title": "New York — Friday Sell-Off: 10Y Treasury Yield Spikes to 4.55% (Year High); S&P -1%, Dow -0.8%, Nasdaq -1.4%",
+      "summary": "Friday closed the week lower on Hormuz-driven crude (~$111 Brent), the hot April PPI print, and rising yields. The 10-year Treasury yield jumped nine basis points to 4.55% — its highest in a year — as bond markets re-priced for sticky inflation and a more hawkish FOMC under Warsh than the White House wants. Weekly: S&P +~0.3%, Nasdaq +~0.3%, Dow ~-0.05%."
+    },
+    {
+      "lat": -36.85,
+      "lng": 174.76,
+      "color": "amber",
+      "title": "Auckland — NZ Growth Outlook Cut to 1.5% on Iran-War Oil Shock; Real Petrol/Diesel at 50-Year Highs",
+      "summary": "Westpac IQ NZ Economic Overview for May 2026 cuts the growth forecast to 1.5% as the Iran war and elevated oil/refined-fuel prices feed through to inflation. Annual headline CPI projected to move into the 4–5% range; core inflation likely above the top of the RBNZ's target band, with the OCR expected to rise toward 3% in 2026 and higher in 2027. RBNZ Governor Anna Breman released the May 2026 Financial Stability Report this week emphasizing system resilience but flagging slower recovery and household repayment stress."
+    }
+  ],
+  "model_flash": [
+    {
+      "category": "Text Chat",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "Llama 4",
+      "best_value": "GPT-5.5 Instant",
+      "change": "none"
+    },
+    {
+      "category": "Code Gen",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "DeepSeek V4",
+      "best_value": "DeepSeek V4",
+      "change": "none"
+    },
+    {
+      "category": "Reasoning",
+      "best_closed": "Claude Mythos Preview",
+      "best_open": "QwQ 32B",
+      "best_value": "Grok 4.3",
+      "change": "none"
+    },
+    {
+      "category": "Image Gen",
+      "best_closed": "Midjourney v7",
+      "best_open": "Flux 1.1",
+      "best_value": "Flux 1.1",
+      "change": "none"
+    },
+    {
+      "category": "Video Gen",
+      "best_closed": "Sora 2",
+      "best_open": "Wan 2.1",
+      "best_value": "Wan 2.1",
+      "change": "none"
+    },
+    {
+      "category": "Multimodal",
+      "best_closed": "Gemini 3.1 Ultra",
+      "best_open": "Qwen 3.6",
+      "best_value": "Gemini 2.5 Flash",
+      "change": "none"
+    }
+  ],
+  "event_updates": [
+    {
+      "event_slug": "iran-war-ceasefire",
+      "title": "US-Iran War Ceasefire Negotiations",
+      "status": "active",
+      "latest_summary": "Within 24 hours of the Trump-Xi joint pledge that the Strait of Hormuz must remain open, two maritime incidents tested the framework: a vessel was seized 38nm northeast of Fujairah and redirected toward Iranian waters (UKMTO/British military investigating; no formal claim) and the Indian-flagged livestock carrier Haji Ali sank off the Omani coast after an attack triggered fire (Omani Coast Guard rescued all 14 crew). No party has claimed responsibility, but a senior Iranian official reiterated Tehran's claim of control over the waterway hours before the incidents. The Strait has now been effectively closed for 10+ weeks; Brent crude settled near $111/bbl. The 14-point MOU remains frozen, Pakistan-mediated talks continue, and Iran's phased proposal (Hormuz first, nuclear later) remains rejected by Washington."
+    },
+    {
+      "event_slug": "russia-ukraine-ceasefire",
+      "title": "Russia-Ukraine Ceasefire Negotiations",
+      "status": "active",
+      "latest_summary": "Death toll from Thursday's Russian missile strike on a Kyiv apartment block rose to 24 on Friday, including three children. Zelensky laid red roses at the rubble, met with senior military and intelligence officials to plan retaliatory long-range strikes against Russia's oil and weapons industry, and called on Western allies to tighten sanctions against circumvention. Air-force interception data for the May 13–14 strike package: 94% of drones intercepted but only 7% of missiles. The 1,000-per-side prisoner exchange announced under the lapsed May 9–11 Trump ceasefire reportedly continued during the week. Polymarket odds of a June-30 ceasefire remain depressed."
+    },
+    {
+      "event_slug": "us-china-chips",
+      "title": "US-China Trade, Chips & Strategic Stability Framework",
+      "status": "active",
+      "latest_summary": "Trump returned to the United States on Friday. Foreign Policy and Time published next-day analyses headlined 'Few Wins for Trump' and 'Power Has Shifted East': the 200-jet Boeing order versus 500–600 expected (Boeing -4.8%), the 'strategic stability' verbal architecture, and commodity-purchase commitments are described as the realistic ceiling, not a structural reset. The US readout omitted Taiwan entirely; the Chinese readout placed Taiwan as the most important issue with Xi's bluntest 'clashes and even conflicts' warning. Section 301, advanced chip export controls, and the $11B Taiwan arms package authorized in December but not delivered remain unresolved. Trump invited Xi for a September Washington visit."
+    },
+    {
+      "event_slug": "ai-regulation",
+      "title": "AI Regulation, Governance & Fed Transition",
+      "status": "watching",
+      "latest_summary": "Powell's term as Fed Chair formally ended at midnight; Warsh awaits final White House paperwork to be sworn in to both his governor and chair roles. First FOMC under Warsh is scheduled June 16–17. The hot April PPI print (+1.4% headline, +1.0% core — both more than 3× consensus) coming on top of 3.8% CPI has CME FedWatch pricing roughly a 30% probability of a 2026 rate HIKE rather than the cuts Trump has publicly demanded. Pope Leo XIV's Thursday La Sapienza speech denouncing AI-directed warfare as a 'spiral of annihilation' adds an unusual normative voice to the AI-governance debate; the theme is expected to anchor Leo's first encyclical."
+    },
+    {
+      "event_slug": "ai-agent-ecosystem",
+      "title": "AI Agent Ecosystem",
+      "status": "active",
+      "latest_summary": "May 2026 Ramp AI Index released this week: for the first time since the AI race began, more US businesses pay for Anthropic's Claude (34.4%, +3.8% MoM) than for OpenAI's ChatGPT (32.3%, -2.9% MoM). Anthropic quadrupled adoption over the past year; OpenAI +0.3%. The engine is Claude Code, now authoring ~4% of all GitHub public commits globally (double the share from a month earlier). Anthropic is bringing back support for outside agent tools on paid plans but behind a separate credit meter — a signal that 'all-you-can-eat' subscriptions may not survive the agent era. OpenAI's Sam Altman counter-offered two months of free Codex for new business customers. Anthropic reportedly eyeing $950B valuation in next round. VentureBeat names three threats that could erase Anthropic's lead: pricing pressure, OpenAI's distribution depth, and product concentration in Claude Code."
+    }
+  ]
+}

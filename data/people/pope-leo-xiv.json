@@ -1,0 +1,26 @@
+{
+  "slug": "pope-leo-xiv",
+  "name": "Pope Leo XIV",
+  "role": "Pope, Roman Catholic Church",
+  "bio": "Pope Leo XIV is the current head of the Roman Catholic Church. He has identified artificial intelligence — particularly its military application and its impact on human dignity — as one of the most critical matters facing humanity. The themes are expected to anchor his first encyclical, due to be released in the coming weeks.",
+  "related_events": [
+    {
+      "slug": "ai-regulation",
+      "title": "AI Regulation & Governance",
+      "mentions": 1,
+      "status": "watching"
+    }
+  ],
+  "activity": {
+    "weeks": 1,
+    "data": [0, 0, 0, 0, 1, 0, 0]
+  },
+  "quotes": [
+    {
+      "text": "Better monitoring of how AI is being developed and used in military and civilian contexts is required, so that it does not absolve humans of responsibility for their choices and does not exacerbate the tragedy of conflicts. The combination of investments in artificial intelligence and high-tech weaponry is leading the world into a spiral of annihilation.",
+      "source": "Speech at La Sapienza University, Rome — America Magazine / NPR / PBS",
+      "date": "2026-05-14",
+      "topic": "AI in warfare; first papal visit to La Sapienza since Benedict XVI in 2008"
+    }
+  ]
+}

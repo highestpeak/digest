@@ -1,0 +1,26 @@
+{
+  "slug": "sam-altman",
+  "name": "Sam Altman",
+  "role": "CEO, OpenAI",
+  "bio": "Sam Altman is co-founder and CEO of OpenAI, the AI lab behind ChatGPT, GPT-5, and the GPT-Realtime family. He is widely regarded as one of the most influential figures shaping the commercial AI industry, frequently using X to set product direction and respond to competitors in real time.",
+  "related_events": [
+    {
+      "slug": "ai-agent-ecosystem",
+      "title": "AI Agent Ecosystem",
+      "mentions": 1,
+      "status": "active"
+    }
+  ],
+  "activity": {
+    "weeks": 1,
+    "data": [0, 0, 0, 0, 0, 1, 0]
+  },
+  "quotes": [
+    {
+      "text": "Codex is free for two months for new business customers — we're confident that once teams see what it can do, they'll stay.",
+      "source": "X (formerly Twitter) — @sama",
+      "date": "2026-05-15",
+      "topic": "Counter-offer to Anthropic's separate agent-SDK credit meter after Ramp Index shows Anthropic overtaking OpenAI in US business adoption"
+    }
+  ]
+}
