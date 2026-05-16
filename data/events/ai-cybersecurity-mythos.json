@@ -93,6 +93,16 @@
         "CNBC",
         "Technology.org"
       ]
+    },
+    {
+      "date": "2026-05-17",
+      "title": "Anthropic Sends Mythos Envoy to Tokyo — Sellitto Meets LDP Cybersecurity Chief Taira; Japan Treats Mythos as a State-to-State Security File",
+      "summary": "Anthropic's head of global affairs Michael Sellitto met Masaaki Taira, chair of the ruling LDP's Headquarters for National Cybersecurity Strategy, in Tokyo on Saturday and publicly vowed cooperation with Japan on responses related to Claude Mythos. Anthropic continues to restrict Mythos to roughly 11 vetted security partners. The visit is the strongest signal yet that frontier cyber-offensive AI capability is being handled by allied governments as a state-to-state security file rather than a commercial product — a register shift that has outpaced existing commercial AI regulation. It comes one week after Amodei's '6–12 month moment of genuine cyber danger' warning, two weeks after Mozilla's 271-patch Firefox 150 release, and four days after Reuters confirmed JPMorgan, Goldman, Citi, BofA, and Morgan Stanley are racing to plug Mythos-flagged vulnerabilities.",
+      "sources": [
+        "Nippon.com",
+        "Anthropic",
+        "Reuters"
+      ]
     }
   ]
 }

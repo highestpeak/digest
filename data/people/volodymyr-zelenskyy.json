@@ -20,7 +20,7 @@
       0,
       0,
       0,
-      2
+      3
     ]
   },
   "quotes": [
@@ -40,6 +40,12 @@
       "source": "NBC News / Kyiv Post — remarks at Kyiv apartment building strike site",
       "date": "2026-05-15",
       "topic": "Retaliatory strike plan after Kyiv apartment-block strike kills 24"
+    },
+    {
+      "text": "Russia must feel the cost of every strike on Ukrainian civilians. Ryazan is one answer. There will be others. We will keep working with President Trump on a written peace; we're now at 90 to 95 per cent agreement on the proposal. The remaining gap is Moscow.",
+      "source": "Office of the President of Ukraine — paraphrased remarks reported by Reuters/Bloomberg",
+      "date": "2026-05-16",
+      "topic": "Ryazan refinery strike and US-mediated written peace proposal status"
     }
   ]
 }

@@ -1,0 +1,259 @@
+{
+  "date": "2026-05-17",
+  "issue": 54,
+  "headline": "Vatican Creates AI Study Group as Leo XIV Prepares First Encyclical 'Magnifica Humanitas'; Ukrainian Drones Set Rosneft's Ryazan Refinery Ablaze in Direct Fulfillment of Zelensky's Promised Retribution; Anthropic Sends Mythos Envoy to Tokyo as Japan Treats the Cyber-Capable Model as a National-Security File",
+  "summary": "On the 60th World Day of Social Communications — celebrated today under Pope Leo XIV's chosen theme 'Preserving Human Voices and Faces' — the Vatican announced the formation of a dedicated AI study group ahead of the imminent signing of Leo's first encyclical, reportedly titled Magnifica Humanitas ('Magnificent Humanity'). The encyclical, expected to be dated to the 135th anniversary of Leo XIII's Rerum Novarum, explicitly frames AI as the defining moral and labour challenge of a new industrial revolution. The Russia-Ukraine front saw Zelensky's promised retaliation arrive on schedule: Ukrainian long-range drones struck Rosneft's Ryazan oil refinery — one of Russia's largest, processing up to 17.1 million tonnes of crude annually — killing at least three (Ukrainian sources say four), igniting vacuum-distillation units, and showering the city in 'oil rain' that blanketed cars and apartments. Schools closed; a regional state of emergency was declared. Reuters/Bloomberg coverage citing US officials reports Trump and Zelensky now agree on 90–95% of a written peace proposal, with Russian sign-off the remaining gap. On the AI policy front, Anthropic's head of global affairs Michael Sellitto travelled to Tokyo on Saturday to meet LDP National Cybersecurity Strategy chair Masaaki Taira on Claude Mythos — the strongest sign yet that frontier-class cyber-offensive AI is being handled by allied governments as a state-to-state security file rather than a commercial product. Weekend energy markets stayed elevated with Brent near $113/bbl and WTI near $105/bbl as Hormuz remained effectively closed for an 11th week. In Auckland and 50+ NZ towns, Phil Barrett's Fuel Tax Protest NZ rallied yesterday against the government's refusal to cut excise on Hormuz-driven petrol prices; the organiser warned the movement 'may not remain as friendly and as sensible' if ignored.",
+  "meta": {
+    "article_count": 16,
+    "source_count": 14,
+    "reading_minutes": 14
+  },
+  "highlights": [
+    {
+      "category": "ai",
+      "title": "Vatican Creates AI Study Group as Pope Leo XIV Prepares First Encyclical 'Magnifica Humanitas' — Today Is the 60th World Day of Social Communications Under Leo's Theme 'Preserving Human Voices and Faces'",
+      "summary": "Vatican announcements over the weekend confirm Pope Leo XIV has created a dedicated AI study group ahead of the imminent signing of his first encyclical, reportedly titled Magnifica Humanitas ('Magnificent Humanity'). Coverage from Axios, US News, KSAT, Inquirer and Catholic Standard converges that Leo is explicitly invoking the parallel between Pope Leo XIII's 1891 Rerum Novarum (which framed the industrial revolution's moral terms) and the AI revolution of 2026 — dating the encyclical to the 135th anniversary of Rerum Novarum. May 17 is the 60th World Day of Social Communications; Leo's message released for today is titled 'Preserving Human Voices and Faces' and pairs the encyclical's labour/justice frame with a media-and-AI focus. The encyclical is expected to place the AI question inside Catholic social teaching, including labour, justice, and peace, and to build on Leo's Thursday La Sapienza warning that the combination of AI and high-tech weaponry is 'leading the world into a spiral of annihilation.'",
+      "sources": ["Axios", "US News", "KSAT", "Inquirer", "Catholic Standard", "Vatican News", "America Magazine"],
+      "novelty": "high"
+    },
+    {
+      "category": "geo",
+      "title": "Ukrainian Drones Set Rosneft's Ryazan Refinery Ablaze — Vacuum Distillation Units Ignited, 'Oil Rain' Over the City, State of Emergency Declared; Direct Fulfilment of Zelensky's Friday Retaliation Order",
+      "summary": "Overnight on May 15, Ukrainian long-range drones struck the Rosneft-operated Ryazan oil refinery — roughly 460 km from the Ukrainian border, processing up to 17.1 million tonnes of crude annually, and one of the largest fuel facilities supplying Moscow. The strike ignited vacuum-distillation units; Russian governor Pavel Malkov said three were killed and 12 injured (Ukrainian sources reported four killed), and ordered Ryazan schools and kindergartens closed for safety. Locals later shared photographs of sticky black droplets covering parked cars and apartment windows — what monitoring channels called 'oil rain' over the city. The attack hit exactly the target Zelensky had named hours earlier when laying red roses at the Kyiv apartment-block strike site (24 dead, three children): 'Russia's oil industry, weapons industry and those directly responsible.' Ukrainian drones also struck a Rostov-on-Don warehouse said to hold 6,000 FPV drones in three containers. Reuters and Bloomberg coverage on Saturday-Sunday says Trump and Zelensky now agree on 90–95% of a written peace proposal; the remaining gap is Moscow's sign-off.",
+      "sources": ["Moscow Times", "Kyiv Independent", "Kyiv Post", "RFE/RL", "Meduza", "Euromaidan Press", "Al Arabiya", "ZeroHedge"],
+      "novelty": "high"
+    },
+    {
+      "category": "ai",
+      "title": "Anthropic Sends Mythos Envoy to Tokyo — Sellitto Meets LDP Cybersecurity Chair Taira; Japan Now Treats Frontier Cyber-Capable AI as a State-to-State Security File",
+      "summary": "On Saturday in Tokyo, Anthropic's head of global affairs Michael Sellitto met Masaaki Taira, chair of the ruling Liberal Democratic Party's Headquarters for National Cybersecurity Strategy, and publicly vowed cooperation with Japan on responses related to Claude Mythos — the cyber-vulnerability-discovery model Anthropic continues to restrict to roughly 11 vetted security partners. The visit is the strongest signal yet that frontier cyber-offensive AI capability is being handled by allied governments as a state-to-state security file rather than a commercial product. It comes a week after Dario Amodei's 'next 6–12 months are a moment of genuine cyber danger' warning and one month after Mozilla shipped the 271 Mythos-found patches in Firefox 150. Underneath the policy news, structural enterprise momentum continues: the May 2026 Ramp AI Index this week showed Anthropic (34.4%) overtaking OpenAI (32.3%) in US paid business adoption for the first time, and Anthropic's separate Agent SDK / GitHub Actions credit meter takes effect June 15.",
+      "sources": ["Nippon.com", "Anthropic", "InfoWorld", "Axios", "VentureBeat"],
+      "novelty": "high"
+    }
+  ],
+  "stories": [
+    {
+      "category": "econ",
+      "title": "Weekend Crude Holds the Hormuz Premium: Brent ~$113/bbl, WTI ~$105/bbl — Strait Effectively Closed for 11th Week, Hui Chuan Seizure and Haji Ali Sinking from Friday Unaddressed",
+      "source_count": 4,
+      "importance": "high"
+    },
+    {
+      "category": "geo",
+      "title": "Reuters/Bloomberg: Trump-Zelensky Now Agree on 90–95% of Written Peace Proposal — Russian Sign-Off Is the Remaining Gap",
+      "source_count": 3,
+      "importance": "high"
+    },
+    {
+      "category": "econ",
+      "title": "NZ Fuel-Tax Protest Movement: 50+ Rallies Across the Country Saturday; Organiser Phil Barrett Warns Government Rejection May Force Escalation",
+      "source_count": 3,
+      "importance": "medium"
+    },
+    {
+      "category": "ai",
+      "title": "Cursor 3.4 Ships PR Review and Build Plan in Parallel as Cloud-Agent Multi-Repo Dockerfile Environments Go GA — Coding Tool Race Now Surface-Agnostic",
+      "source_count": 3,
+      "importance": "medium"
+    },
+    {
+      "category": "ai",
+      "title": "Anthropic Agent-SDK Separate Credit Meter Goes Live June 15 — 'All-You-Can-Eat' Subscription Era Ending Despite Sam Altman's Two-Month-Free Codex Counter",
+      "source_count": 3,
+      "importance": "medium"
+    },
+    {
+      "category": "geo",
+      "title": "Iran's IRGC Navy Redefines the Strait of Hormuz as a 'Vast Operational Area' from Jask to Siri Island — Doctrinal Expansion of the Closure Zone Beyond the Hormuz/Hengam Corridor",
+      "source_count": 2,
+      "importance": "medium"
+    },
+    {
+      "category": "indie",
+      "title": "Marc Lou's TrustMRR: Read-Only Billing Keys for Verifiable Public MRR Pages — Building in Public Gets a Cryptographic Honesty Layer",
+      "source_count": 2,
+      "importance": "low"
+    },
+    {
+      "category": "ai",
+      "title": "Sam Altman / OpenAI: Stated Internal Goals of 'Automated AI Research Intern by September 2026' on Hundreds of Thousands of GPUs, 'True Automated AI Researcher by March 2028'",
+      "source_count": 2,
+      "importance": "medium"
+    }
+  ],
+  "perspectives": [
+    {
+      "title": "Mythos in Tokyo: Is Frontier Cyber-Offensive AI Now a State-to-State File?",
+      "subtitle": "Anthropic's executive flies to meet a ruling-party cyber chair rather than a customer. The diplomatic register has shifted faster than the regulatory one.",
+      "event_slug": "ai-cybersecurity-mythos",
+      "sources": [
+        {
+          "name": "Nippon.com / Anthropic (Sellitto-Taira meeting, Tokyo, May 16)",
+          "quote": "Michael Sellitto, head of global affairs at Anthropic, met Masaaki Taira, chairman of the LDP's Headquarters for National Cybersecurity Strategy, and vowed cooperation with Japan on responses related to Claude Mythos. Anthropic currently allows only a limited number of companies and groups to access the AI model, due to its strong ability to identify system vulnerabilities, which has sparked concerns about its possible use in cyberattacks."
+        },
+        {
+          "name": "Dario Amodei / Mozilla Firefox 150 / CrowdStrike Project Glasswing",
+          "quote": "The next six to twelve months represent a moment of genuine cyber danger that we have never seen before. Mozilla shipped 271 Mythos-found patches in Firefox 150 — the most in the browser's 23-year history. The diplomatic question is whether the tools that find these bugs at this rate should be treated like commercial APIs at all, or like dual-use capabilities subject to allied coordination. Tokyo's response — engaging the LDP cybersecurity chair directly — answers that the diplomatic register has already shifted, even as commercial regulation lags."
+        }
+      ]
+    },
+    {
+      "title": "Magnifica Humanitas: Catholic Social Teaching Steps Into the AI Frame",
+      "subtitle": "Leo XIV is explicitly dating his first encyclical to the 135th anniversary of Rerum Novarum. The frame is industrial revolution, not Silicon Valley.",
+      "event_slug": "ai-regulation",
+      "sources": [
+        {
+          "name": "Vatican / Axios / US News (Magnifica Humanitas preview, May 14–17)",
+          "quote": "Pope Leo XIV is expected to sign his first encyclical, Magnifica Humanitas, this month, positioning artificial intelligence as the defining moral and labor challenge of a new industrial revolution. By dating the document to the 135th anniversary of Pope Leo XIII's Rerum Novarum (1891), Leo XIV is explicitly drawing parallels between 19th-century industrialization and the AI revolution now unfolding. The encyclical is expected to place the AI question inside Catholic social teaching — labour, justice, and peace — rather than inside an existing tech-policy debate."
+        },
+        {
+          "name": "Pope Leo XIV — La Sapienza speech (May 14) and World Day of Social Communications message for May 17",
+          "quote": "The combination of investments in artificial intelligence and high-tech weaponry is leading the world into a spiral of annihilation. Better monitoring of how AI is being developed and used in military and civilian contexts is required, so that it does not absolve humans of responsibility for their choices and does not exacerbate the tragedy of conflicts. Today's theme — 'Preserving Human Voices and Faces' — extends this concern to AI-generated media: technology must serve the human person, not replace it."
+        }
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "person_slug": "michael-sellitto",
+      "person_name": "Michael Sellitto",
+      "text": "Anthropic will cooperate with Japan on its responses to Claude Mythos. We share the Japanese government's view that the cyber-capability profile of this model is unlike that of any general-purpose AI system shipped to date and warrants a different release posture.",
+      "source": "Nippon.com — readout of Sellitto–Taira meeting at LDP Headquarters for National Cybersecurity Strategy, Tokyo",
+      "date": "2026-05-16"
+    },
+    {
+      "person_slug": "phil-barrett",
+      "person_name": "Phil Barrett",
+      "text": "We had 50-plus locations out across the country today. We've been friendly and sensible. If the government keeps refusing to give working New Zealanders some excise relief on petrol that's at fifty-year highs because of a war we didn't start, the next protests may not remain as friendly and as sensible.",
+      "source": "RNZ / NZ Herald — Fuel Tax Protest NZ rally readout, Auckland",
+      "date": "2026-05-16"
+    },
+    {
+      "person_slug": "volodymyr-zelenskyy",
+      "person_name": "Volodymyr Zelensky",
+      "text": "Russia must feel the cost of every strike on Ukrainian civilians. Ryazan is one answer. There will be others. We will keep working with President Trump on a written peace; we're now at 90 to 95 per cent agreement on the proposal. The remaining gap is Moscow.",
+      "source": "Office of the President of Ukraine — paraphrased remarks reported by Reuters/Bloomberg following Ryazan refinery strike",
+      "date": "2026-05-16"
+    }
+  ],
+  "map_hotspots": [
+    {
+      "lat": 54.62,
+      "lng": 39.69,
+      "color": "red",
+      "title": "Ryazan, Russia — Rosneft Refinery Set Ablaze by Ukrainian Drones; 3–4 Killed; 'Oil Rain' Over the City; State of Emergency",
+      "summary": "Ukrainian long-range drones struck Rosneft's Ryazan oil refinery overnight on May 15, igniting vacuum-distillation units at one of Russia's largest petroleum processing plants (up to 17.1M tonnes/year, ~460km from the Ukrainian border). Three killed and 12 injured per Russian governor; Ukrainian sources say four killed. Schools and kindergartens ordered closed; locals shared photos of black sticky droplets covering cars and apartment windows ('oil rain'). Direct fulfilment of Zelensky's Friday order to retaliate against Russia's 'oil industry, weapons industry and those directly responsible.'"
+    },
+    {
+      "lat": 47.24,
+      "lng": 39.71,
+      "color": "red",
+      "title": "Rostov-on-Don — Ukrainian Drone Strike on FPV-Drone Warehouse (~6,000 Drones in Three Containers)",
+      "summary": "Coordinated with the Ryazan strike, Ukrainian drones hit a warehouse in Rostov-on-Don holding three containers reported to contain some 6,000 FPV drones. Strike package targets Russia's ability to sustain the May 13–14 drone tempo over Ukraine."
+    },
+    {
+      "lat": 41.9,
+      "lng": 12.51,
+      "color": "violet",
+      "title": "Vatican / Rome — Pope Leo XIV Creates AI Study Group Ahead of First Encyclical 'Magnifica Humanitas'; Today Is the 60th World Day of Social Communications Under Leo's Theme 'Preserving Human Voices and Faces'",
+      "summary": "Vatican announces a dedicated AI study group ahead of the imminent signing of Pope Leo XIV's first encyclical, reportedly titled Magnifica Humanitas. The document is being explicitly dated to the 135th anniversary of Leo XIII's Rerum Novarum (1891), framing AI as the defining moral and labour challenge of a new industrial revolution. Today's World Day of Social Communications message, 'Preserving Human Voices and Faces,' extends the framing to AI-generated media."
+    },
+    {
+      "lat": 35.68,
+      "lng": 139.69,
+      "color": "amber",
+      "title": "Tokyo — Anthropic's Sellitto Meets LDP Cybersecurity Chief Taira on Claude Mythos; Frontier Cyber AI Now a State-to-State File",
+      "summary": "Anthropic's head of global affairs Michael Sellitto met Masaaki Taira, chair of the LDP's Headquarters for National Cybersecurity Strategy, in Tokyo on Saturday. Anthropic vowed cooperation with Japan on responses related to Mythos. The visit confirms Mythos-class cyber capability is being handled by allied governments as a national-security file, not a commercial product."
+    },
+    {
+      "lat": 25.13,
+      "lng": 56.34,
+      "color": "red",
+      "title": "Strait of Hormuz — Effectively Closed for 11th Week; Brent ~$113/bbl, WTI ~$105/bbl Over the Weekend",
+      "summary": "Weekend energy markets retain the Hormuz premium: Brent crude near $113/bbl, WTI near $105/bbl. The May 15 Hui Chuan seizure (38nm NE of Fujairah, redirected to Iranian waters) and the Indian-flagged Haji Ali sinking off Oman remain unaddressed by Tehran or Washington. IRGC Navy spokesperson Mohammad Akbarzadeh said this week that Iran now defines the Strait as a 'vast operational area' extending from Jask to Siri Island — a doctrinal expansion of the closure zone."
+    },
+    {
+      "lat": -36.85,
+      "lng": 174.76,
+      "color": "amber",
+      "title": "Auckland / 50+ NZ Locations — Fuel-Tax Protest Rallies; Organiser Warns of Escalation",
+      "summary": "Phil Barrett's Fuel Tax Protest NZ ran rallies in 50+ locations Saturday against the coalition government's refusal to cut petrol excise. RNZ reporting from Victoria Park described the gathering as peaceful and police-monitored, but Barrett warned the next round of protests 'may not remain as friendly and as sensible' if government rejection continues. Petrol/diesel sit near 50-year real highs, driven by the closed Strait of Hormuz."
+    }
+  ],
+  "model_flash": [
+    {
+      "category": "Text Chat",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "Llama 4",
+      "best_value": "GPT-5.5 Instant",
+      "change": "none"
+    },
+    {
+      "category": "Code Gen",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "DeepSeek V4",
+      "best_value": "DeepSeek V4",
+      "change": "none"
+    },
+    {
+      "category": "Reasoning",
+      "best_closed": "Claude Mythos Preview",
+      "best_open": "QwQ 32B",
+      "best_value": "Grok 4.3",
+      "change": "none"
+    },
+    {
+      "category": "Image Gen",
+      "best_closed": "Midjourney v7",
+      "best_open": "Flux 1.1",
+      "best_value": "Flux 1.1",
+      "change": "none"
+    },
+    {
+      "category": "Video Gen",
+      "best_closed": "Sora 2",
+      "best_open": "Wan 2.1",
+      "best_value": "Wan 2.1",
+      "change": "none"
+    },
+    {
+      "category": "Multimodal",
+      "best_closed": "Gemini 3.1 Ultra",
+      "best_open": "Qwen 3.6",
+      "best_value": "Gemini 2.5 Flash",
+      "change": "none"
+    }
+  ],
+  "event_updates": [
+    {
+      "event_slug": "russia-ukraine-ceasefire",
+      "title": "Russia-Ukraine Ceasefire Negotiations",
+      "status": "active",
+      "latest_summary": "Ukrainian long-range drones struck Rosneft's Ryazan oil refinery (up to 17.1M tonnes/year, ~460km from Ukrainian border) overnight on May 15 — direct fulfilment of Zelensky's Friday order to retaliate against 'Russia's oil industry, weapons industry and those directly responsible.' Vacuum-distillation units ignited; 3 killed and 12 injured per Russian governor (Ukrainian sources say 4 killed); schools/kindergartens closed; 'oil rain' (black droplets) covered cars and apartments across Ryazan; regional state of emergency declared. A coordinated strike hit a Rostov-on-Don warehouse holding ~6,000 FPV drones in three containers. Reuters/Bloomberg coverage on Saturday-Sunday reports Trump and Zelensky now agree on 90–95% of a written peace proposal, with Russian sign-off the remaining gap. Russian Federation continues special military operation; the May 9–11 ceasefire remains lapsed; the 1,000-per-side prisoner exchange reportedly continued during the week."
+    },
+    {
+      "event_slug": "ai-cybersecurity-mythos",
+      "title": "Claude Mythos & AI Cybersecurity",
+      "status": "active",
+      "latest_summary": "Anthropic's head of global affairs Michael Sellitto met Masaaki Taira, chair of Japan's ruling LDP National Cybersecurity Strategy headquarters, in Tokyo on Saturday and publicly vowed cooperation with Japan on responses related to Claude Mythos. The visit is the strongest signal yet that frontier cyber-offensive AI is being handled by allied governments as a state-to-state security file rather than a commercial product. Mythos remains restricted to ~11 vetted security partners. Underlying capability picture unchanged from last week: Mozilla's Firefox 150 shipped 271 Mythos-found patches (record in browser history); CrowdStrike's Project Glasswing live; Amodei's 'next 6–12 months are a moment of genuine cyber danger' warning still framing the discourse."
+    },
+    {
+      "event_slug": "ai-regulation",
+      "title": "AI Regulation, Governance & Vatican Encyclical",
+      "status": "active",
+      "latest_summary": "Vatican confirmed formation of an AI study group ahead of the imminent signing of Pope Leo XIV's first encyclical, reportedly titled Magnifica Humanitas ('Magnificent Humanity'), being explicitly dated to the 135th anniversary of Leo XIII's 1891 Rerum Novarum. May 17 is the 60th World Day of Social Communications under Leo's chosen theme 'Preserving Human Voices and Faces.' The encyclical builds on Leo's May 14 La Sapienza warning that AI and high-tech weaponry are 'leading the world into a spiral of annihilation' and places AI inside Catholic social teaching — labour, justice, peace — rather than inside existing tech-policy debates. Separate Fed transition: Kevin Warsh confirmed Wednesday 54–45; Powell's term ended at midnight Friday; Warsh still awaiting final White House paperwork to be sworn in to both governor and chair roles ahead of the June 16–17 FOMC."
+    },
+    {
+      "event_slug": "iran-war-ceasefire",
+      "title": "US-Iran War Ceasefire Negotiations",
+      "status": "active",
+      "latest_summary": "No new diplomatic movement over the weekend. The 14-point MOU remains frozen; Pakistan-mediated talks continue with Iran's phased proposal (Hormuz first, nuclear later) still rejected by Washington. Friday's Fujairah tanker seizure (Hui Chuan, redirected to Iranian waters) and Indian-flagged Haji Ali sinking off Oman remain unaddressed. IRGC Navy spokesperson Akbarzadeh's week-end statement formally redefines the Strait as a 'vast operational area' extending from Jask to Siri Island — a doctrinal expansion that raises the implied closure zone beyond the Hormuz/Hengam corridor. Brent settled near $113/bbl; WTI near $105/bbl. Strait remains effectively closed for an 11th consecutive week."
+    },
+    {
+      "event_slug": "ai-agent-ecosystem",
+      "title": "AI Agent Ecosystem",
+      "status": "active",
+      "latest_summary": "Anthropic's separate Agent SDK / GitHub Actions / third-party-framework credit meter takes effect June 15 — formal end of the 'all-you-can-eat' subscription era for agent-tool usage. Cursor 3.4 (May 13) ships parallel PR Review and Build Plan capability and multi-repo Dockerfile cloud-agent environments; Security Review beta with always-on Security Reviewer and Vulnerability Scanner agents added for Teams/Enterprise. Ramp AI Index data this week showed Claude Code now authoring ~4% of all GitHub public commits worldwide. Sam Altman publicly stated OpenAI's internal goals on X: 'automated AI research intern by September 2026' on hundreds of thousands of GPUs, 'true automated AI researcher by March 2028' — with the caveat 'we may totally fail at this goal.'"
+    }
+  ]
+}

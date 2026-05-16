@@ -13,7 +13,7 @@
   ],
   "activity": {
     "weeks": 1,
-    "data": [0, 0, 0, 0, 1, 0, 0]
+    "data": [0, 0, 0, 0, 1, 0, 2]
   },
   "quotes": [
     {
@@ -21,6 +21,12 @@
       "source": "Speech at La Sapienza University, Rome — America Magazine / NPR / PBS",
       "date": "2026-05-14",
       "topic": "AI in warfare; first papal visit to La Sapienza since Benedict XVI in 2008"
+    },
+    {
+      "text": "Technology must serve the human person, not replace it. The proliferation of AI-generated voices and faces threatens both the dignity of those depicted and the trust on which all communication depends. Preserving human voices and faces is preserving the human person.",
+      "source": "Message for the 60th World Day of Social Communications — Vatican News",
+      "date": "2026-05-17",
+      "topic": "World Day of Social Communications; AI-generated media and human dignity"
     }
   ]
 }
