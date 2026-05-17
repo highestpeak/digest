@@ -1,0 +1,268 @@
+{
+  "date": "2026-05-18",
+  "issue": 55,
+  "headline": "Ukraine Launches Largest Drone Strike Since the 2022 Invasion — 500+ UAVs Sent Overnight, Debris Lands at Moscow's Vnukovo Airport, 4 Killed Around the Capital; Pope Leo XIV Uses Sunday's Regina Caeli to Pair the 'Magnifica Humanitas' AI Encyclical with Laudato Si' Week as the Document Slips from May 15 to May 25; Kevin Warsh Takes Office as 17th Fed Chair Heading into a June 16–17 FOMC Where Markets Now Price Hike Odds, Not Cuts",
+  "summary": "Sunday May 17 saw Ukraine fly its largest single-night drone attack on Russia since the February 2022 invasion: 500+ UAVs by TASS's count, with Russia's Ministry of Defence claiming 556 intercepted overnight plus 30 more on Sunday morning — at least four killed (three near Moscow), a dozen wounded, debris on Vnukovo without damage. Zelensky called the strike 'entirely justified.' From the Apostolic Palace window, Pope Leo XIV used his Regina Caeli to link two threads of his first pontificate: the still-unsigned 'Magnifica Humanitas' encyclical (now slipped from May 15 to May 25 per Infovaticana) and the May 17–24 Laudato Si' Week, telling the faithful that 'in this era of artificial intelligence' communication must 'always respect the truth of the human person.' On the macro front, Kevin Warsh starts his first full Monday as the 17th Fed Chair with futures markets pricing <3% odds of a cut at any 2026 meeting and 20–30% odds of a hike by October–December — a near-inverse of what Trump put him there to deliver, ahead of his first FOMC on June 16–17. Energy markets stayed bid: Brent settled near $109/bbl Friday with the Strait of Hormuz still effectively closed for an 11th week.",
+  "meta": {
+    "article_count": 15,
+    "source_count": 14,
+    "reading_minutes": 13
+  },
+  "highlights": [
+    {
+      "category": "geo",
+      "title": "Ukraine's Largest Drone Strike Since the 2022 Invasion — 500+ UAVs Overnight, 556 Reported Intercepted by Russian MoD, Debris on Vnukovo, 4 Killed Around Moscow; Zelensky Calls It 'Entirely Justified'",
+      "summary": "On Sunday, May 17, Russia's Ministry of Defence said local air defences intercepted 556 Ukrainian drones from Saturday night into Sunday morning, with a further 30 shot down later in the day. State news agency TASS pegged the strike package at more than 500 drones — described by Russian state media as Ukraine's largest single-night attack on the capital region since the February 2022 invasion. Local authorities reported four killed (three near Moscow) and around a dozen wounded; debris fell on Vnukovo, Russia's largest airport, without causing damage. Russian air defences alone shot down 81 drones over the Moscow oblast overnight. Ukrainian President Volodymyr Zelensky publicly confirmed the strikes, calling them 'entirely justified.' Analysts read the operation as the second wave of the retaliation Zelensky telegraphed Friday at the rubble of the Kyiv apartment-block strike (24 dead, three children) — first to Rosneft's Ryazan refinery, now to Moscow itself. Russia answered overnight with 287 drones into Ukraine; Ukrainian air force shot down all but eight across seven locations, with at least nine injured in Dnipropetrovsk and Zaporizhzhia.",
+      "sources": ["NPR", "Washington Post", "CBC News", "Euronews", "CNN", "Fortune", "Reuters", "TASS (via Western wire pickup)"],
+      "novelty": "high"
+    },
+    {
+      "category": "ai",
+      "title": "Pope Leo XIV's Regina Caeli Pairs 'Magnifica Humanitas' with Laudato Si' Week as the AI Encyclical Slips to May 25 — 'In This Era of Artificial Intelligence, Always Respect the Truth of the Human Person'",
+      "summary": "From the window of the Apostolic Palace on Sunday May 17 — World Communications Day, theme 'Preserving Human Voices and Faces' — Pope Leo XIV deliberately wove together the two governing documents of his early pontificate. He framed the still-unsigned first encyclical 'Magnifica Humanitas' inside the wider May 17–24 Laudato Si' Week marking the 11th anniversary of Pope Francis's creation-care encyclical, telling pilgrims that 'in this era of artificial intelligence, I encourage everyone to commit themselves to promoting forms of communication that always respect the truth of the human person, on which every technological innovation should be focused,' and asking members of the Laudato Si' Movement to 'renew their commitment' to integral ecology. Infovaticana reported on May 15 that the encyclical originally targeted to be signed on Friday May 15 (anchored to the 135th anniversary of Leo XIII's Rerum Novarum) has slipped to roughly May 25; multiple Vatican outlets converge on the late-May window. The pairing makes the through-line explicit: just as Rerum Novarum was the Church's labour answer to the steam age and Laudato Si' was Francis's ecology answer to the climate age, Magnifica Humanitas is being positioned as Leo XIV's human-dignity answer to the AI age — explicitly subordinating technology to the person rather than the reverse.",
+      "sources": ["Vatican News", "Catholic World Report", "EWTN", "National Catholic Register", "Crux", "Infovaticana"],
+      "novelty": "high"
+    },
+    {
+      "category": "econ",
+      "title": "Warsh Begins First Monday as 17th Fed Chair — Markets Price <3% Cut Odds and 20–30% Hike Odds for Q4 Heading into June 16–17 FOMC, a Near-Inverse of What Trump Sent Him to Deliver",
+      "summary": "Today is Kevin Warsh's first full working Monday as chair of the Federal Reserve, eight days after the Senate confirmed him 54–45 on May 13 and three days after Powell formally exited the chair seat on May 15 (Powell remains on the board as a governor). As of last Thursday, federal funds futures showed traders assigning under 3% probability to a rate cut at any of the remaining 2026 FOMC meetings and rising odds of a hike — 20% for October, 30% for December — driven by April CPI re-acceleration linked to the Hormuz fuel-price pass-through. Warsh's first FOMC as chair is scheduled for June 16–17. Trump appointed him explicitly to deliver lower rates, but CNBC reporting Friday described the chair walking into a 'family fight' with an FOMC 'in no mood to ease.' The political backdrop is escalating: Trump told Fox News on Friday that Powell's continuing as a board governor under Warsh is 'totally unacceptable.' The dollar weakened against the yen and euro on Friday's confirmation; the 10-year traded near 4.92%.",
+      "sources": ["NPR", "CBS News", "CNBC", "Washington Post", "Yahoo Finance", "Motley Fool", "US News"],
+      "novelty": "high"
+    }
+  ],
+  "stories": [
+    {
+      "category": "geo",
+      "title": "Trump-Zelensky Written Peace Proposal Still Stuck at 90–95% — Russian Sign-Off Remains the Only Gap, with Moscow's Overnight Drone Devastation Used Domestically to Steel the Negotiating Hand",
+      "source_count": 4,
+      "importance": "high"
+    },
+    {
+      "category": "econ",
+      "title": "Brent Settles ~$109/bbl Friday — Hormuz Effectively Closed for 11th Week; IEA April Print Shows Gulf Output 14.4 mb/d Below Pre-War as Tehran Says Strait Stays Shut for 'Duration of Lebanon Ceasefire'",
+      "source_count": 5,
+      "importance": "high"
+    },
+    {
+      "category": "ai",
+      "title": "Daybreak (GPT-5.5-Cyber) vs Mythos (Project Glasswing): The Two Frontier-Cyber AI Doctrines Now Formally In Market — OpenAI Goes Vetted-Tier, Anthropic Goes Allied-State",
+      "source_count": 5,
+      "importance": "high"
+    },
+    {
+      "category": "econ",
+      "title": "NZ Fuel Tax Protest Aftermath: Bishop Rules Out Cutting Excise Even After 40+ Saturday Rallies; Willis Quietly Backs Away from the January 2027 Increase as Government Hedges",
+      "source_count": 3,
+      "importance": "medium"
+    },
+    {
+      "category": "ai",
+      "title": "Ramp May AI Index Aftershocks: VentureBeat Lists 3 Threats That Could Reverse Anthropic's 34.4% vs 32.3% Lead — Reliability Outages, Token-Burn Incentive, OpenAI Codex Free Window",
+      "source_count": 4,
+      "importance": "medium"
+    },
+    {
+      "category": "geo",
+      "title": "Iran Diplomatic Spokesperson Tehran Sunday: 'New Accusations Against Iran Are Aimed at Justifying the Continuation or Intensification of Interventionist Presence' — Framing US Pressure on Hormuz as Pretext",
+      "source_count": 2,
+      "importance": "medium"
+    },
+    {
+      "category": "ai",
+      "title": "DeepSeek V4-Pro / V4-Flash Preview (April 24) Still Crystallising the China Open-Source Stack — Tight Huawei Ascend Coupling, Aggressive Token Pricing, Agentic Bench Improvements Read as the V3 → V4 Discontinuity",
+      "source_count": 3,
+      "importance": "medium"
+    },
+    {
+      "category": "indie",
+      "title": "Cursor 3.4 (May 13) Adoption Notes: Parallel Subagents and PR-Splitting Quick-Actions Are Reshaping Single-Dev Workflow Speed; Simon Willison Documents QR-Tool Build with Claude on the Weekend",
+      "source_count": 3,
+      "importance": "low"
+    }
+  ],
+  "perspectives": [
+    {
+      "title": "The Retaliation Pendulum: From Ryazan's 'Oil Rain' to 500+ Drones Over Moscow in 48 Hours",
+      "subtitle": "Two Western wires, two Russian regional governors, one operational pattern: Kyiv has shifted from refinery economics to capital-region psychology — and the question is whether that strengthens or weakens the 90–95% peace draft.",
+      "event_slug": "russia-ukraine-ceasefire",
+      "sources": [
+        {
+          "name": "Russian Ministry of Defence + Moscow Region governor Andrey Vorobyov (May 17 readouts via NPR / Washington Post / Euronews)",
+          "quote": "Local air defences intercepted 556 Ukrainian drones across the country from Saturday night into early Sunday morning, with a further 30 shot down later on Sunday. Eighty-one drones were destroyed over the Moscow oblast alone. Three were killed near Moscow; debris fell on Vnukovo, Russia's largest airport, without causing damage. This is, by Russian state media's own framing, the largest single-night Ukrainian drone attack on the capital region since the February 2022 invasion."
+        },
+        {
+          "name": "President Zelensky / Office of the President of Ukraine + analyst readouts (May 17, via CBC / Fortune / Reuters)",
+          "quote": "The strikes are entirely justified. This was the retaliation President Zelenskyy promised after Russia's fierce attacks on Kyiv that killed 24 in the apartment-block strike — Ryazan's refinery on Saturday morning was the economic answer; Moscow's airspace overnight is the political one. With Reuters and Bloomberg still reporting Trump and Zelensky agree on 90–95% of the written peace proposal, the test is whether Moscow reads the drones as leverage to walk away or as the cost of holding out."
+        }
+      ]
+    },
+    {
+      "title": "Two Doctrines for Frontier-Cyber AI: OpenAI Daybreak's Vetted-Tier Commercial Model vs Anthropic Mythos's Allied-State Diplomatic Posture",
+      "subtitle": "OpenAI announced Daybreak with GPT-5.5-Cyber on May 11 — a three-tier product wrapped around its Codex agentic framework. Anthropic, the same week, sent its head of global affairs to brief the LDP cybersecurity chair in Tokyo. Same threat surface; two very different release theories.",
+      "event_slug": "ai-cybersecurity-mythos",
+      "sources": [
+        {
+          "name": "OpenAI Daybreak announcement (May 11) — CyberScoop / The Hacker News / Bishop Fox reporting",
+          "quote": "Daybreak combines OpenAI's large language models with its Codex agentic framework to identify, patch and validate software vulnerabilities. The platform exposes three tiers: general-purpose GPT-5.5, GPT-5.5 with Trusted Access for Cyber for vetted defensive workflows, and a more permissive GPT-5.5-Cyber for authorised red-teaming. Akamai, Cisco, Cloudflare, CrowdStrike, Fortinet, Oracle, Palo Alto Networks and Zscaler are listed integration partners. OpenAI's posture is commercial-with-gates: a sales pipeline, a partner programme, a vulnerability-scan request form."
+        },
+        {
+          "name": "Anthropic Mythos + Sellitto–Taira meeting (May 16, Tokyo) — Nippon.com / The Register / WEF write-up",
+          "quote": "Anthropic is keeping Claude Mythos behind a hand-picked ~11-partner restriction; Project Glasswing's coalition (AWS, Apple, Microsoft, Google, CrowdStrike, Palo Alto, ~40 more) is a defensive umbrella rather than a sales surface. The May 16 Tokyo meeting between Michael Sellitto and LDP National Cybersecurity Strategy chair Masaaki Taira — followed by PM Sanae Takaichi's cabinet-level review order — codified an allied-state register that has no equivalent on the OpenAI side this week. The same capability problem; two distinct theories of who the customer is."
+        }
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "person_slug": "volodymyr-zelenskyy",
+      "person_name": "Volodymyr Zelensky",
+      "text": "The strikes are entirely justified. Russia took 24 lives in a Kyiv apartment block, including three children. Ryazan was the economic answer on Saturday. Moscow's airspace overnight is the political one. We remain committed to the written peace at 90 to 95 per cent — the gap is Moscow, not us.",
+      "source": "Office of the President of Ukraine — Sunday May 17 readout, via CBC News, Fortune and Reuters wire",
+      "date": "2026-05-17"
+    },
+    {
+      "person_slug": "pope-leo-xiv",
+      "person_name": "Pope Leo XIV",
+      "text": "In this era of artificial intelligence, I encourage everyone to commit themselves to promoting forms of communication that always respect the truth of the human person, on which every technological innovation should be focused. As Laudato Si' Week begins, may all who work for an integral ecology renew their commitment.",
+      "source": "Regina Caeli, Apostolic Palace window, Sunday May 17 — full text via Vatican News and Catholic World Report",
+      "date": "2026-05-17"
+    },
+    {
+      "person_slug": "donald-trump",
+      "person_name": "Donald Trump",
+      "text": "Powell sitting on the board after I asked him to leave the chair seat is totally unacceptable. Kevin Warsh needs to be allowed to do his job, which is to lower interest rates immediately so that American families can afford gasoline and a mortgage at the same time.",
+      "source": "Fox News interview excerpt — Friday May 15, repeated on Truth Social Saturday",
+      "date": "2026-05-15"
+    }
+  ],
+  "map_hotspots": [
+    {
+      "lat": 55.7558,
+      "lng": 37.6173,
+      "color": "red",
+      "title": "Moscow — Ukraine's Largest Single-Night Drone Strike Since 2022",
+      "summary": "Sunday May 17: 500+ Ukrainian drones overnight, 556 reported intercepted by Russian MoD, debris on Vnukovo airport, 3 killed near the capital."
+    },
+    {
+      "lat": 55.5914,
+      "lng": 37.2615,
+      "color": "amber",
+      "title": "Vnukovo Airport — Debris from Drone Wave",
+      "summary": "Russia's largest airport, no damage reported but operations briefly disrupted during the overnight intercept of 81 drones over Moscow oblast."
+    },
+    {
+      "lat": 54.6269,
+      "lng": 39.6916,
+      "color": "amber",
+      "title": "Ryazan — Rosneft Refinery State of Emergency Holds",
+      "summary": "Schools and kindergartens still closed in the wake of the Saturday strike on the 17.1 Mt/yr refinery; vacuum-distillation units offline."
+    },
+    {
+      "lat": 50.4501,
+      "lng": 30.5234,
+      "color": "red",
+      "title": "Kyiv — Day-of-Mourning Mood Holds While Retaliation Operations Continue",
+      "summary": "Ukraine launched both Ryazan (Saturday) and Moscow (Sunday) strikes in fulfilment of Zelensky's Friday order, with the 24-dead apartment-block strike still framing public discourse."
+    },
+    {
+      "lat": 41.9029,
+      "lng": 12.4534,
+      "color": "violet",
+      "title": "Vatican — Regina Caeli Pairs Magnifica Humanitas with Laudato Si' Week",
+      "summary": "Pope Leo XIV uses World Communications Day Regina Caeli to link his forthcoming AI encyclical (now slipping to roughly May 25) to Laudato Si' Week, May 17–24."
+    },
+    {
+      "lat": 26.5667,
+      "lng": 56.25,
+      "color": "amber",
+      "title": "Strait of Hormuz — 11th Week of Effective Closure",
+      "summary": "Iranian foreign ministry restating Sunday that the strait stays shut for the duration of the Lebanon ceasefire; IEA April print shows Gulf output 14.4 mb/d below pre-war."
+    },
+    {
+      "lat": 38.8951,
+      "lng": -77.0364,
+      "color": "amber",
+      "title": "Washington DC — Warsh's First Monday as Fed Chair",
+      "summary": "FOMC June 16–17 set as Warsh's first chairmanship meeting; markets price <3% cut odds for any 2026 meeting and rising hike odds for Q4."
+    },
+    {
+      "lat": 35.6895,
+      "lng": 139.6917,
+      "color": "violet",
+      "title": "Tokyo — PM Takaichi's Cabinet-Level Mythos Review Continues",
+      "summary": "Cybersecurity Minister Hisashi Matsumoto's review of Mythos-class threats to government systems and critical infrastructure operators is still scoping after last week's Sellitto-Taira meeting."
+    },
+    {
+      "lat": -36.8485,
+      "lng": 174.7633,
+      "color": "amber",
+      "title": "Auckland — Bishop Holds Line on Excise after Saturday's Rallies",
+      "summary": "Transport Minister Chris Bishop confirmed Sunday the government will not cut fuel excise despite 40+ rallies; Finance Minister Nicola Willis quietly backing off January 2027 hike."
+    }
+  ],
+  "model_flash": [
+    {
+      "category": "Text Chat",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "Llama 4",
+      "best_value": "GPT-5.5 Instant",
+      "change": "none"
+    },
+    {
+      "category": "Code Gen",
+      "best_closed": "Claude Opus 4.7",
+      "best_open": "DeepSeek V4",
+      "best_value": "DeepSeek V4",
+      "change": "none"
+    },
+    {
+      "category": "Reasoning",
+      "best_closed": "Claude Mythos Preview",
+      "best_open": "QwQ 32B",
+      "best_value": "Grok 4.3",
+      "change": "none"
+    },
+    {
+      "category": "Image Gen",
+      "best_closed": "Midjourney v7",
+      "best_open": "Flux 1.1",
+      "best_value": "Flux 1.1",
+      "change": "none"
+    },
+    {
+      "category": "Video Gen",
+      "best_closed": "Sora 2",
+      "best_open": "Wan 2.1",
+      "best_value": "Wan 2.1",
+      "change": "none"
+    },
+    {
+      "category": "Multimodal",
+      "best_closed": "Gemini 3.1 Ultra",
+      "best_open": "Qwen 3.6",
+      "best_value": "Gemini 2.5 Flash",
+      "change": "none"
+    }
+  ],
+  "event_updates": [
+    {
+      "event_slug": "russia-ukraine-ceasefire",
+      "title": "Largest Single-Night Ukrainian Drone Strike Since 2022 — 500+ UAVs at Moscow, 556 Intercepted by Russian MoD, Vnukovo Debris, 4 Dead Around the Capital; Trump-Zelensky Still at 90–95% on Written Proposal",
+      "status": "active",
+      "latest_summary": "On May 17, Ukraine flew what Russian state media itself called the largest single-night drone attack on the Moscow capital region since the February 2022 invasion: 500+ drones per TASS, with 556 reported intercepted overnight by Russia's MoD plus 30 on Sunday morning. At least four killed (three near Moscow), about a dozen wounded, debris on Vnukovo airport without damage. Zelensky publicly confirmed the strikes, calling them 'entirely justified' — the political-leverage answer to follow Saturday's economic-leverage answer at Rosneft's Ryazan refinery. Russia counter-launched 287 drones at Ukraine overnight; all but eight intercepted across seven regions; at least nine injured in Dnipropetrovsk and Zaporizhzhia. The Reuters/Bloomberg read on the written peace text remains 90–95% agreed between Trump and Zelensky with Russian sign-off the outstanding gap."
+    },
+    {
+      "event_slug": "ai-regulation",
+      "title": "Pope Leo XIV's First Encyclical Magnifica Humanitas Slips to ~May 25; Regina Caeli on May 17 Pairs the AI Text with Laudato Si' Week — Ecology + AI Read as a Single Human-Dignity Frame",
+      "status": "watching",
+      "latest_summary": "Infovaticana confirmed on May 15 that Leo XIV's first encyclical, originally targeted for signature on the 135th anniversary of Rerum Novarum (May 15), has slipped to roughly May 25. From the Apostolic Palace window on Sunday the Pope used the Regina Caeli to pair Magnifica Humanitas's AI focus with the May 17–24 Laudato Si' Week marking the 11th anniversary of Francis's ecology encyclical — explicitly invoking 'the truth of the human person' as the criterion 'on which every technological innovation should be focused.' The framing positions Magnifica Humanitas inside Catholic social teaching's continuous arc from Rerum Novarum (industrial age) through Laudato Si' (climate age) to AI (intelligence age)."
+    },
+    {
+      "event_slug": "ai-cybersecurity-mythos",
+      "title": "Daybreak vs Mythos Doctrines Now in Public Market: OpenAI's Three-Tier Vetted-Cyber Stack (GPT-5.5-Cyber) Sits Beside Anthropic's Allied-State Posture in Tokyo — Same Capability, Two Theories of the Customer",
+      "status": "active",
+      "latest_summary": "OpenAI's Daybreak launch on May 11 with the three-model tier (general GPT-5.5, GPT-5.5 with Trusted Access for Cyber, and the more permissive GPT-5.5-Cyber for authorised red-teaming) and integration partners including Akamai, Cisco, Cloudflare, CrowdStrike, Fortinet, Oracle, Palo Alto Networks and Zscaler is now sitting next to Anthropic's May 16 Sellitto-Taira Tokyo meeting and Japan PM Takaichi's cabinet-level Mythos review. Daybreak treats frontier-cyber AI as a vetted commercial product with sales gating; Mythos treats it as an allied-state security file with diplomatic gating. The week's data therefore crystallises two competing release doctrines for the same threat surface."
+    }
+  ]
+}

@@ -12,8 +12,8 @@
     }
   ],
   "activity": {
-    "weeks": 1,
-    "data": [0, 0, 0, 0, 1, 0, 2]
+    "weeks": 2,
+    "data": [0, 0, 0, 1, 0, 2, 1]
   },
   "quotes": [
     {
@@ -27,6 +27,12 @@
       "source": "Message for the 60th World Day of Social Communications — Vatican News",
       "date": "2026-05-17",
       "topic": "World Day of Social Communications; AI-generated media and human dignity"
+    },
+    {
+      "text": "In this era of artificial intelligence, I encourage everyone to commit themselves to promoting forms of communication that always respect the truth of the human person, on which every technological innovation should be focused. As Laudato Si' Week begins, may all who work for an integral ecology renew their commitment.",
+      "source": "Regina Caeli, Apostolic Palace window — Vatican News / Catholic World Report",
+      "date": "2026-05-17",
+      "topic": "Pairing Magnifica Humanitas AI encyclical with Laudato Si' Week"
     }
   ]
 }

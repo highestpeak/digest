@@ -12,15 +12,15 @@
     }
   ],
   "activity": {
-    "weeks": 1,
+    "weeks": 2,
     "data": [
-      1,
       0,
       0,
       0,
       0,
       0,
-      3
+      3,
+      2
     ]
   },
   "quotes": [
@@ -46,6 +46,12 @@
       "source": "Office of the President of Ukraine — paraphrased remarks reported by Reuters/Bloomberg",
       "date": "2026-05-16",
       "topic": "Ryazan refinery strike and US-mediated written peace proposal status"
+    },
+    {
+      "text": "The strikes are entirely justified. Russia took 24 lives in a Kyiv apartment block, including three children. Ryazan was the economic answer on Saturday. Moscow's airspace overnight is the political one. We remain committed to the written peace at 90 to 95 per cent — the gap is Moscow, not us.",
+      "source": "Office of the President of Ukraine — Sunday May 17 readout, via CBC News, Fortune and Reuters wire",
+      "date": "2026-05-17",
+      "topic": "500+ drone strike on Moscow region — largest single-night Ukrainian operation since 2022 invasion"
     }
   ]
 }

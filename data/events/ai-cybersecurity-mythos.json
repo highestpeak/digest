@@ -103,6 +103,21 @@
         "Anthropic",
         "Reuters"
       ]
+    },
+    {
+      "date": "2026-05-18",
+      "title": "Daybreak (GPT-5.5-Cyber) vs Mythos (Project Glasswing) — Two Frontier-Cyber AI Doctrines Now Formally in Market; OpenAI Goes Vetted-Commercial Tier, Anthropic Goes Allied-State",
+      "summary": "The week crystallises two competing release doctrines for frontier-cyber AI on the same threat surface. OpenAI's Daybreak launch (May 11) wraps three model tiers — general GPT-5.5, GPT-5.5 with Trusted Access for Cyber (vetted defensive workflows), and the more permissive GPT-5.5-Cyber for authorised red-teaming — around the Codex agentic framework, with Akamai, Cisco, Cloudflare, CrowdStrike, Fortinet, Oracle, Palo Alto Networks, and Zscaler listed as integration partners and a sales-driven access pathway. Anthropic's Mythos, by contrast, stays on a ~11-vetted-partner allowlist under Project Glasswing, with the May 16 Sellitto-Taira meeting in Tokyo followed by PM Takaichi's cabinet-level review codifying an allied-state register. CyberScoop framed Daybreak as 'OpenAI's answer to Anthropic's Project Glasswing.' The same capability problem is now being solved with two distinct theories of who the customer is — commercial-with-gates vs allied-state-with-diplomacy.",
+      "sources": [
+        "CyberScoop",
+        "The Hacker News",
+        "Bishop Fox",
+        "OpenAI",
+        "MarkTechPost",
+        "Cyber Magazine",
+        "Schneier on Security",
+        "Nippon.com"
+      ]
     }
   ]
 }
