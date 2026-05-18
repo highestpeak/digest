@@ -3,45 +3,99 @@
   "title": "AI Agent Ecosystem Evolution",
   "status": "active",
   "description": "From single chatbots to autonomous agent systems — tracking the competitive landscape of AI agent platforms, developer ecosystem building, and enterprise deployment progress.",
-  "tags": ["AI Agent", "Platform Competition", "Developer Ecosystem", "Enterprise Deployment"],
-  "key_people": ["dario-amodei", "sam-altman", "satya-nadella", "sundar-pichai"],
-  "related_events": ["ai-regulation", "us-china-chips"],
+  "tags": [
+    "AI Agent",
+    "Platform Competition",
+    "Developer Ecosystem",
+    "Enterprise Deployment"
+  ],
+  "key_people": [
+    "dario-amodei",
+    "sam-altman",
+    "satya-nadella",
+    "sundar-pichai"
+  ],
+  "related_events": [
+    "ai-regulation",
+    "us-china-chips"
+  ],
   "timeline": [
     {
       "date": "2025-12-10",
       "title": "OpenAI Launches Operator Platform — First Commercial Agent Orchestration Service",
       "summary": "Operator lets developers define multi-step task flows for GPT to execute autonomously. Launch partners include Salesforce, ServiceNow, and Zapier.",
-      "sources": ["OpenAI Blog", "The Verge", "TechCrunch"]
+      "sources": [
+        "OpenAI Blog",
+        "The Verge",
+        "TechCrunch"
+      ]
     },
     {
       "date": "2026-02-18",
       "title": "Google Releases Gemini Agents SDK, Emphasizing Multimodal Agent Capabilities",
       "summary": "The Gemini Agents SDK supports building multimodal agents with vision, voice, and code execution. Google Cloud simultaneously launched an agent hosting service.",
-      "sources": ["Google Blog", "The Information", "Ars Technica"]
+      "sources": [
+        "Google Blog",
+        "The Information",
+        "Ars Technica"
+      ]
     },
     {
       "date": "2026-04-05",
       "title": "Enterprise Agent Deployment Survey: POC-to-Production Conversion Rate Only 23%",
       "summary": "A Gartner quarterly survey found that while 78% of enterprises have launched AI Agent POC projects, only 23% have moved to production. Top barriers are security audits, explainability, and system integration complexity.",
-      "sources": ["Gartner", "McKinsey", "Harvard Business Review"]
+      "sources": [
+        "Gartner",
+        "McKinsey",
+        "Harvard Business Review"
+      ]
     },
     {
       "date": "2026-05-03",
       "title": "Anthropic Launches Managed Agents Public Beta — Build Autonomous Agents with Three Endpoints",
       "summary": "The Managed Agents platform dramatically lowers the barrier to agent development: developers only need to implement three endpoints — tools, memory, and goals. Over 2,000 developers registered on day one. Claude 4's reasoning capabilities provide the underlying reliability for agents.",
-      "sources": ["Anthropic Blog", "Reuters", "The Verge"]
+      "sources": [
+        "Anthropic Blog",
+        "Reuters",
+        "The Verge"
+      ]
     },
     {
       "date": "2026-05-05",
       "title": "Anthropic Launches 10 Financial Sector AI Agents + Microsoft 365 Integration",
       "summary": "Anthropic unveiled a library of ten pre-built agents targeting finance workflows — pitchbooks, credit memos, KYC, AML investigation, underwriting, and insurance claims — powered by Claude Opus 4.7. Claude now integrates natively into Excel, PowerPoint, and Word. A Moody's data partnership and an FIS-built AML investigator are live at BMO. Goldman Sachs, Citi, Visa, and AIG are among disclosed early adopters. Claude Opus 4.7 leads the Vals AI Finance Agent benchmark at 64.4%.",
-      "sources": ["Fortune", "The Register", "The Next Web", "Anthropic", "Yahoo Finance"]
+      "sources": [
+        "Fortune",
+        "The Register",
+        "The Next Web",
+        "Anthropic",
+        "Yahoo Finance"
+      ]
     },
     {
       "date": "2026-05-05",
       "title": "GPT-5.5 Instant Becomes ChatGPT's New Default Model",
       "summary": "OpenAI rolled out GPT-5.5 Instant as the default ChatGPT model, replacing GPT-5.3 Instant. Headline gains: 52.5% fewer hallucinations on high-stakes prompts, 37.3% fewer factual errors on flagged conversations, and a personalized memory feature that can pull context from past conversations, files, and Gmail for Plus and Pro web users.",
-      "sources": ["OpenAI", "TechCrunch", "CNBC"]
+      "sources": [
+        "OpenAI",
+        "TechCrunch",
+        "CNBC"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "title": "OpenAI Plugs ChatGPT Pro into the Read Layer of US Household Finances — Plaid-Managed Connections to 12,000+ Institutions, Read-Only, Dashboard for Portfolio/Spending/Subscriptions/Upcoming Payments; Brockman Reportedly Consolidating ChatGPT Product Surface Area",
+      "summary": "OpenAI rolled out a US-Pro preview of Personal Finance in ChatGPT on May 15–18, with Plaid-managed read-only connections across 12,000+ financial institutions including Schwab, Fidelity, Chase, Robinhood, American Express and Capital One. ChatGPT cannot see full account numbers and cannot move money; once linked, the user sees a dashboard covering portfolio performance, spending, subscriptions and upcoming payments, and can ask grounded questions about their finances. The launch follows OpenAI's April acquisition of the Hiro team (Ribbit / General Catalyst / Restive). The AI Insider's Monday brief separately reported that Greg Brockman is consolidating ChatGPT product surface area under a single org — the structural read that pairs naturally with the personal-finance launch's 'agent-of-record for personal data' tone. Initial rollout is to a small group on web and iOS; ChatGPT Plus expansion is the stated next ring.",
+      "sources": [
+        "OpenAI",
+        "TechCrunch",
+        "American Banker",
+        "gHacks",
+        "Yahoo Tech",
+        "CFOTech",
+        "9to5Mac",
+        "The AI Insider"
+      ]
     }
   ]
 }

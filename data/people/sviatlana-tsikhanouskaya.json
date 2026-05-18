@@ -1,0 +1,28 @@
+{
+  "slug": "sviatlana-tsikhanouskaya",
+  "name": "Sviatlana Tsikhanouskaya",
+  "role": "Leader of Belarus's democratic opposition in exile; recognised by EU, UK, Lithuania and others as the legitimate winner of the 2020 Belarusian presidential election.",
+  "bio": "Sviatlana Tsikhanouskaya stood for president in 2020 after her husband Siarhei Tsikhanouski was jailed. Following the disputed election and crackdown, she has led the Belarusian democratic movement from exile in Vilnius, lobbying Western governments on sanctions, Russian troop presence in Belarus, and Belarusian sovereignty from the Kremlin.",
+  "related_events": [
+    "russia-ukraine-ceasefire"
+  ],
+  "activity": {
+    "weeks": 1,
+    "data": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "quotes": [
+    {
+      "date": "2026-05-18",
+      "text": "The deployment of Russian nuclear weapons has turned Belarus into a target. This is not deterrence — it is co-option, and every Belarusian family is now living inside the consequence of one man's decisions.",
+      "source": "Tsikhanouskaya office statement on Belarus-Russia joint nuclear drills — via AP and Bloomberg wires, May 18"
+    }
+  ]
+}

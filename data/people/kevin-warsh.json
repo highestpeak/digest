@@ -14,13 +14,34 @@
   "activity": {
     "weeks": 4,
     "data": [
-      0, 0, 0, 0,
-      0, 0, 0, 0,
-      0, 0, 0, 0,
-      0, 0, 0, 0,
-      0, 0, 0, 0,
-      0, 0, 1, 0,
-      1, 0, 2, 1
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      2,
+      1
     ]
   },
   "quotes": [
@@ -29,6 +50,11 @@
       "source": "NPR / CNBC",
       "date": "2026-05-13",
       "topic": "Senate confirmation as Fed chair"
+    },
+    {
+      "date": "2026-05-18",
+      "text": "Markets will price what they wish to price. The Federal Reserve will continue to make its decisions on the basis of incoming data and the dual mandate set by Congress — independence is a process, not a posture.",
+      "source": "Warsh's first day-one statement to staff at the Eccles Building — May 18 readout via Reuters and CNBC"
     }
   ]
 }
