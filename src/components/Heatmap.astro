@@ -1,9 +1,9 @@
 ---
 interface Props {
-  data: number[];
+  data?: number[];
 }
 
-const { data } = Astro.props;
+const { data = [] } = Astro.props;
 
 // 84 cells: 12 weeks x 7 days
 // GitHub-style: columns = weeks (12), rows = days (7)
